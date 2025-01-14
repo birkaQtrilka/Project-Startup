@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ButtonsContainer" style="flex-grow: 1; flex-wrap: nowrap; flex-direction: column; align-self: center; align-items: center;">
+        <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" style="width: 259px; background-color: rgb(203, 168, 108);" />
+        <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-color: rgb(182, 195, 131);" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 42px; width: 322px; align-self: stretch; background-color: rgb(171, 186, 122);" />
+    </ui:VisualElement>
+</ui:UXML>
