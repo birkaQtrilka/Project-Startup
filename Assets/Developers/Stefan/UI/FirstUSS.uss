@@ -1,0 +1,4 @@
+.FirstClass {
+    background-color: rgb(180, 102, 102);
+    min-width: 143px;
+}
