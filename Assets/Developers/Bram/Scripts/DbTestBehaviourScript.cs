@@ -4,6 +4,8 @@ using UnityEngine;
 using DataBank;
 using UnityEngine.UI;
 using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class DbTestBehaviourScript : MonoBehaviour
 {
@@ -12,7 +14,7 @@ public class DbTestBehaviourScript : MonoBehaviour
     public Image image;
     public Image image2;
 
-    public bool ResetData;
+    public bool ResetData = true;
 
     // Use this for initialization
     void Start()
@@ -25,7 +27,7 @@ public class DbTestBehaviourScript : MonoBehaviour
             mBookDataDb.deleteAllData();
         }
 
-        Byte[] photo = image.sprite.texture.GetRawTextureData();
+        byte[] photo = image.sprite.texture.GetRawTextureData();
 
         /**/
         //Add Data
@@ -54,12 +56,13 @@ public class DbTestBehaviourScript : MonoBehaviour
         List<BookDataEntity> myList = new List<BookDataEntity>();
         while (reader.Read())
         {
+
             BookDataEntity entity = new BookDataEntity(reader[0].ToString(),
                                     reader[1].ToString(),
                                     reader[2].ToString(),
                                     reader[3].ToString(), 
                                     int.Parse(reader[4].ToString()),
-                                    (System.Byte[])reader[5],
+                                    ObjectToByteArray(reader[5]),
                                     reader[6].ToString(),
                                     int.Parse(reader[7].ToString()), 
                                     int.Parse(reader[8].ToString()),
@@ -128,7 +131,16 @@ public class DbTestBehaviourScript : MonoBehaviour
         /**/
 
     }
-
+    // Convert an object to a byte array
+    public static byte[] ObjectToByteArray(object obj)
+    {
+        BinaryFormatter bf = new();
+        using (var ms = new MemoryStream())
+        {
+            bf.Serialize(ms, obj);
+            return ms.ToArray();
+        }
+    }
     public void PrintAllData()
     {
         BookDataDb mBookDataDb2 = new BookDataDb();
