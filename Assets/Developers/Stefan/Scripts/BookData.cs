@@ -10,7 +10,10 @@ public class BookData
     public int RatingCount { get; private set; }
     public Sprite Cover { get; private set; }
 
-    public BookData(string title, string[] authors, DateTime publishDate, Vector2 rating,int ratingCount, Sprite cover )
+    public BookData(string title, string[] authors, DateTime publishDate, 
+        Vector2 rating,int ratingCount, Sprite cover,
+        string genre, int numberOfPages, int numberOfChapters, 
+        string series, string isbn, int editionNumber)
     {
         Title = title;
         Authors = authors;
