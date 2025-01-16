@@ -4,7 +4,6 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using TMPro;
-using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,43 +23,44 @@ public class BookGetter : MonoBehaviour
         _ = Test2();
     }
 
-    async Task Test1()
+    public async Task<BookData> ParseToBook()
     {
-        using (HttpClient client = new())
-        {
-            Debug.Log("Started");
-            var endPoint = new Uri("https://openlibrary.org/api/books?bibkeys=ISBN:9780980200447&jscmd=data&format=json");
-            var result = await client.GetAsync(endPoint);
-            Debug.Log("Got result");
-            var json = await result.Content.ReadAsStringAsync();
-            Debug.Log("parsed to json");
-            
-            Debug.Log(json);
-            var serializedJSON = JObject.Parse(json);
-            var firstBookJSON = serializedJSON["ISBN:9780980200447"];
+        using HttpClient client = new();
 
-            _title.text = firstBookJSON["title"].ToString();
+        int i = 0;
 
-            string authors = string.Join(", ", firstBookJSON["authors"].Select(a => a["name"].ToString()));
-            _authors.text = authors;
-            
-            _publishDate.text = firstBookJSON["publish_date"].ToString();
-            
-            string publishers = string.Join(", ", firstBookJSON["publishers"].Select(a => a["name"].ToString()));
-            _publishers.text = publishers.ToString();
+        Debug.Log("Started");
+        var endPoint = new Uri($"https://openlibrary.org/search.json?subject=english&sort=rating desc&limit=20");
+        var result = await client.GetAsync(endPoint);
+        Debug.Log("Got result");
+        var json = await result.Content.ReadAsStringAsync();
+        Debug.Log("parsed to json");
 
-            Texture2D tex = new Texture2D(2, 2);
+        var docs = JObject.Parse(json)["docs"];
+        //getting only the first book
+        var firstBookJSON = docs[i];
 
-            var imageEP = new Uri(firstBookJSON["cover"]["large"].ToString());
-            byte[] imageBytes = await client.GetByteArrayAsync(imageEP);
+        string title = firstBookJSON["title"].ToString();
 
-            tex.LoadImage(imageBytes);
+        string[] authors = firstBookJSON["author_name"].Select(a => a.ToString()).ToArray();
 
-            Vector2 pivot = new Vector2(0.5f, 0.5f);
-            Sprite sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), pivot, 100.0f);
+        DateTime publishDate = new(firstBookJSON["first_publish_year"].Value<int>(), 0, 0);
+        float rating = firstBookJSON["ratings_average"].Value<float>();
+        int ratingCount = firstBookJSON["ratings_count"].Value<int>();
 
-            _bookImage.sprite = sprite;
-        }
+
+        //putting the image
+        var isbn = docs[i]["isbn"][0].ToString();
+        var imageEndPoint = new Uri($"https://covers.openlibrary.org/b/isbn/" + isbn + ".jpg");
+        Texture2D tex = new(2, 2);
+        byte[] imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+        tex.LoadImage(imageBytes);
+        Vector2 pivot = new(.5f, .5f);
+
+        Sprite sprite = Sprite.Create(tex, new Rect(.0f, .0f, tex.width, tex.height), pivot, 100.0f);
+
+
+        return new BookData(title, authors, publishDate, new Vector2(rating, 5), ratingCount, sprite);
     }
 
     async Task Test2()
