@@ -3,19 +3,34 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class BookGetter : MonoBehaviour
 {
     [SerializeField] int _booksToFetch = 2;
+    CancellationTokenSource _cancellationTokenSource;
+    CancellationToken _cancellationToken;
 
+    private void OnEnable()
+    {
+        _cancellationTokenSource = new CancellationTokenSource();
+        _cancellationToken = _cancellationTokenSource.Token;
+    }
+    void OnDisable()
+    {
+        _cancellationTokenSource.Cancel();
+    }
     public async Task<BookData[]> FetchData()
     {
         using HttpClient client = new();
         var bookList = await GetBooksList(client);
+        if (_cancellationToken.IsCancellationRequested)
+        {
+            Debug.Log("Canceled getting a book");
+            return null;
+        }
 
         List<Task<(BookData, byte[]) >> bookTasks = new(_booksToFetch);
         
@@ -31,6 +46,12 @@ public class BookGetter : MonoBehaviour
         }
 
         (BookData, byte[])[] books = await Task.WhenAll(bookTasks);
+        if (_cancellationToken.IsCancellationRequested)
+        {
+            Debug.Log("Canceled getting a book");
+            return null;
+        }
+
         Debug.Log("finished getting all books");
         foreach ((BookData, byte[]) bookAndByteArray in books)
         {
@@ -51,26 +72,43 @@ public class BookGetter : MonoBehaviour
         Debug.Log("Started");
         var endPoint = new Uri($"https://openlibrary.org/search.json?subject=english&sort=rating desc&limit=20" //);
             + "&fields=key,title,author_name,ratings_average,ratings_count,subject,language,isbn,editions");//difference between editions[] and edition_key?
-        var result = await client.GetAsync(endPoint);
+        var result = await client.GetAsync(endPoint, _cancellationToken);
+        if (_cancellationToken.IsCancellationRequested)
+        {
+            Debug.Log("Canceled getting a book");
+            return null;
+        }
         Debug.Log("Got result");
         var json = await result.Content.ReadAsStringAsync();
+
         return JObject.Parse(json)["docs"];
     }
 
     public async Task<(JToken,string)> GetEditionOfBook(JToken firstBookJSON, HttpClient client)
     {
         var relevantEdition = firstBookJSON["editions"]["docs"][0];
-
         var key = relevantEdition["key"].ToString();
         var editionEndPoint = new Uri("https://openlibrary.org" + key + ".json");
-        var response = await client.GetAsync(editionEndPoint);
+        var response = await client.GetAsync(editionEndPoint, _cancellationToken);
+        if (_cancellationToken.IsCancellationRequested)
+        {
+            Debug.Log("Canceled getting a book");
+            return (null, null);
+        }
+
+        Debug.Log("Got editions");
         var editionString = await response.Content.ReadAsStringAsync();
+        if (_cancellationToken.IsCancellationRequested)
+        {
+            Debug.Log("Canceled getting a book");
+            return (null,null);
+        }
+        Debug.Log("Parsed editions");
         return (JObject.Parse(editionString), key);
     }
 
     public async Task<(BookData, byte[])> ParseToBook(JToken firstBookJSON, JToken editionJSON, string key, HttpClient client)
     {
-        
         try
         {
             var olid = key.ToString().Split('/')[^1];
@@ -87,6 +125,11 @@ public class BookGetter : MonoBehaviour
             var isbn = firstBookJSON["isbn"][0].ToString();//can't get isbn for specific book for now
             var imageEndPoint = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-L.jpg");
             byte[] imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+            if (_cancellationToken.IsCancellationRequested)
+            {
+                Debug.Log("Canceled getting a book");
+                return (null, null);
+            }
 
 
             string genre = firstBookJSON["subject"][0].ToString();

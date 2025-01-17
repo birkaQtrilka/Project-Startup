@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445355fea853ca341a4d25387a7d6f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _booksToFetch: 5
+  _booksToFetch: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
