@@ -1,3 +1,4 @@
+using Mono.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -81,6 +82,41 @@ namespace DataBank
                 + pBook.Languages + "' )";
             dbcmd.ExecuteNonQuery();
         }
+        //public void InsertImage(byte[] imageBytes) 
+        //{ 
+        //    using (IDbConnection dbConnection = new SqliteConnection(connectionString)) 
+        //    {
+        //        dbConnection.Open(); 
+        //        using (IDbCommand dbCommand = dbConnection.CreateCommand()) 
+        //        { 
+        //            string sqlQuery = "INSERT INTO Images (image) VALUES (@image)";
+        //            dbCommand.CommandText = sqlQuery; 
+        //            dbCommand.Parameters.Add(new SqliteParameter("@image", imageBytes)); 
+        //            dbCommand.ExecuteNonQuery();
+        //        }
+        //    }
+        //}
+        //public byte[] GetImage(int id)
+        //{
+        //    using (IDbConnection dbConnection = new SqliteConnection(connectionString)) 
+        //    {
+        //        dbConnection.Open(); 
+        //        using (IDbCommand dbCommand = dbConnection.CreateCommand()) 
+        //        {
+        //            string sqlQuery = "SELECT image FROM Images WHERE id = @id"; 
+        //            dbCommand.CommandText = sqlQuery; 
+        //            dbCommand.Parameters.Add(new SqliteParameter("@id", id)); 
+        //            using (IDataReader reader = dbCommand.ExecuteReader()) 
+        //            {
+        //                if (reader.Read()) 
+        //                {
+        //                    return (byte[])reader["image"];
+        //                }
+        //            }
+        //        }
+        //    }
+        //    return null;
+        //}
 
         public override IDataReader getDataById(int id)
         {

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class DbTestBehaviourScript : MonoBehaviour
 {
@@ -27,8 +28,11 @@ public class DbTestBehaviourScript : MonoBehaviour
             mBookDataDb.deleteAllData();
         }
 
-        byte[] photo = image.sprite.texture.GetRawTextureData();
-
+        byte[] photo = image.sprite.texture.EncodeToPNG();
+        //var nwTex = new Texture2D(2, 2);
+        //nwTex.LoadImage(photo);
+        //image2.sprite = Sprite.Create(nwTex, new Rect(0, 0, nwTex.width, nwTex.height), new(.5f, .5f));
+        //Debug.Log(string.Join(",", photo));
         /**/
         //Add Data
 
@@ -47,7 +51,6 @@ public class DbTestBehaviourScript : MonoBehaviour
 
 
         mBookDataDb.close();
-
 
         //Fetch All Data
         BookDataDb mBookDataDb2 = new BookDataDb();
@@ -68,7 +71,8 @@ public class DbTestBehaviourScript : MonoBehaviour
                                     int.Parse(reader[8].ToString()),
                                     reader[9].ToString(),
                                     reader[10].ToString());
-
+            Debug.Log(entity.Cover);
+            Debug.Log(string.Join(",", entity.Cover));
             Debug.Log("Title: " + entity.Title + " Author: " + entity.Authors + " ISBN: " + entity.Isbn);
             myList.Add(entity);
             var newTex = new Texture2D(2, 2);
