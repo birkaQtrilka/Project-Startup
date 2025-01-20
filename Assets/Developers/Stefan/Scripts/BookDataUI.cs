@@ -1,10 +1,12 @@
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class BookDataUI : MonoBehaviour
 {
+
     //[SerializeField] SearchBar _bookGetter;
     [SerializeField] TextMeshProUGUI _text;
     [SerializeField] Image _bookImage;
@@ -38,6 +40,7 @@ public class BookDataUI : MonoBehaviour
         if (_books == null || _books.Length == 0 || _books[_pos] == null) return;
 
         _user.OwnABook(_books[_pos]);
+
     }
 
     public void DisownBook()
@@ -70,7 +73,7 @@ public class BookDataUI : MonoBehaviour
 
     public void UpdateUI()
     {
-        _text.text = _books[_pos].ToString();
-        _bookImage.sprite = _books[_pos].Cover;
+        _text.text = _books[_pos]?.ToString();
+        _bookImage.sprite = _books[_pos]?.Cover;
     }
 }

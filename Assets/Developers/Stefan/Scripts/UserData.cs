@@ -3,10 +3,14 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
+using UnityEngine.Events;
+
 [CreateAssetMenu(menuName = "Users")]
 public class UserData : ScriptableObject
 {
+    public UnityEvent<OwnedBook> OnBookOwn;
+
+
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library
     public List<BookData> WishList;
@@ -38,6 +42,8 @@ public class UserData : ScriptableObject
         OwnedBooks.Add(ownedBook);
 
         ownedBook.Init(bookData);
+
+        OnBookOwn?.Invoke(ownedBook);
     }
 
     public void DisownBook(BookData book)

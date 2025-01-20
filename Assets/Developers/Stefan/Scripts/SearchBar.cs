@@ -10,8 +10,6 @@ public class SearchBar : MonoBehaviour
     [SerializeField] Button _button;
     [SerializeField] BookDataUI _bookDataUI;
 
-    [SerializeField] Achievement achievement;
-
     void OnEnable()
     {
         _button.onClick.AddListener(OnValueEnter); 
