@@ -10,7 +10,7 @@ public class PageManager : MonoBehaviour
 
     private Stack<Page> _pageHistory;
 
-    // Singleton
+    /*// Singleton
     public static PageManager Instance { get; private set; }
 
     private void Awake()
@@ -23,15 +23,14 @@ public class PageManager : MonoBehaviour
         {
             Destroy(this);
         }
-    }
+    }*/
 
     private void Start()
     {
         _pages = GetComponentsInChildren<Page>(true);
-
         foreach (Page pPage in _pages)
         {
-            pPage.gameObject.SetActive(false);
+            if (pPage.transform.parent == transform) pPage.gameObject.SetActive(false);
         }
 
         /*for (int i = 0; i < _pages.Length; i++)
@@ -62,7 +61,8 @@ public class PageManager : MonoBehaviour
         Page page = null;
         for (int i = 0; i < _pages.Length; i++)
         {
-            if (_pages[i].GetIdentifier() == pPageIdentifier.ToLower()) page = _pages[i];
+            if (_pages[i].GetIdentifier() == pPageIdentifier.ToLower() &&
+                _pages[i].transform.parent == transform) page = _pages[i];
         }
         if (page != null) SwitchToPage(page);
     }
