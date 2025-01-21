@@ -1,7 +1,6 @@
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class BookDataUI : MonoBehaviour

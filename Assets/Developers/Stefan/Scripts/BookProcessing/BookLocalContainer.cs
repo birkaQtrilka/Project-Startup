@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System;
 using UnityEngine;
+using UnityEditor;
 
 [CreateAssetMenu(menuName = "BookContainer")]
 public class BookLocalContainer : ScriptableObject
@@ -37,6 +38,8 @@ public class BookLocalContainer : ScriptableObject
     async Task GetBooks()
     {
         Books = await _bookGetter.FetchData(_booksToFetch);
+        
+        AssetDatabase.Refresh();
     }
 
     

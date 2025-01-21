@@ -10,6 +10,8 @@ public class UserData : ScriptableObject
 {
     public UnityEvent<OwnedBook> OnBookOwn;
 
+    public string NickName;
+    public Sprite ProfilePicture;
 
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library

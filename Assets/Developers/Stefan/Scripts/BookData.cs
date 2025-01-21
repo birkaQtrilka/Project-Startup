@@ -19,6 +19,7 @@ public class BookData
     [field:SerializeField] public string OpenLibraryLink { get; private set; }
     [field:SerializeField] public string OLID { get; private set; }
     [field:SerializeField] public string[] Languages { get; private set; }
+    [field:SerializeField] public string Description { get; private set; }
 
     [field: Header("Made in the app")]
     [field: SerializeField] public Vector2 LocalRating { get; private set; }
@@ -26,7 +27,7 @@ public class BookData
     public BookData(string title, string[] authors, string publishDate, 
         Vector2 rating,int ratingCount, Sprite cover,
         string[] genre, int numberOfPages, int numberOfChapters,
-        string isbn, string[] languages, string olid)
+        string isbn, string[] languages, string olid, string description)
     {
         OLID = olid;
         OpenLibraryLink = @"https://openlibrary.org/books/" + olid;
@@ -41,6 +42,7 @@ public class BookData
         Genres = genre;
         NumberOfPages = numberOfPages;
         NumberOfChapters = numberOfChapters;
+        Description = description;
     }
 
     public void SetSprite(Sprite sprite)
