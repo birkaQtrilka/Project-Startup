@@ -1210,30 +1210,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad483283c6698b54d901c335853dda86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSearch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+        m_TargetAssemblyTypeName: UserData, Assembly-CSharp
+        m_MethodName: AddSeacherQuerry
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _defaultInput: english
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
+  _recomendationAlgo: {fileID: 11400000, guid: 00cf82dfc1d4550429b6c95b8a9eb18b, type: 2}
   _inputField: {fileID: 854710579}
   _button: {fileID: 1481396854}
   _bookDataUI: {fileID: 1246651404}
-  achievement:
-    Name: 
-    Icon: {fileID: 0}
-    _script: 
-    Conditions:
-      Conditons:
-      - rid: 5267846437391040516
-      - rid: 5267846437391040517
-  references:
-    version: 2
-    RefIds:
-    - rid: 5267846437391040516
-      type: {class: PagesCondition, ns: , asm: Assembly-CSharp}
-      data:
-        _requiredNum: 6
-    - rid: 5267846437391040517
-      type: {class: GenreCondition, ns: , asm: Assembly-CSharp}
-      data:
-        _genre: Murder
 --- !u!1 &642984652
 GameObject:
   m_ObjectHideFlags: 0

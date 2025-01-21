@@ -15,13 +15,43 @@ public class UserData : ScriptableObject
     public List<OwnedBook> OwnedBooks;//library
     public List<BookData> WishList;
     public List<PostData> Posts;
-    public List<PostData> Achievements;
-    
 
 
     //study how to make a prefference algorithm
-    public string[] SearchedStuff;
-    public string[] ClickedBookIds;
+    [SerializeField] int _searchVolume;
+    int _nextSerchIndex;
+    public List<string> SearchedStuff;
+    public List<string> ClickedBookIds;
+
+    //[SerializeField]bool add;
+    //int test;
+
+    //private void OnValidate()
+    //{
+    //    if(add)
+    //    {
+    //        add = false;
+    //        AddSeacherQuerry(test.ToString());
+    //        test++;
+    //    }
+    //}
+
+    public void AddSeacherQuerry(string querry)
+    {
+        if (SearchedStuff.Contains(querry)) return;
+
+        if(SearchedStuff.Count > _searchVolume)
+        {
+            if(_nextSerchIndex >= SearchedStuff.Count) _nextSerchIndex = 0;
+            SearchedStuff[_nextSerchIndex] = querry;
+            _nextSerchIndex++;
+        }
+        else
+        {
+            SearchedStuff.Add(querry);
+            _nextSerchIndex = SearchedStuff.Count;
+        }
+    }
 
     public void OwnABook(BookData bookData)
     {

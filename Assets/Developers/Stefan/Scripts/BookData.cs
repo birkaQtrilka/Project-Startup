@@ -15,7 +15,7 @@ public class BookData
     [field:SerializeField] public string Isbn { get; private set; }
     [field:SerializeField] public int NumberOfPages { get; private set; }
     [field:SerializeField] public int NumberOfChapters { get; private set; }
-    [field:SerializeField] public string Genre { get; private set; }
+    [field:SerializeField] public string[] Genres { get; private set; }
     [field:SerializeField] public string OpenLibraryLink { get; private set; }
     [field:SerializeField] public string OLID { get; private set; }
     [field:SerializeField] public string[] Languages { get; private set; }
@@ -25,7 +25,7 @@ public class BookData
     [field: SerializeField] public int LocalRatingCount { get; private set; }
     public BookData(string title, string[] authors, string publishDate, 
         Vector2 rating,int ratingCount, Sprite cover,
-        string genre, int numberOfPages, int numberOfChapters,
+        string[] genre, int numberOfPages, int numberOfChapters,
         string isbn, string[] languages, string olid)
     {
         OLID = olid;
@@ -38,7 +38,7 @@ public class BookData
         RatingCount = ratingCount;
         Isbn = isbn;
         Languages = languages;
-        Genre = genre;
+        Genres = genre;
         NumberOfPages = numberOfPages;
         NumberOfChapters = numberOfChapters;
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using UnityEngine;
 
 [Serializable]
@@ -8,6 +9,6 @@ public class GenreCondition : BookCondition
 
     public override bool CanApply(OwnedBook data)
     {
-        return data.BookData.Genre == _genre;
+        return data.BookData.Genres.Contains(_genre);
     }
 }

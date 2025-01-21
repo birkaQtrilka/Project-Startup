@@ -26,7 +26,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   <BookData>k__BackingField:
     <Title>k__BackingField: Harry Potter and the Order of the Phoenix
     <Authors>k__BackingField:
@@ -73,4 +73,4 @@ MonoBehaviour:
     - per
     <LocalRating>k__BackingField: {x: 0, y: 0}
     <LocalRatingCount>k__BackingField: 0
-  CurrentPage: 0
+  CurrentPage: 7

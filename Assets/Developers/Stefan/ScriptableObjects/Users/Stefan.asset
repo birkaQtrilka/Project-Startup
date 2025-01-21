@@ -32,5 +32,7 @@ MonoBehaviour:
   WishList: []
   Posts: []
   Achievements: []
-  SearchedStuff: []
+  _searchVolume: 3
+  SearchedStuff:
+  - Lord of the rings
   ClickedBookIds: []

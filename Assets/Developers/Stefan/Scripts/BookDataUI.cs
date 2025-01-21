@@ -40,7 +40,7 @@ public class BookDataUI : MonoBehaviour
         if (_books == null || _books.Length == 0 || _books[_pos] == null) return;
 
         _user.OwnABook(_books[_pos]);
-
+        _user.ClickedBookIds.Add(_books[_pos].Title);
     }
 
     public void DisownBook()

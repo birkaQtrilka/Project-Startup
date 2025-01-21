@@ -7,6 +7,7 @@ using System.Threading;
 using System;
 using UnityEngine;
 using System.Xml.Linq;
+using UnityEngine.XR;
 [CreateAssetMenu(menuName ="BookGetter")]
 public class BookGetter : ScriptableObject
 {
@@ -71,59 +72,81 @@ public class BookGetter : ScriptableObject
         }
 
         Debug.Log("finished getting all books");
-        foreach ((BookData, byte[]) bookAndByteArray in books)
+        foreach ((BookData book, byte[] bytes) in books)
         {
-            if (bookAndByteArray.Item1 == null) continue;
+            if (book == null) continue;
             Texture2D tex = new(2, 2);
-            tex.LoadImage(bookAndByteArray.Item2);
+            tex.LoadImage(bytes);
+            //_ = LoadTexture(tex, bookAndByteArray.Item2);
             Vector2 pivot = new(.5f, .5f);
             Sprite sprite = Sprite.Create(tex, new Rect(.0f, .0f, tex.width, tex.height), pivot, 100.0f);
-            bookAndByteArray.Item1.SetSprite(sprite);
-
-            Debug.Log(bookAndByteArray.Item1);
+            book.SetSprite(sprite);
+            
+            Debug.Log(book);
         }
 
         return books.Select(book => book.Item1).ToArray();
     }
 
+    async Task LoadTexture(Texture2D tex, byte[] bytes)
+    {
+        await Task.Run(()=> tex.LoadImage(bytes), _cancellationToken);
+    }
+
     public async Task<JToken> GetBooksList(HttpClient client, int limit, string querry)
     {
-        Debug.Log("Started");
-        var endPoint = new Uri($"https://openlibrary.org/search.json?"+ querry + $"&sort=rating desc&limit={limit}" //);
-            + "&fields=key,title,author_name,ratings_average,ratings_count,subject,language,isbn,editions");//difference between editions[] and edition_key?
-        var result = await client.GetAsync(endPoint, _cancellationToken);
-        if (_cancellationToken.IsCancellationRequested)
+        try
         {
-            Debug.Log("Canceled getting a book");
-            return null;
-        }
-        Debug.Log("Got result");
-        var json = await result.Content.ReadAsStringAsync();
+            Debug.Log("Started");
+            var endPoint = new Uri($"https://openlibrary.org/search.json?" + querry + $"&sort=rating desc&limit={limit}" //);
+                + "&fields=key,title,author_name,ratings_average,ratings_count,subject,language,isbn,editions");//difference between editions[] and edition_key?
+            var result = await client.GetAsync(endPoint, _cancellationToken);
+            if (_cancellationToken.IsCancellationRequested)
+            {
+                Debug.Log("Canceled getting a book");
+                return null;
+            }
+            Debug.Log("Got result");
+            var json = await result.Content.ReadAsStringAsync();
+            return JObject.Parse(json)["docs"];
 
-        return JObject.Parse(json)["docs"];
+        }
+        catch (Exception ex)
+        {
+            Debug.Log(ex.Message);
+        }
+        return null;
     }
 
     public async Task<(JToken, string)> GetEditionOfBook(JToken firstBookJSON, HttpClient client)
     {
-        var relevantEdition = firstBookJSON["editions"]["docs"][0];
-        var key = relevantEdition["key"].ToString();
-        var editionEndPoint = new Uri("https://openlibrary.org" + key + ".json");
-        var response = await client.GetAsync(editionEndPoint, _cancellationToken);
-        if (_cancellationToken.IsCancellationRequested)
+        try
         {
-            Debug.Log("Canceled getting a book");
-            return (null, null);
-        }
+            var relevantEdition = firstBookJSON["editions"]["docs"][0];
+            var key = relevantEdition["key"].ToString();
+            var editionEndPoint = new Uri("https://openlibrary.org" + key + ".json");
+            var response = await client.GetAsync(editionEndPoint, _cancellationToken);
+            if (_cancellationToken.IsCancellationRequested)
+            {
+                Debug.Log("Canceled getting a book");
+                return (null, null);
+            }
 
-        Debug.Log("Got editions");
-        var editionString = await response.Content.ReadAsStringAsync();
-        if (_cancellationToken.IsCancellationRequested)
-        {
-            Debug.Log("Canceled getting a book");
-            return (null, null);
+            Debug.Log("Got editions");
+            var editionString = await response.Content.ReadAsStringAsync();
+            if (_cancellationToken.IsCancellationRequested)
+            {
+                Debug.Log("Canceled getting a book");
+                return (null, null);
+            }
+            Debug.Log("Parsed editions");
+            return (JObject.Parse(editionString), key);
         }
-        Debug.Log("Parsed editions");
-        return (JObject.Parse(editionString), key);
+        catch (Exception ex)
+        {
+            Debug.Log(ex.Message);
+        }
+        return (null, null);
     }
 
     public async Task<(BookData, byte[])> ParseToBook(JToken firstBookJSON, JToken editionJSON, string key, HttpClient client)
@@ -142,8 +165,22 @@ public class BookGetter : ScriptableObject
 
             //putting the image
             var isbn = firstBookJSON["isbn"]?[0].ToString() ?? "";//can't get isbn for specific book for now
+            
             var imageEndPoint = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-L.jpg");
             byte[] imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+            //44 is the response when the image is null
+            //if(imageBytes.Length < 44) {
+            //    imageEndPoint  = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-M.jpg");
+            //    imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+            //}
+
+            //if (imageBytes.Length < 44)
+            //{
+            //    imageEndPoint = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-S.jpg");
+            //    imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+            //}
+
+            Debug.Log("byteArrayCount: " + imageBytes.Length);
             if (_cancellationToken.IsCancellationRequested)
             {
                 Debug.Log("Canceled getting a book");
@@ -151,7 +188,7 @@ public class BookGetter : ScriptableObject
             }
 
 
-            string genre = firstBookJSON["subject"]?[0].ToString() ?? "";
+            string[] genres = firstBookJSON["subject"]?.Select(a => a.ToString()).Take(5).ToArray() ?? null; ;
             int numberOfPages = editionJSON["number_of_pages"]?.Value<int>() ?? 0;
             int numberOfChapters = 0;
 
@@ -160,7 +197,7 @@ public class BookGetter : ScriptableObject
             string[] languages = firstBookJSON["language"]?.Select(a => a.ToString()).ToArray() ?? null;
 
             return (new BookData(title, authors, publishDate, new Vector2(rating, 5), ratingCount, null,
-                 genre, numberOfPages, numberOfChapters, isbn, languages, olid
+                 genres, numberOfPages, numberOfChapters, isbn, languages, olid
             ), imageBytes);
         }
         catch (Exception ex)
