@@ -14,10 +14,14 @@ public class SearchBar : MonoBehaviour
     [SerializeField] Button _button;
     [SerializeField] BookDataUI _bookDataUI;
 
+    [SerializeField] bool _searchOnStart = false;
+
     Task<BookData[]> _searchProcess;
+
 
     void Start()
     {
+        if (!_searchOnStart) return;
         string querry = _recomendationAlgo.GetQuerry();
 
         _ = UpdateAfterGet(querry);
@@ -32,7 +36,7 @@ public class SearchBar : MonoBehaviour
     void OnDisable()
     {
         _button.onClick.RemoveListener(OnValueEnter);
-
+        _bookGetter.CancelGetting();
     }
 
     public void OnValueEnter()

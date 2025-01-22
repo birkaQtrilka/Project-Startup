@@ -1,4 +1,4 @@
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -8,12 +8,32 @@ using System;
 using UnityEngine;
 using System.Xml.Linq;
 using UnityEngine.XR;
+using System.IO;
+using UnityEditor;
+using System.Runtime.InteropServices;
 [CreateAssetMenu(menuName ="BookGetter")]
 public class BookGetter : ScriptableObject
 {
+    public string _imageLoadingPath = "Assets/Developers/Stefan/Resources/";
+
     CancellationTokenSource _cancellationTokenSource;
     CancellationToken _cancellationToken;
 
+    [SerializeField] bool _newCancelationToken;
+
+#if UNITY_EDITOR
+    void OnValidate()
+    {
+        if(_newCancelationToken)
+        {
+            _newCancelationToken = false;
+            _cancellationTokenSource = new CancellationTokenSource();
+            _cancellationToken = _cancellationTokenSource.Token;
+
+            Test();
+        }
+    }
+#endif
 
     void OnEnable()
     {
@@ -75,17 +95,68 @@ public class BookGetter : ScriptableObject
         foreach ((BookData book, byte[] bytes) in books)
         {
             if (book == null) continue;
-            Texture2D tex = new(2, 2);
-            tex.LoadImage(bytes);
+
             //_ = LoadTexture(tex, bookAndByteArray.Item2);
-            Vector2 pivot = new(.5f, .5f);
-            Sprite sprite = Sprite.Create(tex, new Rect(.0f, .0f, tex.width, tex.height), pivot, 100.0f);
+            Sprite sprite = SaveTextureAsAsset(bytes, _imageLoadingPath, book.Title + ".jpg");
             book.SetSprite(sprite);
-            
             Debug.Log(book);
         }
+        
+        _cancellationTokenSource = new CancellationTokenSource();
+        _cancellationToken = _cancellationTokenSource.Token;
 
         return books.Select(book => book.Item1).ToArray();
+    }
+    void Test()
+    {
+
+        string fileName = "Ἰλιάς";
+        Debug.Log($"Test: {fileName}");
+        var res = Resources.Load<Sprite>(fileName);
+        Debug.Log("Test2: "+ res);
+    }
+
+    Sprite SaveTextureAsAsset(byte[] bytes, string path, string fileName)
+    {
+        path += fileName;
+        try
+        {
+            Texture2D tex;
+            if (!File.Exists(path))
+            {
+                tex = new(2, 2);
+                tex.LoadImage(bytes);
+#if UNITY_EDITOR
+                System.IO.File.WriteAllBytes(path, bytes); // Refresh the AssetDatabase to show the new asset
+                Debug.Log("loaded at path" + path);
+                UnityEditor.AssetDatabase.Refresh();
+                TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter; 
+                if (textureImporter != null)
+                { 
+                    // Set the texture type to Sprite
+                    textureImporter.textureType = TextureImporterType.Sprite; 
+                    // Apply the changes
+                    AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate); 
+                    
+                    Debug.Log("Texture type set to Sprite for: " + path); 
+                } 
+                else 
+                { 
+                    Debug.LogError("Failed to load TextureImporter for: " + path); 
+                }
+#endif
+
+            }
+            else
+                Debug.Log("already exists at path" + path + "  with name: " + fileName);
+
+            return Resources.Load<Sprite>(fileName.Split('.')[0]);
+        }
+        catch(Exception ex)
+        {
+            Debug.LogError(ex);
+        }
+        return null;
     }
 
     async Task LoadTexture(Texture2D tex, byte[] bytes)
@@ -99,7 +170,7 @@ public class BookGetter : ScriptableObject
         {
             Debug.Log("Started");
             var endPoint = new Uri($"https://openlibrary.org/search.json?" + querry + $"&sort=rating desc&limit={limit}" //);
-                + "&fields=key,title,author_name,ratings_average,ratings_count,subject,language,isbn,editions");//difference between editions[] and edition_key?
+                + "&fields=key,title,author_name,ratings_average,ratings_count,subject,language,isbn,description,editions");//difference between editions[] and edition_key?
             var result = await client.GetAsync(endPoint, _cancellationToken);
             if (_cancellationToken.IsCancellationRequested)
             {
@@ -173,12 +244,7 @@ public class BookGetter : ScriptableObject
             //    imageEndPoint  = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-M.jpg");
             //    imageBytes = await client.GetByteArrayAsync(imageEndPoint);
             //}
-
-            //if (imageBytes.Length < 44)
-            //{
-            //    imageEndPoint = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-S.jpg");
-            //    imageBytes = await client.GetByteArrayAsync(imageEndPoint);
-            //}
+            string description = firstBookJSON["description"]?.ToString() ?? "no description";
 
             Debug.Log("byteArrayCount: " + imageBytes.Length);
             if (_cancellationToken.IsCancellationRequested)
@@ -197,7 +263,7 @@ public class BookGetter : ScriptableObject
             string[] languages = firstBookJSON["language"]?.Select(a => a.ToString()).ToArray() ?? null;
 
             return (new BookData(title, authors, publishDate, new Vector2(rating, 5), ratingCount, null,
-                 genres, numberOfPages, numberOfChapters, isbn, languages, olid
+                 genres, numberOfPages, numberOfChapters, isbn, languages, olid, description
             ), imageBytes);
         }
         catch (Exception ex)

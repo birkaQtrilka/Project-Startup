@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445355fea853ca341a4d25387a7d6f47, type: 3}
   m_Name: Book Getter
   m_EditorClassIdentifier: 
+  _imageLoadingPath: Assets/Developers/Stefan/Resources/
+  _newCancelationToken: 0
