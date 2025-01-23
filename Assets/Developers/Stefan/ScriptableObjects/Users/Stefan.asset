@@ -27,11 +27,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  NickName: Stefan112
+  ProfilePicture: {fileID: 21300000, guid: 3c989a82c9fbc204aa4010322ba5615d, type: 3}
   Friends: []
-  OwnedBooks: []
+  OwnedBooks:
+  - {fileID: 11400000, guid: 83279e7cb74616d4d9816fea3d885005, type: 2}
   WishList: []
   Posts: []
-  Achievements: []
   _searchVolume: 3
   SearchedStuff:
   - Lord of the rings

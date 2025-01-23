@@ -14,31 +14,83 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Image[] _friendImages;
     [SerializeField] Image _coverImg;
 
-    [SerializeField] Sprite _filledStar; 
+    [SerializeField] Sprite _filledStar;
     [SerializeField] Sprite _emptyStar;
 
-    [SerializeField] BookLocalContainer _bookDataDefault;
+    [SerializeField] BookLocalContainer _bookDataContainer;
+    [SerializeField] string _bookOLID;
+    [Header("For Info")]
+    [SerializeField] TextMeshProUGUI _ageRating;
+    [SerializeField] TextMeshProUGUI _longDescription;
+    [SerializeField] TextMeshProUGUI _genre;
+    [SerializeField] TextMeshProUGUI _language;
+    [Header("For Notes")]
+    [SerializeField] NoteUI _notePrefab;
+    [SerializeField] Transform _noteContainer;
+    [Header("For local reviews")]
+    [SerializeField] TextMeshProUGUI _reviewsCount;
+    [SerializeField] Image[] _localRatingImages;
+    [SerializeField] ReviewUI _reviewPrefab;
+    [SerializeField] Transform _reviewContainer;
+
 
     void Start()
     {
-        UpdateUI(_bookDataDefault.Books[0]);    
+        BookData book = _bookDataContainer.Books.FirstOrDefault(b => b.OLID == _bookOLID) ?? _bookDataContainer.Books[0];
+        UpdateUI( book );    
     }
 
     public void UpdateUI(BookData book)
     {
-        _title.text = book.Title;
-        _description.text = book.Description;
-        _authorName.text = book.Authors[0];
+        if (_title != null)
+            _title.text = book.Title;
+        if (_description != null)
+            _description.text = book.Description;
+        if (_longDescription != null)
+            _longDescription.text = book.Description;
+        if(_authorName != null) 
+            _authorName.text = book.Authors[0];
         //_authorImg.sprite
-        int stars = Mathf.RoundToInt(book.Rating.x);
-        
-        for (int i = 0; i < book.Rating.y; i++)
-        {
-            _ratingImages[i].sprite = i <= stars ? _filledStar : _emptyStar;
-        }
 
-        _coverImg.sprite = book.Cover;
-        if (UserManager.Instance.CurrentUser.Friends.Count == 0) return;
+        SetRating(book.Rating.x, StefUtils.MAX_RATING, _ratingImages);
+
+        if(_coverImg != null) 
+            _coverImg.sprite = book.Cover;
+
+        if (_ageRating != null)
+            _ageRating.text = "13+";
+        if (_genre != null)
+            _genre.text = book.Genres?.GetRandomItem();
+        if (_language != null)
+            _language.text = "English";
+
+        SetReviews( book );
+        SetNotes( book );
+        SetFriends( book );
+       
+
+    }
+
+    void SetRating(float average, int max, Image[] images)
+    {
+        int stars = Mathf.RoundToInt(average);
+        if (images != null && images.Length != 0)
+            for (int i = 0; i < max; i++)
+            {
+                images[i].sprite = i <= stars ? _filledStar : _emptyStar;
+            }
+    }
+
+    void SetFriends(BookData book)
+    {
+        if (UserManager.Instance.CurrentUser.Friends.Count == 0)
+        {
+            for (int i = 0; i < _friendImages.Length; i++)
+            {
+                _friendImages[i].gameObject.SetActive(false);
+            }
+            return;
+        }
 
         UserData[] readerFriends = UserManager.Instance.CurrentUser.Friends.
             Where(f => f.OwnedBooks.Any(b => b.BookData.OLID == book.OLID))
@@ -46,7 +98,55 @@ public class DetailedBookUI : MonoBehaviour
 
         for (int i = 0; i < _friendImages.Length; i++)
         {
+            _friendImages[i].gameObject.SetActive(true);
             _friendImages[i].sprite = readerFriends[i].ProfilePicture;
+        }
+    }
+
+    void SetNotes(BookData book)
+    {
+        if (_noteContainer == null) return;
+
+        int numChildren = _noteContainer.childCount;
+        for (int i = numChildren - 1; i >= 0; i--)
+        {
+            GameObject.Destroy(_noteContainer.GetChild(i).gameObject);
+        }
+        for (int i = 0; i < book.Notes.Length; i++)
+        {
+            PostData noteData = book.Notes[i];
+
+            NoteUI noteUI = Instantiate(_notePrefab, _noteContainer.transform);
+            noteUI.Init(noteData);
+        }
+    }
+
+    void SetReviews(BookData book)
+    {
+        //local average
+        float average = (float)book.LocalReviews.Average((r) => r.Rating);
+
+        SetRating(average, StefUtils.MAX_RATING, _localRatingImages);
+
+
+
+        if (_reviewsCount != null)
+            _reviewsCount.text = book.LocalReviews.Length.ToString();
+
+        if (_reviewContainer == null) return;
+
+
+        int numChildren = _reviewContainer.childCount;
+        for (int i = numChildren - 1; i >= 0; i--)
+        {
+            GameObject.Destroy(_reviewContainer.GetChild(i).gameObject);
+        }
+        for (int i = 0; i < book.Notes.Length; i++)
+        {
+            ReviewData reviewData = book.LocalReviews[i];
+
+            ReviewUI review = Instantiate(_reviewPrefab, _reviewContainer.transform);
+            review.UpdateUI(reviewData);
         }
     }
 }

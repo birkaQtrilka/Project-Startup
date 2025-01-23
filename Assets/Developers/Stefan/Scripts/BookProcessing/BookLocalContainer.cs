@@ -1,23 +1,23 @@
 using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
-using System.Threading;
-using System;
 using UnityEngine;
 using UnityEditor;
+using System.Collections.Generic;
+using System.Linq;
 
 [CreateAssetMenu(menuName = "BookContainer")]
 public class BookLocalContainer : ScriptableObject
 {
+    [field: SerializeField] public AuthorData[] Authors { get; private set; }
     [field: SerializeField] public BookData[] Books { get; private set; }
+    [field: SerializeField] public Dictionary<string, BookData> BooksDictionary { get; private set; }
 
     [SerializeField] int _booksToFetch = 2;
     [SerializeField] BookGetter _bookGetter;
 
     [SerializeField] bool _getBooks;
     [SerializeField] bool _removeAllBooks;
+    [SerializeField] bool _updateDictionary;
 
     void OnValidate()
     {
@@ -33,14 +33,22 @@ public class BookLocalContainer : ScriptableObject
 
             _ = GetBooks();
         }
+        if (_updateDictionary)
+        {
+            _updateDictionary = false;
+            UpdateDictionary();
+        }
     }
 
     async Task GetBooks()
     {
         Books = await _bookGetter.FetchData(_booksToFetch);
-        
+        UpdateDictionary();
         AssetDatabase.Refresh();
     }
 
-    
+    public void UpdateDictionary()
+    {
+        BooksDictionary = Books.ToDictionary((b) => b.OLID);
+    }
 }

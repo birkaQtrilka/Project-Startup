@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 using System.Threading;
 using System;
 using UnityEngine;
-using System.Xml.Linq;
-using UnityEngine.XR;
 using System.IO;
 using UnityEditor;
-using System.Runtime.InteropServices;
+
 [CreateAssetMenu(menuName ="BookGetter")]
 public class BookGetter : ScriptableObject
 {

@@ -572,6 +572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _title: {fileID: 8727844489855559918}
   _description: {fileID: 3369193848545627492}
+  _longDescription: {fileID: 0}
   _authorName: {fileID: 6081141452247577058}
   _authorImg: {fileID: 207569589453275968}
   _ratingImages:
@@ -584,7 +585,13 @@ MonoBehaviour:
   _coverImg: {fileID: 342170165863393549}
   _filledStar: {fileID: 21300000, guid: 85a68286e8637284592b2c654ae5cc64, type: 3}
   _emptyStar: {fileID: 21300000, guid: e193f2b6d0cda664c87f93e3d5008bb0, type: 3}
-  _bookDataDefault: {fileID: 11400000, guid: e808bd4682dbe294784bbe3c4f3b37e1, type: 2}
+  _bookDataContainer: {fileID: 11400000, guid: e808bd4682dbe294784bbe3c4f3b37e1, type: 2}
+  _bookOLID: OL8308587M
+  _ageRating: {fileID: 0}
+  _genre: {fileID: 0}
+  _language: {fileID: 0}
+  _notePrefab: {fileID: 0}
+  _noteContainer: {fileID: 0}
 --- !u!1 &3074678606239609707
 GameObject:
   m_ObjectHideFlags: 0

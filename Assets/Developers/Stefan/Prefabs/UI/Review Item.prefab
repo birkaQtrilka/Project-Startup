@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 8076604430478466962}
   - component: {fileID: 3636624264943632883}
   - component: {fileID: 838977874421810247}
+  - component: {fileID: 5256262703063666803}
   m_Layer: 0
   m_Name: Review Item
   m_TagString: Untagged
@@ -236,6 +237,31 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &5256262703063666803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468458347769140509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a7f3898e78d8f4492a37cb654ffc31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _filledStar: {fileID: 21300000, guid: 85a68286e8637284592b2c654ae5cc64, type: 3}
+  _emptyStar: {fileID: 21300000, guid: e193f2b6d0cda664c87f93e3d5008bb0, type: 3}
+  _publishTime: {fileID: 4282270010956785905}
+  _content: {fileID: 5172322815786099154}
+  _userName: {fileID: 4543883661588445253}
+  _userReviewsCount: {fileID: 1746889738359254793}
+  _userPFP: {fileID: 5250648545223453529}
+  _localRatingImages:
+  - {fileID: 5656449074780774784}
+  - {fileID: 3402963493184174157}
+  - {fileID: 1489988896910354080}
+  - {fileID: 3096352140225034659}
+  - {fileID: 3471829927063784027}
 --- !u!1 &974442048972124370
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,9 +294,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6797895297916237402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68.06155, y: -7.84165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 15.6833, y: 15.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4298535134778800168
@@ -398,7 +424,7 @@ GameObject:
   - component: {fileID: 5999431037744398094}
   - component: {fileID: 4282270010956785905}
   m_Layer: 0
-  m_Name: Reviews Count (1)
+  m_Name: Publish Date
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -614,7 +640,7 @@ GameObject:
   - component: {fileID: 4669723931046260561}
   - component: {fileID: 5172322815786099154}
   m_Layer: 0
-  m_Name: Account name (1)
+  m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -771,9 +797,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6797895297916237402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 88.13485, y: -7.84165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 15.6833, y: 15.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2743376159255451031
@@ -980,9 +1006,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6797895297916237402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 47.98825, y: -7.84165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 15.6833, y: 15.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7161042335924912347
@@ -1055,9 +1081,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6797895297916237402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 7.84165, y: -7.84165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 15.6833, y: 15.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1657347973602222670
@@ -1130,9 +1156,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6797895297916237402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 27.91495, y: -7.84165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 15.6833, y: 15.6833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6948877387160729947

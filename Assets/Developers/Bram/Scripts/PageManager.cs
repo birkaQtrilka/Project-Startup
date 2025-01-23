@@ -56,7 +56,7 @@ public class PageManager : MonoBehaviour
     }
 
     // Functions for the buttons
-    public void SwitchToPage(string pPageIdentifier)
+    public Page SwitchToPageAndGet(string pPageIdentifier)
     {
         Page page = null;
         for (int i = 0; i < _pages.Length; i++)
@@ -65,7 +65,14 @@ public class PageManager : MonoBehaviour
                 _pages[i].transform.parent == transform) page = _pages[i];
         }
         if (page != null) SwitchToPage(page);
+
+        return page;
     }
+    public void SwitchToPage(string pPageIdentifier)
+    {
+        SwitchToPageAndGet(pPageIdentifier);
+    }
+
     public void SwitchToPage(Page pPage)
     {
         _pageHistory.Push(_currentPage);

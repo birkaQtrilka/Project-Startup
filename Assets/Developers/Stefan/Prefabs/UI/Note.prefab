@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4560665737616636100}
   - component: {fileID: 7523826411153958099}
   m_Layer: 0
-  m_Name: Reviews Count
+  m_Name: Page Num
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 8617819491226207274}
   - component: {fileID: 1011065403516156899}
   m_Layer: 0
-  m_Name: Account name (1)
+  m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 3800118150719141496}
   - component: {fileID: 1091934079440322937}
   m_Layer: 0
-  m_Name: Reviews Count (1)
+  m_Name: Publish Date
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -626,6 +626,7 @@ GameObject:
   - component: {fileID: 7421692707076476245}
   - component: {fileID: 6318566912979943891}
   - component: {fileID: 5649109850355960774}
+  - component: {fileID: 485445849701004970}
   m_Layer: 0
   m_Name: Note
   m_TagString: Untagged
@@ -715,3 +716,19 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &485445849701004970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657677427819038094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c97c0e75742e164fbe7c3ffda3b4602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1011065403516156899}
+  _pageNum: {fileID: 7523826411153958099}
+  _author: {fileID: 8566176121262959694}
+  _pfp: {fileID: 7799152182962503119}
