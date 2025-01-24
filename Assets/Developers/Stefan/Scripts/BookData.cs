@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
@@ -19,11 +20,11 @@ public class BookData
     [field:SerializeField] public string OpenLibraryLink { get; private set; }
     [field:SerializeField] public string OLID { get; private set; }
     [field:SerializeField] public string[] Languages { get; private set; }
-    [field:SerializeField] public string Description { get; private set; }
+    [field:SerializeField, TextArea] public string Description { get; private set; }
 
     [field: Header("Made in the app")]
-    [field: SerializeField] public Vector2 LocalRating { get; private set; }
-    [field: SerializeField] public int LocalRatingCount { get; private set; }
+    [field: SerializeField] public List<ReviewData> LocalReviews { get; private set; }
+    [field: SerializeField] public List<PostData> Notes { get; private set; }
     public BookData(string title, string[] authors, string publishDate, 
         Vector2 rating,int ratingCount, Sprite cover,
         string[] genre, int numberOfPages, int numberOfChapters,
@@ -40,7 +41,7 @@ public class BookData
         Isbn = isbn;
         Languages = languages;
         Genres = genre;
-        NumberOfPages = numberOfPages;
+        NumberOfPages = numberOfPages == 0 ? 100 : numberOfPages;
         NumberOfChapters = numberOfChapters;
         Description = description;
     }

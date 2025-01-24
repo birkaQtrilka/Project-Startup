@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 using System.Threading;
 using System;
 using UnityEngine;
-using System.Xml.Linq;
-using UnityEngine.XR;
 using System.IO;
 using UnityEditor;
-using System.Runtime.InteropServices;
+
 [CreateAssetMenu(menuName ="BookGetter")]
 public class BookGetter : ScriptableObject
 {
@@ -149,7 +147,7 @@ public class BookGetter : ScriptableObject
             }
             else
                 Debug.Log("already exists at path" + path + "  with name: " + fileName);
-
+            //might be a problem. Probably in runtime mode resorces folder can't be modified
             return Resources.Load<Sprite>(fileName.Split('.')[0]);
         }
         catch(Exception ex)
