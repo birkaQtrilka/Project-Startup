@@ -10,7 +10,8 @@ public class BookCover : MonoBehaviour
     [SerializeField] BookLocalContainer _container;
     [SerializeField] string _bookOLID;
     
-    BookData _bookData;
+    public BookLocalContainer Container => _container;
+    public BookData BookData { get; private set; }
 
     public void SendToBookOverview()
     {
@@ -20,23 +21,24 @@ public class BookCover : MonoBehaviour
         Page page = _rootPageManager.SwitchToPageAndGet("DetailedBookPage");
         DetailedBookUI bookUI = page.GetComponentInChildren<DetailedBookUI>();
         
-        _bookData ??= _container.Books.First(b => b.OLID == _bookOLID);
+        BookData ??= _container.Books.First(b => b.OLID == _bookOLID);
 
-        if(_bookData != null )
-            bookUI.UpdateUI(_bookData);
+        if(BookData != null )
+            bookUI.UpdateUI(BookData);
     }
 
     void OnEnable()
     {
-        UpdateUI();
+        if(BookData == null)
+            UpdateUI();
     }
 
     public void UpdateUI()
     {
-        _bookData = _container.Books.FirstOrDefault(b => b.OLID == _bookOLID);
+        BookData = _container.Books.FirstOrDefault(b => b.OLID == _bookOLID);
 
-        if (_bookData == null) return;
+        if (BookData == null) return;
 
-        _image.sprite = _bookData.Cover;
+        _image.sprite = BookData.Cover;
     }
 }

@@ -96,8 +96,11 @@ public class DetailedBookUI : MonoBehaviour
             Where(f => f.OwnedBooks.Any(b => b.BookData.OLID == book.OLID))
             .Take(_friendImages.Length).ToArray();
 
-        for (int i = 0; i < _friendImages.Length; i++)
+        int count = Mathf.Min(_friendImages.Length, readerFriends.Length);
+
+        for (int i = 0; i < count; i++)
         {
+
             _friendImages[i].gameObject.SetActive(true);
             _friendImages[i].sprite = readerFriends[i].ProfilePicture;
         }
@@ -112,7 +115,7 @@ public class DetailedBookUI : MonoBehaviour
         {
             GameObject.Destroy(_noteContainer.GetChild(i).gameObject);
         }
-        for (int i = 0; i < book.Notes.Length; i++)
+        for (int i = 0; i < book.Notes.Count; i++)
         {
             PostData noteData = book.Notes[i];
 
@@ -131,7 +134,7 @@ public class DetailedBookUI : MonoBehaviour
 
 
         if (_reviewsCount != null)
-            _reviewsCount.text = book.LocalReviews.Length.ToString();
+            _reviewsCount.text = book.LocalReviews.Count.ToString();
 
         if (_reviewContainer == null) return;
 
@@ -141,7 +144,7 @@ public class DetailedBookUI : MonoBehaviour
         {
             GameObject.Destroy(_reviewContainer.GetChild(i).gameObject);
         }
-        for (int i = 0; i < book.Notes.Length; i++)
+        for (int i = 0; i < book.Notes.Count; i++)
         {
             ReviewData reviewData = book.LocalReviews[i];
 

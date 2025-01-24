@@ -19,6 +19,12 @@ public class BookLocalContainer : ScriptableObject
     [SerializeField] bool _removeAllBooks;
     [SerializeField] bool _updateDictionary;
 
+    [Header("For conveniency")]
+    [SerializeField] UserData _user;
+    [SerializeField] string _olidToOwn;
+    [SerializeField] bool _ownBook;
+    [SerializeField] bool _includeAllNotes;
+
     void OnValidate()
     {
         if (_removeAllBooks)
@@ -38,6 +44,48 @@ public class BookLocalContainer : ScriptableObject
             _updateDictionary = false;
             UpdateDictionary();
         }
+        if(_ownBook)
+        {
+            _ownBook = false;
+            _user.OwnABook(GetBookData(_olidToOwn));
+        }
+
+        if(_includeAllNotes)
+        {
+            _includeAllNotes = false;
+            IncludeNotesInBooks();
+        }
+    }
+    
+    void IncludeNotesInBooks()
+    {
+
+        UserData[] users = Resources.FindObjectsOfTypeAll<UserData>();
+        //I know this is really performance heavy but we won't have many objects so it should be fine for the prototype
+        //in the future I would just use a database
+        foreach (var user in users)
+        {
+            foreach (var post in user.Posts)
+            {
+                BookData book = GetBookData(post.OLID);
+                if(!book.Notes.Any(n => n.PublishTime == post.PublishTime))
+                    book.Notes.Add(post);
+            }
+
+
+        }
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+    }
+
+    public OwnedBook GetOwnedBook(UserData fromUser, string olid)
+    {
+        return fromUser.OwnedBooks.FirstOrDefault(b=>b.BookData.OLID == olid);
+    }
+
+    public BookData GetBookData(string olid)
+    {
+        return Books.FirstOrDefault(b => b.OLID == olid);
     }
 
     async Task GetBooks()

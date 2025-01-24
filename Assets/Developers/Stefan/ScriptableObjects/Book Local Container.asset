@@ -222,7 +222,13 @@ MonoBehaviour:
       Content: Very religious, I like religy
       Rating: 5
       UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL33174771M
+      PublishTime: 1 day ago
+      IsEdited: 1
+      Content: Didn't know jesus could do that, damn
+      Page: 45
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
   - <Title>k__BackingField: Carmilla
     <Authors>k__BackingField:
     - Joseph Sheridan Le Fanu
@@ -284,7 +290,8 @@ MonoBehaviour:
       Rating: 2
       UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
     <Notes>k__BackingField:
-    - PublishTime: 2 days ago
+    - OLID: OL8308587M
+      PublishTime: 2 days ago
       IsEdited: 0
       Content: I didn't expect that, they should date
       Page: 12
@@ -618,9 +625,20 @@ MonoBehaviour:
     - lat
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL7046625M
+      PublishTime: 15 hours ago
+      IsEdited: 1
+      Content: So romantic, If my bf doesn't tell me that tomorrow, I will leave
+        him
+      Page: 12
+      UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
   _booksToFetch: 15
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
   _getBooks: 0
   _removeAllBooks: 0
   _updateDictionary: 0
+  _user: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+  _olidToOwn: OL8308587M
+  _ownBook: 0
+  _includeAllNotes: 0

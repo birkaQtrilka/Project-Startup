@@ -4,6 +4,8 @@ using UnityEngine;
 [Serializable]
 public class PostData 
 {
+    public string OLID;
+
     public string PublishTime;
     public bool IsEdited;
 
