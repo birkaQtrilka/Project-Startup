@@ -9,22 +9,22 @@ public class PostListUI : MonoBehaviour
 
     public void UpdateUI()
     {
-        List<PostData> notes = _noteGetter.GetNotes();
+        if (_noteGetter == null) return;
 
+        UpdateUI(_noteGetter.GetNotes());
+       
+    }
+
+    public void UpdateUI(List<PostData> notes)
+    {
         if (_noteContainer == null) return;
 
-        int numChildren = _noteContainer.childCount;
-        for (int i = numChildren - 1; i >= 0; i--)
-        {
-            GameObject.Destroy(_noteContainer.GetChild(i).gameObject);
-        }
-        for (int i = 0; i < notes.Count; i++)
+        _noteContainer.DestroyAllChildren();
+        _noteContainer.InstantiateMultiple(_notePrefab, notes.Count, (inst, i) =>
         {
             PostData noteData = notes[i];
-
-            NoteUI noteUI = Instantiate(_notePrefab, _noteContainer.transform);
-            noteUI.Init(noteData);
-        }
+            inst.Init(noteData);
+        });
     }
 
     void Start()

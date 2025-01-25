@@ -34,11 +34,12 @@ MonoBehaviour:
     <PublishDate>k__BackingField: 2001?
     <Rating>k__BackingField: {x: 4.281818, y: 5}
     <RatingCount>k__BackingField: 440
-    <Cover>k__BackingField: {fileID: 0}
+    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
+      type: 3}
     <Isbn>k__BackingField: 0007497911
     <NumberOfPages>k__BackingField: 306
     <NumberOfChapters>k__BackingField: 0
-    <Genre>k__BackingField: Arkenstone
+    <Genres>k__BackingField: []
     <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
     <OLID>k__BackingField: OL24946057M
     <Languages>k__BackingField:
@@ -71,6 +72,7 @@ MonoBehaviour:
     - spa
     - por
     - eng
-    <LocalRating>k__BackingField: {x: 0, y: 0}
-    <LocalRatingCount>k__BackingField: 0
+    <Description>k__BackingField: 
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
   CurrentPage: 0

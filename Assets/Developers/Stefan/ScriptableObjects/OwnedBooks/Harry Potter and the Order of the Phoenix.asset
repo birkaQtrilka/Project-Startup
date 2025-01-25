@@ -34,11 +34,12 @@ MonoBehaviour:
     <PublishDate>k__BackingField: 2004
     <Rating>k__BackingField: {x: 4.268775, y: 5}
     <RatingCount>k__BackingField: 253
-    <Cover>k__BackingField: {fileID: 0}
+    <Cover>k__BackingField: {fileID: 21300000, guid: 80f0706724e5167499d04d443ce72d91,
+      type: 3}
     <Isbn>k__BackingField: 9785389077904
     <NumberOfPages>k__BackingField: 968
     <NumberOfChapters>k__BackingField: 0
-    <Genre>k__BackingField: Children's Books/Ages 9-12 Fiction
+    <Genres>k__BackingField: []
     <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL23058990M
     <OLID>k__BackingField: OL23058990M
     <Languages>k__BackingField:
@@ -71,6 +72,7 @@ MonoBehaviour:
     - tur
     - kor
     - per
-    <LocalRating>k__BackingField: {x: 0, y: 0}
-    <LocalRatingCount>k__BackingField: 0
+    <Description>k__BackingField: 
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
   CurrentPage: 7
