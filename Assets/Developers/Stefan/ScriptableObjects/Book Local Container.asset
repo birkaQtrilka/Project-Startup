@@ -1,0 +1,948 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88243f3aa74c82f4ea9f1315ef195f62, type: 3}
+  m_Name: Book Local Container
+  m_EditorClassIdentifier: 
+  <Authors>k__BackingField: []
+  <Books>k__BackingField:
+  - <Title>k__BackingField: "\u1F38\u03BB\u03B9\u03AC\u03C2"
+    <Authors>k__BackingField:
+    - "\u038C\u03BC\u03B7\u03C1\u03BF\u03C2"
+    <PublishDate>k__BackingField: 1869
+    <Rating>k__BackingField: {x: 3.9861112, y: 5}
+    <RatingCount>k__BackingField: 72
+    <Cover>k__BackingField: {fileID: 21300000, guid: 7e76d0cf972d6f64aa17f77a05ffdad0,
+      type: 3}
+    <Isbn>k__BackingField: 9781600837791
+    <NumberOfPages>k__BackingField: 0
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Odysseus (Greek mythology)
+    - Juvenile poetry
+    - Readers
+    - Greeks
+    - Poetry
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24347580M
+    <OLID>k__BackingField: OL24347580M
+    <Languages>k__BackingField:
+    - gle
+    - gla
+    - rus
+    - ukr
+    - ara
+    - ice
+    - chi
+    - tur
+    - tam
+    - rum
+    - por
+    - und
+    - ita
+    - spa
+    - eng
+    - gre
+    - fre
+    - cze
+    - dut
+    - ger
+    - heb
+    - lat
+    - mul
+    - pol
+    - arm
+    - grc
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: "L\u2019\xE9tranger"
+    <Authors>k__BackingField:
+    - Albert Camus
+    <PublishDate>k__BackingField: 1966
+    <Rating>k__BackingField: {x: 3.9534883, y: 5}
+    <RatingCount>k__BackingField: 86
+    <Cover>k__BackingField: {fileID: 21300000, guid: 9932ab04afd5f564a91cde41e436a62e,
+      type: 3}
+    <Isbn>k__BackingField: 9798365269804
+    <NumberOfPages>k__BackingField: 156
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Murder
+    - Fiction
+    - Medicine in Literature
+    - French
+    - Novelas francesas
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL16779968M
+    <OLID>k__BackingField: OL16779968M
+    <Languages>k__BackingField:
+    - eng
+    - por
+    - fre
+    - wel
+    - chi
+    - swe
+    - vie
+    - jav
+    - hin
+    - ger
+    - spa
+    - mul
+    - dut
+    - ita
+    - jpn
+    - pol
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Jahangiri's Handbook on Injectable intravenous Drugs
+      English - Persian Edition
+    <Authors>k__BackingField:
+    - Hamideh Jahangiri
+    - Dr. Alireza Norouzi
+    - Alireza Mobaraki
+    <PublishDate>k__BackingField: 2018-04-25
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 8
+    <Cover>k__BackingField: {fileID: 21300000, guid: 7dac65489b0b6a640bb9fa257c5565fa,
+      type: 3}
+    <Isbn>k__BackingField: 9786138386490
+    <NumberOfPages>k__BackingField: 284
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL49359652M
+    <OLID>k__BackingField: OL49359652M
+    <Languages>k__BackingField:
+    - per
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Elements
+    <Authors>k__BackingField:
+    - Euclid
+    <PublishDate>k__BackingField: 1752
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 8
+    <Cover>k__BackingField: {fileID: 21300000, guid: 645790d6cc5780c488aefbb85f9be6a0,
+      type: 3}
+    <Isbn>k__BackingField: 0486600904
+    <NumberOfPages>k__BackingField: 430
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fundamentos Da Geometria
+    - great_books_of_the_western_world
+    - Geometria Analitica
+    - Mathematics
+    - Geometria
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL18369109M
+    <OLID>k__BackingField: OL18369109M
+    <Languages>k__BackingField:
+    - fre
+    - lat
+    - ger
+    - por
+    - gre
+    - eng
+    - heb
+    - ara
+    - grc
+    - spa
+    - rus
+    - ita
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Bible
+    <Authors>k__BackingField:
+    - Bible
+    <PublishDate>k__BackingField: 1814
+    <Rating>k__BackingField: {x: 3.9848485, y: 5}
+    <RatingCount>k__BackingField: 66
+    <Cover>k__BackingField: {fileID: 21300000, guid: 115aff9873f129b4bb4b822dc4afb840,
+      type: 3}
+    <Isbn>k__BackingField: 0340863188
+    <NumberOfPages>k__BackingField: 814
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Manuscripts, Latin (Medieval and modern)
+    - Glossaries, vocabularies
+    - Early works to 1800
+    - Bible
+    - Religion
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL33174771M
+    <OLID>k__BackingField: OL33174771M
+    <Languages>k__BackingField:
+    - urd
+    - mar
+    - hun
+    - dak
+    - jpn
+    - asm
+    - ukr
+    - fin
+    - ara
+    - nic
+    - per
+    - ben
+    - chi
+    - tam
+    - afr
+    - syr
+    - por
+    - und
+    - spa
+    - ita
+    - zul
+    - eng
+    - nav
+    - fre
+    - ton
+    - ger
+    - heb
+    - lat
+    - mao
+    - mul
+    - tel
+    - hin
+    - arm
+    - grc
+    - yid
+    <Description>k__BackingField: Cool book
+    <LocalReviews>k__BackingField:
+    - PublishTime: 1 week ago
+      IsEdited: 0
+      Content: Very religious, I like religy
+      Rating: 5
+      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+    <Notes>k__BackingField:
+    - OLID: OL33174771M
+      PublishTime: 1 day ago
+      IsEdited: 1
+      Content: Didn't know jesus could do that, damn
+      Page: 45
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+      ID: 32532532
+  - <Title>k__BackingField: Carmilla
+    <Authors>k__BackingField:
+    - Joseph Sheridan Le Fanu
+    <PublishDate>k__BackingField: 2021
+    <Rating>k__BackingField: {x: 3.8979592, y: 5}
+    <RatingCount>k__BackingField: 49
+    <Cover>k__BackingField: {fileID: 21300000, guid: 269af3a5f7b63f8479a21d6eec50a165,
+      type: 3}
+    <Isbn>k__BackingField: 9798571721950
+    <NumberOfPages>k__BackingField: 0
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - English Fantasy fiction
+    - Fantasy fiction, English
+    - Fiction
+    - Lesbians
+    - Vampires
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38536021M
+    <OLID>k__BackingField: OL38536021M
+    <Languages>k__BackingField:
+    - ita
+    - spa
+    - eng
+    - fre
+    - por
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Mindfulness in Plain English
+    <Authors>k__BackingField:
+    - Bhante H. Gunaratana
+    <PublishDate>k__BackingField: September 25, 2002
+    <Rating>k__BackingField: {x: 4.4545455, y: 5}
+    <RatingCount>k__BackingField: 11
+    <Cover>k__BackingField: {fileID: 21300000, guid: 576e8ceff6b067c4c83d7f17057300a8,
+      type: 3}
+    <Isbn>k__BackingField: 0861713214
+    <NumberOfPages>k__BackingField: 224
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Mindfulness
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8308587M
+    <OLID>k__BackingField: OL8308587M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: "A mysterious island. An abandoned orphanage. A
+      strange collection of photographs.\nWhen sixteen-year-old Jacob Portman follows
+      a trail of clues left by his grandfather, he stumbles upon the ruins of Miss
+      Peregrine\u2019s Home for Peculiar Children. But as he explores, he realizes
+      the children who once lived there may have been more than just peculiar\u2014they
+      may have been dangerous. And they might still be alive.\nBlending haunting
+      vintage photography with an eerie, fantastical tale, Miss Peregrine\u2019s
+      Home for Peculiar Children is a spine-tingling adventure filled with wonder,
+      mystery, and a world unlike any other.\n"
+    <LocalReviews>k__BackingField:
+    - PublishTime: 1 week ago
+      IsEdited: 1
+      Content: It was prettty good, I didn't like the third chapter though
+      Rating: 2
+      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+    <Notes>k__BackingField:
+    - OLID: OL8308587M
+      PublishTime: 2 days ago
+      IsEdited: 0
+      Content: I didn't expect that, they should date
+      Page: 12
+      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+      ID: 53463464
+  - <Title>k__BackingField: Don Quixote
+    <Authors>k__BackingField:
+    - Miguel de Cervantes Saavedra
+    - Michael J. Marshall
+    - John Ormsby
+    - Anonymous
+    <PublishDate>k__BackingField: 2018
+    <Rating>k__BackingField: {x: 3.787234, y: 5}
+    <RatingCount>k__BackingField: 47
+    <Cover>k__BackingField: {fileID: 21300000, guid: d265500017b57cd4498ba014a4190eb6,
+      type: 3}
+    <Isbn>k__BackingField: 1587263742
+    <NumberOfPages>k__BackingField: 786
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Don Quixote (Cervantes Saavedra, Miguel de)
+    - Quotations
+    - Knights and knighthood
+    - Social life and customs
+    - Fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL56599487M
+    <OLID>k__BackingField: OL56599487M
+    <Languages>k__BackingField:
+    - mar
+    - gle
+    - jpn
+    - rus
+    - alb
+    - srp
+    - hrv
+    - ara
+    - dan
+    - chi
+    - vie
+    - por
+    - und
+    - spa
+    - ita
+    - eng
+    - swe
+    - gre
+    - fre
+    - baq
+    - ori
+    - dut
+    - ger
+    - heb
+    - lat
+    - tel
+    - glg
+    - hin
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Imitation of Christ
+    <Authors>k__BackingField:
+    - "Thomas \xE0 Kempis"
+    - "J\xE9r\xF4me de Gonnelieu"
+    - Richard Challoner
+    - Ronald Arbuthnott Knox
+    - Michael Oakley
+    - Paul M. Bechtel
+    - Joseph N. Tylenda
+    - Elder Mullan
+    - Henri Belleau
+    - "F\xE9licit\xE9 Robert de Lamennais"
+    - John Payne
+    - William C. Creasy
+    - Thomas Rogers
+    - Sixtus V Pope
+    - Hal McElwaine Helms
+    - Harold C. Gardiner
+    - Richard Whitford
+    - Edgar Daplyn
+    - David Alexander MacLennan
+    - E. M. Blaiklock
+    - Aloysius Croft
+    - Harold Bolton
+    - Richard Whitford
+    - Wilfrid Raynal
+    - Henry Parry Liddon
+    - "F\xE9licit\xE9 Robert De Lamennais"
+    - Jon M. Sweeney
+    - Rev. William Benham
+    - Rev. William Rev. William Benham
+    - Valenti Angelo
+    - Challoner
+    - Leo Sherley-Price
+    - Paul Wesley Chilcote
+    - Pierre Corneille
+    - Thomas Chalmers
+    - George Hickes
+    <PublishDate>k__BackingField: 1910
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 5
+    <Cover>k__BackingField: {fileID: 21300000, guid: b12c6d5209a924b46a3d067557fa287e,
+      type: 3}
+    <Isbn>k__BackingField: 9781434611468
+    <NumberOfPages>k__BackingField: 227
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Early works to 1800
+    - Christian life
+    - Devotional literature
+    - Example
+    - Meditations
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL22883240M
+    <OLID>k__BackingField: OL22883240M
+    <Languages>k__BackingField:
+    - wel
+    - kor
+    - spa
+    - ben
+    - ita
+    - gle
+    - cre
+    - ger
+    - eng
+    - lat
+    - mul
+    - fre
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Common Sense
+    <Authors>k__BackingField:
+    - Thomas Paine
+    <PublishDate>k__BackingField: 1776
+    <Rating>k__BackingField: {x: 4.2222223, y: 5}
+    <RatingCount>k__BackingField: 9
+    <Cover>k__BackingField: {fileID: 21300000, guid: d9d38c5369d99de4f840ac22e3501db7,
+      type: 3}
+    <Isbn>k__BackingField: 9780140390162
+    <NumberOfPages>k__BackingField: 99
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Political science
+    - Politics and government
+    - Monarchy
+    - Early works to 1800
+    - Society of Friends
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL6936150M
+    <OLID>k__BackingField: OL6936150M
+    <Languages>k__BackingField:
+    - spa
+    - ger
+    - eng
+    - chi
+    - fre
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL6936150M
+      PublishTime: 3 days ago
+      IsEdited: 1
+      Content: 'What a twisst! '
+      Page: 39
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+      ID: 0
+    - OLID: OL6936150M
+      PublishTime: 3 days ago
+      IsEdited: 1
+      Content: 'What a twisst! '
+      Page: 39
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+      ID: 32553252
+  - <Title>k__BackingField: On Liberty
+    <Authors>k__BackingField:
+    - John Stuart Mill
+    <PublishDate>k__BackingField: 1996
+    <Rating>k__BackingField: {x: 4.2222223, y: 5}
+    <RatingCount>k__BackingField: 9
+    <Cover>k__BackingField: {fileID: 21300000, guid: 733126366fdc1984591464e002ed1b20,
+      type: 3}
+    <Isbn>k__BackingField: 0192501704
+    <NumberOfPages>k__BackingField: 216
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - "Libert\xE9"
+    - Morale
+    - Politique
+    - Liberty
+    - Women's rights
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL15552351M
+    <OLID>k__BackingField: OL15552351M
+    <Languages>k__BackingField:
+    - per
+    - dan
+    - urd
+    - spa
+    - ger
+    - eng
+    - chi
+    - heb
+    - jpn
+    - swe
+    - fre
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Pearl
+    <Authors>k__BackingField:
+    - John Steinbeck
+    <PublishDate>k__BackingField: January 1, 2000
+    <Rating>k__BackingField: {x: 3.525, y: 5}
+    <RatingCount>k__BackingField: 40
+    <Cover>k__BackingField: {fileID: 21300000, guid: 7953a5bf6eaffde478abfd488197b852,
+      type: 3}
+    <Isbn>k__BackingField: 9780241980361
+    <NumberOfPages>k__BackingField: 240
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Open Library Staff Picks
+    - Avaricia
+    - Buceadores de perlas
+    - Family
+    - Fishers
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL11039010M
+    <OLID>k__BackingField: OL11039010M
+    <Languages>k__BackingField:
+    - fre
+    - dut
+    - ger
+    - cat
+    - cpf
+    - alb
+    - ind
+    - spa
+    - eng
+    - pus
+    - kor
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Die Leiden des jungen Werthers
+    <Authors>k__BackingField:
+    - Johann Wolfgang von Goethe
+    <PublishDate>k__BackingField: 
+    <Rating>k__BackingField: {x: 3.52, y: 5}
+    <RatingCount>k__BackingField: 25
+    <Cover>k__BackingField: {fileID: 21300000, guid: 1037736b548bb074c99e72bb21b32c3a,
+      type: 3}
+    <Isbn>k__BackingField: 9780812969900
+    <NumberOfPages>k__BackingField: 255
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Translations into English
+    - Travel
+    - German fiction
+    - Young men
+    - Fiction in Spanish
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL21449184M
+    <OLID>k__BackingField: OL21449184M
+    <Languages>k__BackingField:
+    - glg
+    - cat
+    - ger
+    - fre
+    - por
+    - arm
+    - chi
+    - baq
+    - est
+    - heb
+    - urd
+    - yid
+    - spa
+    - ita
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Essays
+    <Authors>k__BackingField:
+    - Francis Bacon
+    <PublishDate>k__BackingField: June 1988
+    <Rating>k__BackingField: {x: 3.6363637, y: 5}
+    <RatingCount>k__BackingField: 11
+    <Cover>k__BackingField: {fileID: 21300000, guid: d67dbc99fbb93be4f9000883a2c32c19,
+      type: 3}
+    <Isbn>k__BackingField: 1564592286
+    <NumberOfPages>k__BackingField: 0
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Aphorisms and apothegms
+    - Classical Mythology
+    - Early works to 1800
+    - English essays
+    - Good and evil
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL12800002M
+    <OLID>k__BackingField: OL12800002M
+    <Languages>k__BackingField:
+    - eng
+    - pan
+    - fre
+    - lat
+    - ger
+    - ita
+    - jpn
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: La Poetica
+    <Authors>k__BackingField:
+    - Aristotle
+    <PublishDate>k__BackingField: 1908
+    <Rating>k__BackingField: {x: 3.6666667, y: 5}
+    <RatingCount>k__BackingField: 12
+    <Cover>k__BackingField: {fileID: 21300000, guid: 947dee9a15b4aa84cbf36f89d9aafdd0,
+      type: 3}
+    <Isbn>k__BackingField: 1585101877
+    <NumberOfPages>k__BackingField: 0
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Metaphysics
+    - Early works to 1800
+    - Metaphysica (Aristoteles)
+    - Rhetoric, ancient
+    - Ethics, greece
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL7046625M
+    <OLID>k__BackingField: OL7046625M
+    <Languages>k__BackingField:
+    - fre
+    - nor
+    - ukr
+    - ger
+    - ita
+    - mul
+    - gre
+    - grc
+    - wel
+    - chi
+    - ara
+    - urd
+    - per
+    - heb
+    - spa
+    - eng
+    - lat
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL7046625M
+      PublishTime: 15 hours ago
+      IsEdited: 1
+      Content: So romantic, If my bf doesn't tell me that tomorrow, I will leave
+        him
+      Page: 12
+      UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
+      ID: 325235325
+  - <Title>k__BackingField: The Lord of the Rings
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2003
+    <Rating>k__BackingField: {x: 4.5625, y: 5}
+    <RatingCount>k__BackingField: 80
+    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+      type: 3}
+    <Isbn>k__BackingField: 1611748860
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - The Lord of the Rings
+    - Fiction
+    - "Ficci\xF3n"
+    - English Fantasy fiction
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
+    <OLID>k__BackingField: OL51711484M
+    <Languages>k__BackingField:
+    - fre
+    - swe
+    - dut
+    - ger
+    - glg
+    - ita
+    - tur
+    - rus
+    - jpn
+    - slo
+    - cat
+    - cze
+    - pol
+    - bul
+    - spa
+    - por
+    - eng
+    - kor
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The fellowship of the ring
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1984-03
+    <Rating>k__BackingField: {x: 4.3636365, y: 5}
+    <RatingCount>k__BackingField: 330
+    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
+      type: 3}
+    <Isbn>k__BackingField: 9783608955361
+    <NumberOfPages>k__BackingField: 527
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Elves
+    - Dwarves
+    - evil
+    - fear
+    - hope
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24373119M
+    <OLID>k__BackingField: OL24373119M
+    <Languages>k__BackingField:
+    - por
+    - jpn
+    - swe
+    - bul
+    - ast
+    - rus
+    - ger
+    - hrv
+    - yid
+    - nor
+    - ind
+    - spa
+    - tur
+    - afr
+    - fre
+    - eng
+    - pol
+    - glg
+    - chi
+    - ita
+    - hun
+    - dut
+    - cat
+    - dan
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Two Towers
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 4.3737373, y: 5}
+    <RatingCount>k__BackingField: 198
+    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
+      type: 3}
+    <Isbn>k__BackingField: 9781556903229
+    <NumberOfPages>k__BackingField: 352
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Ents
+    - Orcs
+    - hobbits
+    - magic
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26447954M
+    <OLID>k__BackingField: OL26447954M
+    <Languages>k__BackingField:
+    - hun
+    - jpn
+    - ast
+    - rus
+    - hrv
+    - dan
+    - cat
+    - chi
+    - tur
+    - afr
+    - por
+    - spa
+    - ita
+    - eng
+    - swe
+    - ind
+    - bul
+    - fre
+    - baq
+    - cze
+    - dut
+    - ger
+    - pol
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Hobbit
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2001?
+    <Rating>k__BackingField: {x: 4.2818184, y: 5}
+    <RatingCount>k__BackingField: 440
+    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
+      type: 3}
+    <Isbn>k__BackingField: 0007497911
+    <NumberOfPages>k__BackingField: 306
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Arkenstone
+    - Battle of Five Armies
+    - invisibility
+    - thrushes
+    - eagles
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
+    <OLID>k__BackingField: OL24946057M
+    <Languages>k__BackingField:
+    - nob
+    - cor
+    - jpn
+    - vie
+    - cze
+    - swe
+    - lat
+    - fre
+    - dan
+    - rus
+    - haw
+    - rum
+    - yid
+    - fin
+    - bre
+    - dut
+    - ger
+    - ita
+    - tur
+    - cat
+    - pol
+    - bul
+    - gle
+    - epo
+    - chi
+    - heb
+    - spa
+    - por
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Return of the King
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1976-03
+    <Rating>k__BackingField: {x: 4.3626375, y: 5}
+    <RatingCount>k__BackingField: 91
+    <Cover>k__BackingField: {fileID: 21300000, guid: c1669fa7986e41043a0f7b5a3d5ea605,
+      type: 3}
+    <Isbn>k__BackingField: 9780261102378
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Elves
+    - Hobbits
+    - The Lord of the Rings
+    - hope
+    - fear
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10682515M
+    <OLID>k__BackingField: OL10682515M
+    <Languages>k__BackingField:
+    - rus
+    - slo
+    - srp
+    - hrv
+    - cat
+    - chi
+    - tur
+    - vie
+    - afr
+    - por
+    - kor
+    - spa
+    - ita
+    - eng
+    - ind
+    - gre
+    - bul
+    - fre
+    - baq
+    - cze
+    - dut
+    - ger
+    - pol
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Harry Potter and the Order of the Phoenix
+    <Authors>k__BackingField:
+    - J. K. Rowling
+    <PublishDate>k__BackingField: 2007
+    <Rating>k__BackingField: {x: 4.2687745, y: 5}
+    <RatingCount>k__BackingField: 253
+    <Cover>k__BackingField: {fileID: 21300000, guid: 80f0706724e5167499d04d443ce72d91,
+      type: 3}
+    <Isbn>k__BackingField: 9785389077904
+    <NumberOfPages>k__BackingField: 766
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Children's Books/Ages 9-12 Fiction
+    - Witches and warlocks
+    - Juvenile audience
+    - Juvenile works
+    - Magic
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL37768153M
+    <OLID>k__BackingField: OL37768153M
+    <Languages>k__BackingField:
+    - cat
+    - bul
+    - vie
+    - rus
+    - spa
+    - fre
+    - dut
+    - tha
+    - ukr
+    - dan
+    - swe
+    - hun
+    - heb
+    - ita
+    - jpn
+    - lit
+    - ben
+    - ara
+    - hin
+    - cze
+    - ger
+    - pol
+    - hrv
+    - por
+    - eng
+    - chi
+    - tur
+    - kor
+    - per
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  _booksToFetch: 15
+  _searchQuerry: 
+  _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
+  _addContentsTo: {fileID: 0}
+  _getBooks: 0
+  _removeAllBooks: 0
+  _user: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+  _olidToOwn: OL8308587M
+  _ownBook: 0
+  _includeAllNotes: 0
