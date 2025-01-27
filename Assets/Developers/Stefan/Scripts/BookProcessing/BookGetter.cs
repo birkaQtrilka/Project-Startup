@@ -192,6 +192,7 @@ public class BookGetter : ScriptableObject
         try
         {
             var relevantEdition = firstBookJSON["editions"]["docs"][0];
+
             var key = relevantEdition["key"].ToString();
             var editionEndPoint = new Uri("https://openlibrary.org" + key + ".json");
             var response = await client.GetAsync(editionEndPoint, _cancellationToken);
@@ -233,16 +234,29 @@ public class BookGetter : ScriptableObject
             int ratingCount = firstBookJSON["ratings_count"]?.Value<int>() ?? 0;
 
             //putting the image
-            var isbn = firstBookJSON["isbn"]?[0].ToString() ?? "";//can't get isbn for specific book for now
-            
-            var imageEndPoint = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-L.jpg");
+            var isbn = firstBookJSON["isbn"]?.FirstOrDefault(x => x.ToString().Length == 10).ToString() ?? "";//can't get isbn for specific book for now
+
+            var workKey = firstBookJSON["key"].ToString();
+            var workURI = new Uri("https://openlibrary.org" + workKey + ".json");
+            var workResponse = await client.GetAsync(workURI, _cancellationToken);
+            var workString = await workResponse.Content.ReadAsStringAsync();
+            var work = JObject.Parse(workString);
+
+            var coverID = work["covers"]?[0].ToString() ?? "";
+
+            var imageEndPoint = new Uri($"https://covers.openlibrary.org/b/id/" + coverID + "-L.jpg");
             byte[] imageBytes = await client.GetByteArrayAsync(imageEndPoint);
             //44 is the response when the image is null
-            //if(imageBytes.Length < 44) {
-            //    imageEndPoint  = new Uri($"https://covers.openlibrary.org/b/olid/" + olid + "-M.jpg");
-            //    imageBytes = await client.GetByteArrayAsync(imageEndPoint);
-            //}
-            string description = firstBookJSON["description"]?.ToString() ?? "no description";
+            if(imageBytes.Length < 44) {
+                Debug.Log("Didn't find image, checking other source");
+                imageEndPoint  = new Uri($"https://covers.openlibrary.org/b/olid/" + isbn + "-L.jpg");
+                imageBytes = await client.GetByteArrayAsync(imageEndPoint);
+                if( imageBytes.Length < 44)
+                    Debug.Log("Still couldn't find it, giving up");
+
+            }
+            
+            string description = GetDescription(work);
 
             Debug.Log("byteArrayCount: " + imageBytes.Length);
             if (_cancellationToken.IsCancellationRequested)
@@ -269,5 +283,25 @@ public class BookGetter : ScriptableObject
             Debug.LogError(ex.Message);
         }
         return (null, null);
+    }
+
+    string GetDescription(JObject work)
+    {
+        string description = "no description";
+
+        if (work["description"] != null)
+        {
+            // Check if "description" is an object with a "value" property
+            if (work["description"] is JObject descriptionObject && descriptionObject["value"] != null)
+            {
+                description = descriptionObject["value"].ToString();
+            }
+            // If "description" is directly a string (fallback case)
+            else if (work["description"] is JValue descriptionValue)
+            {
+                description = descriptionValue.ToString();
+            }
+        }
+        return description;
     }
 }

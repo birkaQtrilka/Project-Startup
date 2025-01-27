@@ -14,578 +14,242 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Authors>k__BackingField: []
   <Books>k__BackingField:
-  - <Title>k__BackingField: The Lord of the Rings
+  - <Title>k__BackingField: Factfulness
     <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2003
-    <Rating>k__BackingField: {x: 4.5625, y: 5}
-    <RatingCount>k__BackingField: 80
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+    - Hans Rosling
+    - Ola Rosling
+    - "Anna Rosling R\xF6nnlund"
+    <PublishDate>k__BackingField: 2019
+    <Rating>k__BackingField: {x: 4.361111, y: 5}
+    <RatingCount>k__BackingField: 72
+    <Cover>k__BackingField: {fileID: 21300000, guid: 0b4adce41dc372744b19ceb6e207b852,
       type: 3}
-    <Isbn>k__BackingField: 1611748860
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - The Lord of the Rings
-    - Fiction
-    - "Ficci\xF3n"
-    - English Fantasy fiction
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
-    <OLID>k__BackingField: OL51711484M
-    <Languages>k__BackingField:
-    - fre
-    - swe
-    - dut
-    - ger
-    - glg
-    - ita
-    - tur
-    - rus
-    - jpn
-    - slo
-    - cat
-    - cze
-    - pol
-    - bul
-    - spa
-    - por
-    - eng
-    - kor
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The fellowship of the ring
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1984-03
-    <Rating>k__BackingField: {x: 4.3636365, y: 5}
-    <RatingCount>k__BackingField: 330
-    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
-      type: 3}
-    <Isbn>k__BackingField: 9783608955361
-    <NumberOfPages>k__BackingField: 527
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Dwarves
-    - evil
-    - fear
-    - hope
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24373119M
-    <OLID>k__BackingField: OL24373119M
-    <Languages>k__BackingField:
-    - por
-    - jpn
-    - swe
-    - bul
-    - ast
-    - rus
-    - ger
-    - hrv
-    - yid
-    - nor
-    - ind
-    - spa
-    - tur
-    - afr
-    - fre
-    - eng
-    - pol
-    - glg
-    - chi
-    - ita
-    - hun
-    - dut
-    - cat
-    - dan
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Two Towers
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2012
-    <Rating>k__BackingField: {x: 4.3737373, y: 5}
-    <RatingCount>k__BackingField: 198
-    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
-      type: 3}
-    <Isbn>k__BackingField: 9781556903229
+    <Isbn>k__BackingField: 1250624959
     <NumberOfPages>k__BackingField: 352
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Ents
-    - Orcs
-    - hobbits
-    - magic
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26447954M
-    <OLID>k__BackingField: OL26447954M
+    - Critical thinking
+    - Information literacy
+    - Prejudices
+    - Social perception
+    - Social indicators
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL33318401M
+    <OLID>k__BackingField: OL33318401M
     <Languages>k__BackingField:
-    - hun
-    - jpn
-    - ast
-    - rus
-    - hrv
-    - dan
-    - cat
-    - chi
-    - tur
-    - afr
     - por
-    - spa
-    - ita
-    - eng
-    - swe
-    - ind
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
+    - per
     - ger
-    - pol
-    - yid
-    <Description>k__BackingField: no description
+    - eng
+    <Description>k__BackingField: "Factfulness: The stress-reducing habit of only
+      carrying opinions for which you have strong supporting facts.\r\n\r\nWhen asked
+      simple questions about global trends\u2015what percentage of the world\u2019s
+      population live in poverty; why the world\u2019s population is increasing;
+      how many girls finish school\u2015we systematically get the answers wrong.
+      So wrong that a chimpanzee choosing answers at random will consistently outguess
+      teachers, journalists, Nobel laureates, and investment bankers.\r\n\r\nIn Factfulness,
+      Professor of International Health and global TED phenomenon Hans Rosling, together
+      with his two long-time collaborators, Anna and Ola, offers a radical new explanation
+      of why this happens. They reveal the ten instincts that distort our perspective\u2015from
+      our tendency to divide the world into two camps (usually some version of us
+      and them) to the way we consume media (where fear rules) to how we perceive
+      progress (believing that most things are getting worse).\r\n\r\nOur problem
+      is that we don\u2019t know what we don\u2019t know, and even our guesses are
+      informed by unconscious and predictable biases.\r\n\r\nIt turns out that the
+      world, for all its imperfections, is in a much better state than we might think.
+      That doesn\u2019t mean there aren\u2019t real concerns. But when we worry about
+      everything all the time instead of embracing a worldview based on facts, we
+      can lose our ability to focus on the things that threaten us most.\r\n\r\nInspiring
+      and revelatory, filled with lively anecdotes and moving stories, Factfulness
+      is an urgent and essential book that will change the way you see the world
+      and empower you to respond to the crises and opportunities of the future."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Hobbit
+  - <Title>k__BackingField: Hyperbole and a Half
     <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2001?
-    <Rating>k__BackingField: {x: 4.2818184, y: 5}
-    <RatingCount>k__BackingField: 440
-    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
+    - Allie Brosh
+    <PublishDate>k__BackingField: 2013
+    <Rating>k__BackingField: {x: 4.3333335, y: 5}
+    <RatingCount>k__BackingField: 42
+    <Cover>k__BackingField: {fileID: 21300000, guid: b1a1c29451d99c046ae99921afaa2758,
       type: 3}
-    <Isbn>k__BackingField: 0007497911
-    <NumberOfPages>k__BackingField: 306
+    <Isbn>k__BackingField: 6056513408
+    <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Arkenstone
-    - Battle of Five Armies
-    - invisibility
-    - thrushes
-    - eagles
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
-    <OLID>k__BackingField: OL24946057M
+    - hyperboleandahalf
+    - non-fiction
+    - helper dog
+    - allie brosh
+    - Duncan
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL37399535M
+    <OLID>k__BackingField: OL37399535M
     <Languages>k__BackingField:
-    - nob
-    - cor
+    - eng
+    <Description>k__BackingField: "Every time Allie Brosh posts something new on
+      her hugely popular blog Hyperbole and a Half the internet rejoices.\r\n\r\nTouching,
+      absurd, and darkly comic, Allie Brosh\u2019s highly anticipated book Hyperbole
+      and a Half showcases her unique voice, leaping wit, and her ability to capture
+      complex emotions with deceptively simple illustrations.\r\n\r\nThis full-color,
+      beautifully illustrated edition features more than fifty percent new content,
+      with ten never-before-seen essays and one wholly revised and expanded piece
+      as well as classics from the website like, \u201CThe God of Cake,\u201D \u201CDogs
+      Don\u2019t Understand Basic Concepts Like Moving,\u201D and her astonishing,
+      \u201CAdventures in Depression,\u201D and \u201CDepression Part Two,\u201D
+      which have been hailed as some of the most insightful meditations on the disease
+      ever written.\r\n\r\nBrosh\u2019s debut marks the launch of a major new American
+      humorist who will surely make even the biggest scrooge or snob laugh. We dare
+      you not to.\r\n\r\nFROM THE AUTHOR:\r\nThis is a book I wrote. Because I wrote
+      it, I had to figure out what to put on the back cover to explain what it is.
+      I tried to write a long, third-person summary that would imply how great the
+      book is and also sound vaguely authoritative\u2014like maybe someone who isn\u2019t
+      me wrote it\u2014but I soon discovered that I\u2019m not sneaky enough to pull
+      it off convincingly. So I decided to just make a list of things that are in
+      the book:\r\n\r\nPictures\r\nWords\r\nStories about things that happened to
+      me\r\nStories about things that happened to other people because of me\r\nEight
+      billion dollars*\r\nStories about dogs\r\nThe secret to eternal happiness*\r\n\r\n*These
+      are lies. Perhaps I have underestimated my sneakiness!"
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Where the Wild Things Are
+    <Authors>k__BackingField:
+    - Maurice Sendak
+    <PublishDate>k__BackingField: 1963
+    <Rating>k__BackingField: {x: 4.164835, y: 5}
+    <RatingCount>k__BackingField: 91
+    <Cover>k__BackingField: {fileID: 21300000, guid: e060df4d1560d8646b3d76fab6938833,
+      type: 3}
+    <Isbn>k__BackingField: 325701161X
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Caldecott Medal
+    - Dreams
+    - Fantasy
+    - Fantasy fiction
+    - Fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL17197424M
+    <OLID>k__BackingField: OL17197424M
+    <Languages>k__BackingField:
+    - ita
+    - kor
+    - chi
     - jpn
-    - vie
-    - cze
-    - swe
+    - baq
+    - spa
+    - wel
+    - ger
+    - rus
+    - heb
+    - afr
+    - dut
+    - fre
+    - eng
+    - nor
+    <Description>k__BackingField: 'This is an inspired children''s book about a boy''s
+      passage through tempestuous aspects of life.
+
+      
+
+      Max, a naughty
+      little boy, sent to bed without his supper, sails to the land of the wild things,
+      where he becomes their king.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Things They Carried
+    <Authors>k__BackingField:
+    - Tim O'Brien
+    <PublishDate>k__BackingField: 2018
+    <Rating>k__BackingField: {x: 4.2941175, y: 5}
+    <RatingCount>k__BackingField: 34
+    <Cover>k__BackingField: {fileID: 21300000, guid: a5748406ce236bb438332e830b7fc69a,
+      type: 3}
+    <Isbn>k__BackingField: 0833574868
+    <NumberOfPages>k__BackingField: 330
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Reading Level-Grade 9
+    - Reading Level-Grade 11
+    - Reading Level-Grade 10
+    - Reading Level-Grade 12
+    - Fiction, short stories (single author)
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL28858540M
+    <OLID>k__BackingField: OL28858540M
+    <Languages>k__BackingField:
+    - eng
+    - spa
+    - jpn
+    - fre
+    <Description>k__BackingField: '*The Things They Carried* (1990) is a collection
+      of linked short stories by American novelist Tim O''Brien, about a platoon
+      of American soldiers fighting on the ground in the Vietnam War. His third book
+      about the war, it is based upon his experiences as a soldier in the 23rd Infantry
+      Division.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Winnie-the-Pooh
+    <Authors>k__BackingField:
+    - A. A. Milne
+    <PublishDate>k__BackingField: 2021
+    <Rating>k__BackingField: {x: 4.1509433, y: 5}
+    <RatingCount>k__BackingField: 53
+    <Cover>k__BackingField: {fileID: 21300000, guid: 3fe751c295bce2b4db812c04e6e11992,
+      type: 3}
+    <Isbn>k__BackingField: 0140361219
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Juvenile audience
+    - Juvenile fiction
+    - Fiction
+    - Toy and movable books
+    - Teddy bears
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL35557035M
+    <OLID>k__BackingField: OL35557035M
+    <Languages>k__BackingField:
     - lat
     - fre
-    - dan
-    - rus
-    - haw
-    - rum
-    - yid
-    - fin
-    - bre
-    - dut
     - ger
-    - ita
-    - tur
-    - cat
-    - pol
-    - bul
-    - gle
+    - rus
     - epo
-    - chi
-    - heb
-    - spa
-    - por
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the King
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1976-03
-    <Rating>k__BackingField: {x: 4.3626375, y: 5}
-    <RatingCount>k__BackingField: 91
-    <Cover>k__BackingField: {fileID: 21300000, guid: c1669fa7986e41043a0f7b5a3d5ea605,
-      type: 3}
-    <Isbn>k__BackingField: 9780261102378
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Hobbits
-    - The Lord of the Rings
-    - hope
-    - fear
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10682515M
-    <OLID>k__BackingField: OL10682515M
-    <Languages>k__BackingField:
-    - rus
-    - slo
-    - srp
-    - hrv
-    - cat
-    - chi
-    - tur
-    - vie
-    - afr
-    - por
-    - kor
-    - spa
-    - ita
-    - eng
-    - ind
-    - gre
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
-    - ger
+    - hun
     - pol
+    - heb
+    - bel
     - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Novels (Hobbit / Lord of the Rings)
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1997 November 3
-    <Rating>k__BackingField: {x: 4.571429, y: 5}
-    <RatingCount>k__BackingField: 21
-    <Cover>k__BackingField: {fileID: 0}
-    <Isbn>k__BackingField: 9788533615687
-    <NumberOfPages>k__BackingField: 1472
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Fiction, fantasy, epic
-    - Middle earth (imaginary place), fiction
-    - Baggins, frodo (fictitious character), fiction
-    - Baggins, bilbo (fictitious character), fiction
-    - Gandalf (fictitious character), fiction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10236416M
-    <OLID>k__BackingField: OL10236416M
-    <Languages>k__BackingField:
-    - eng
-    - rus
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Art of The Fellowship of the Ring
-    <Authors>k__BackingField:
-    - Gary Russell
-    <PublishDate>k__BackingField: 2002
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 5
-    <Cover>k__BackingField: {fileID: 21300000, guid: 50f962f2115efb84e943dd494707d8cc,
-      type: 3}
-    <Isbn>k__BackingField: 9780618212903
-    <NumberOfPages>k__BackingField: 192
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Motion pictures, setting and scenery
-    - Cinematography, special effects
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3585054M
-    <OLID>k__BackingField: OL3585054M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The silver call
-    <Authors>k__BackingField:
-    - Dennis L. McKiernan
-    <PublishDate>k__BackingField: 2001
-    <Rating>k__BackingField: {x: 4.6666665, y: 5}
-    <RatingCount>k__BackingField: 3
-    <Cover>k__BackingField: {fileID: 21300000, guid: bc16d19285539a54e9b19f353bea35fb,
-      type: 3}
-    <Isbn>k__BackingField: 9780451458612
-    <NumberOfPages>k__BackingField: 506
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - American Fantasy fiction
-    - Fantasy fiction, American
-    - Fantasy fiction, American. journey
-    - travel
-    - dwarves
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3667138M
-    <OLID>k__BackingField: OL3667138M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Changing Geography
-    <Authors>k__BackingField:
-    - David Storey
-    - Chris Smith
-    <PublishDate>k__BackingField: 
-    <Rating>k__BackingField: {x: 4.3333335, y: 5}
-    <RatingCount>k__BackingField: 3
-    <Cover>k__BackingField: {fileID: 21300000, guid: d2de2cb6554365342a0dd7bbe5b508eb,
-      type: 3}
-    <Isbn>k__BackingField: 9780618391004
-    <NumberOfPages>k__BackingField: 218
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Middle-Earth (Imaginary place)
-    - Middle Earth (Imaginary place)
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Fantasy fiction
-    - Handbooks, manuals
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL20943866M
-    <OLID>k__BackingField: OL20943866M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Lord of the Rings
-    <Authors>k__BackingField:
-    - Brian Sibley
-    <PublishDate>k__BackingField: 2002
-    <Rating>k__BackingField: {x: 4.5, y: 5}
-    <RatingCount>k__BackingField: 2
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 0618260226
-    <NumberOfPages>k__BackingField: 191
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Lord of the rings, the return of the king (Motion picture)
-    - Lord of the rings, the two towers (Motion picture)
-    - Motion pictures, history
-    - Motion pictures, production and direction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700728M
-    <OLID>k__BackingField: OL3700728M
-    <Languages>k__BackingField:
-    - dut
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Lord of the Rings. Appendices
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2001
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 2
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 9783608936384
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Fiction
-    - "Ficci\xF3n"
-    - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - Baggins, Frodo (Personaje literario)
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL44095980M
-    <OLID>k__BackingField: OL44095980M
-    <Languages>k__BackingField:
-    - eng
     - spa
-    - ger
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Fell Beasts and Wondrous Magic Sourcebook (The Lord of
-      the Rings Roleplaying Game)
-    <Authors>k__BackingField:
-    - Decipher RPG
-    <PublishDate>k__BackingField: June 2003
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 2183378edaf25e34980e56825145f566,
-      type: 3}
-    <Isbn>k__BackingField: 9781582369563
-    <NumberOfPages>k__BackingField: 96
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8786597M
-    <OLID>k__BackingField: OL8786597M
-    <Languages>k__BackingField:
+    - por
+    - jpn
     - eng
-    <Description>k__BackingField: no description
+    - dan
+    - vie
+    - hrv
+    <Description>k__BackingField: "A.A. Milne's Pooh stories need no introduction;
+      they have been loved by generations of children and their parents ever since
+      they were first published in 1926.\r\n\r\nIn his autobiography, Milne wrote:
+      'The animals in the stories came for the most part from the nursery. My collaborator
+      [his wife] had already given them individual voices, their owner by constant
+      affection had given them the twist in their features which denotes character,
+      and Shepard drew them, as one might say, from the living model.'\r\n\r\n\r\n----------\r\n\r\n\r\nContains:\r\n\r\n
+      - In Which We Are Introduced to [Winnie the Pooh and Some Bees][2] and the
+      Stories Begin\r\n - In Which [Pooh Goes Visiting and Gets into a Tight Place][3]
+      \r\n - In Which [Pooh and Piglet Go Hunting and Nearly Catch a Woozle][4]\r\n
+      - In Which [Eeyore Loses a Tail and Pooh Finds One][5]\r\n - In Which [Piglet
+      Meets a Heffalump][6]\r\n - In Which [Eeyore has a Birthday and Gets Two Presents][7]\r\n
+      - In Which [Kanga and Baby Roo Come to the Forest and Piglet has a Bath][8]\r\n
+      - In Which [Christopher Robin Leads an Expotition to the North Pole][1]\r\n
+      - In Which [Piglet is Entirely Surrounded by Water][9]\r\n - In Which [Christopher
+      Robin Gives Pooh a Party][10] and We Say Goodbye\r\n\r\n----------\r\nAlso
+      contained in:\r\n\r\n - [Winnie-the-Pooh / The House at Pooh Corner][11]\r\n\r\n\r\n 
+      [1]: https://openlibrary.org/works/OL476425W/Christopher_Robin_Leads_an_Expotition_to_the_North_Pole\r\n 
+      [2]: https://openlibrary.org/works/OL476696W\r\n  [3]: https://openlibrary.org/works/OL476823W/\r\n 
+      [4]: https://openlibrary.org/works/OL476746W/\r\n  [5]: https://openlibrary.org/works/OL476804W/\r\n 
+      [6]: https://openlibrary.org/works/OL476831W/\r\n  [7]: https://openlibrary.org/works/OL476821W/\r\n 
+      [8]: https://openlibrary.org/works/OL476826W/\r\n  [9]: https://openlibrary.org/works/OL15658624W\r\n 
+      [10]: https://openlibrary.org/works/OL476803W\r\n  [11]: https://openlibrary.org/works/OL15742938W/"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the King Roleplaying Adventure Game (The
-      Lord of the Rings Roleplaying Game)
-    <Authors>k__BackingField:
-    - Decipher RPG
-    <PublishDate>k__BackingField: July 2004
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 4374918336fc7bb48a5e28edb1a059c4,
-      type: 3}
-    <Isbn>k__BackingField: 9781582369655
-    <NumberOfPages>k__BackingField: 56
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL12284829M
-    <OLID>k__BackingField: OL12284829M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Sauron Defeated
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    - Christopher Tolkien
-    <PublishDate>k__BackingField: 1992
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: c0875193d99992b40847a63be82a7300,
-      type: 3}
-    <Isbn>k__BackingField: 9780007348268
-    <NumberOfPages>k__BackingField: 482
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Textual Criticism
-    - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - British and irish fiction (fictional works by one author)
-    - Fiction, fantasy, epic
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL1712510M
-    <OLID>k__BackingField: OL1712510M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Lord of the Rings
-    <Authors>k__BackingField:
-    - Gary Russell
-    <PublishDate>k__BackingField: 2003
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 9780618430291
-    <NumberOfPages>k__BackingField: 192
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Motion pictures
-    - Middle Earth (Imaginary place)
-    - Lord of the rings, the two towers (Motion picture)
-    - Lord of the rings, the return of the king (Motion picture)
-    - Setting and scenery
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700865M
-    <OLID>k__BackingField: OL3700865M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Film Book of J.R.R. Tolkien's The Lord Of The Rings
-    <Authors>k__BackingField:
-    - Saul Zaentz
-    <PublishDate>k__BackingField: 1978
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 0}
-    <Isbn>k__BackingField: 034528139X
-    <NumberOfPages>k__BackingField: 76
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - 'Lord of the rings (Motion picture : 1978)'
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10683160M
-    <OLID>k__BackingField: OL10683160M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Lord of the Rings
-    <Authors>k__BackingField:
-    - Cedco Publishing
-    <PublishDate>k__BackingField: October 2001
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: c938c8b6fa63ab14b9f4fb40322a2e0e,
-      type: 3}
-    <Isbn>k__BackingField: 0768325234
-    <NumberOfPages>k__BackingField: 128
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10957364M
-    <OLID>k__BackingField: OL10957364M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Study Guide
-    <Authors>k__BackingField:
-    - SuperSummary
-    <PublishDate>k__BackingField: 2019
-    <Rating>k__BackingField: {x: 3.25, y: 5}
-    <RatingCount>k__BackingField: 4
-    <Cover>k__BackingField: {fileID: 21300000, guid: 79dfd8c415154f949aa4e5724aab0716,
-      type: 3}
-    <Isbn>k__BackingField: 9798626933246
-    <NumberOfPages>k__BackingField: 51
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38135459M
-    <OLID>k__BackingField: OL38135459M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the Shadow
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1990
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 1caa3745d52470c43a2e81553dc656b0,
-      type: 3}
-    <Isbn>k__BackingField: 0261102036
-    <NumberOfPages>k__BackingField: 497
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - History and criticism
-    - Lord of the rings
-    - Fantasy fiction, English
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL22855921M
-    <OLID>k__BackingField: OL22855921M
-    <Languages>k__BackingField:
-    - spa
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: O Archontas Ton Dachtylidion 2
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: Jul 24, 2002
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 740d9d24bf3acfb46af06938e4a76b41,
-      type: 3}
-    <Isbn>k__BackingField: 9600403678
-    <NumberOfPages>k__BackingField: 414
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL39203520M
-    <OLID>k__BackingField: OL39203520M
-    <Languages>k__BackingField:
-    - gre
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  _booksToFetch: 20
-  _searchQuerry: Lord of the rings
+  _booksToFetch: 5
+  _searchQuerry: thing
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
   _addContentsTo: {fileID: 0}
   _getBooks: 0
