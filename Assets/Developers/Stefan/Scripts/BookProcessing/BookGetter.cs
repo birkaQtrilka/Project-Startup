@@ -51,10 +51,11 @@ public class BookGetter : ScriptableObject
 
     public async Task<BookData[]> FetchData(int booksToFetch, string querry = "subject=english")
     {
-        if(querry == null)
+        if(string.IsNullOrEmpty(querry))
             querry = "subject=english";
         else
         {
+            querry =  Uri.EscapeDataString(querry);
             string formatedQuerry = string.Join('+', querry.TrimStart(' ').TrimEnd(' ').Split(' '));
             querry = "q=" + formatedQuerry;
         }
