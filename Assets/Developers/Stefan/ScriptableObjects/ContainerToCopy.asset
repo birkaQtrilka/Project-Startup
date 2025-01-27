@@ -14,60 +14,338 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Authors>k__BackingField: []
   <Books>k__BackingField:
-  - <Title>k__BackingField: Harry Potter and the Order of the Phoenix
+  - <Title>k__BackingField: Cabin Fever
     <Authors>k__BackingField:
-    - J. K. Rowling
-    <PublishDate>k__BackingField: 2007
-    <Rating>k__BackingField: {x: 4.2687745, y: 5}
-    <RatingCount>k__BackingField: 253
-    <Cover>k__BackingField: {fileID: 21300000, guid: 80f0706724e5167499d04d443ce72d91,
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2014
+    <Rating>k__BackingField: {x: 4.52459, y: 5}
+    <RatingCount>k__BackingField: 122
+    <Cover>k__BackingField: {fileID: 21300000, guid: 9207b8430d2934243bab1776f6f737ff,
       type: 3}
-    <Isbn>k__BackingField: 9785389077904
-    <NumberOfPages>k__BackingField: 766
+    <Isbn>k__BackingField: 9787540553654
+    <NumberOfPages>k__BackingField: 217
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Children's Books/Ages 9-12 Fiction
-    - Witches and warlocks
-    - Juvenile audience
-    - Juvenile works
-    - Magic
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL37768153M
-    <OLID>k__BackingField: OL37768153M
+    - New York Times bestseller
+    - nyt:series_books=2009-01-10
+    - Diary Of A Wimpy Kid Book 06 Cabin Fever
+    - Families
+    - Middle schools
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32093254M
+    <OLID>k__BackingField: OL32093254M
     <Languages>k__BackingField:
-    - cat
-    - bul
-    - vie
-    - rus
-    - spa
-    - fre
-    - dut
-    - tha
-    - ukr
-    - dan
-    - swe
-    - hun
+    - eng
     - heb
+    - cat
+    - por
+    - wel
+    - baq
+    - chi
+    - ger
+    - spa
     - ita
     - jpn
-    - lit
-    - ben
-    - ara
-    - hin
-    - cze
-    - ger
     - pol
-    - hrv
-    - por
-    - eng
-    - chi
-    - tur
-    - kor
-    - per
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  _booksToFetch: 5
-  _searchQuerry: Harry Potter and the Order of the Phoenix
+  - <Title>k__BackingField: Dog Days
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2009
+    <Rating>k__BackingField: {x: 4.47482, y: 5}
+    <RatingCount>k__BackingField: 139
+    <Cover>k__BackingField: {fileID: 21300000, guid: 534b09713af1586458b65b2b8d0e1f2d,
+      type: 3}
+    <Isbn>k__BackingField: 0810988887
+    <NumberOfPages>k__BackingField: 214
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Clergy
+    - Dogs
+    - Fiction
+    - Spouses of clergy
+    - Theft
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24032505M
+    <OLID>k__BackingField: OL24032505M
+    <Languages>k__BackingField:
+    - wel
+    - spa
+    - ita
+    - gle
+    - ger
+    - heb
+    - eng
+    - chi
+    - jpn
+    - por
+    - bul
+    - pol
+    - baq
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Double Down
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2016
+    <Rating>k__BackingField: {x: 4.525773, y: 5}
+    <RatingCount>k__BackingField: 97
+    <Cover>k__BackingField: {fileID: 21300000, guid: 56756c7bbe18a1541a2a72115314e03d,
+      type: 3}
+    <Isbn>k__BackingField: 9781419725906
+    <NumberOfPages>k__BackingField: 217
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Motion pictures
+    - Humorous Stories
+    - JUVENILE FICTION
+    - JUVENILE FICTION / Humorous Stories
+    - Comics & Graphic Novels
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL53351605M
+    <OLID>k__BackingField: OL53351605M
+    <Languages>k__BackingField:
+    - chi
+    - baq
+    - jpn
+    - spa
+    - wel
+    - pol
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Getaway
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2017
+    <Rating>k__BackingField: {x: 4.6296296, y: 5}
+    <RatingCount>k__BackingField: 54
+    <Cover>k__BackingField: {fileID: 21300000, guid: 5e5995a6077b19b488e84bfc22552c31,
+      type: 3}
+    <Isbn>k__BackingField: 1683351118
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Humorous stories
+    - Diaries
+    - JUVENILE FICTION / Humorous Stories
+    - Juvenile fiction
+    - Family life
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27383445M
+    <OLID>k__BackingField: OL27383445M
+    <Languages>k__BackingField:
+    - spa
+    - eng
+    - chi
+    - pol
+    - baq
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Deep End
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2020
+    <Rating>k__BackingField: {x: 4.6829267, y: 5}
+    <RatingCount>k__BackingField: 41
+    <Cover>k__BackingField: {fileID: 21300000, guid: a8bc401be6ee52740a79f50cd8993d2f,
+      type: 3}
+    <Isbn>k__BackingField: 8310134398
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Children's literature
+    - Humor
+    - Graphic novel
+    - Diary fiction
+    - Family
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38790178M
+    <OLID>k__BackingField: OL38790178M
+    <Languages>k__BackingField:
+    - pol
+    - eng
+    - spa
+    - chi
+    - baq
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Old School
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: Feb 16, 2015
+    <Rating>k__BackingField: {x: 4.5058823, y: 5}
+    <RatingCount>k__BackingField: 85
+    <Cover>k__BackingField: {fileID: 21300000, guid: 1e6ce06a2488c844c87c1bb975c2759f,
+      type: 3}
+    <Isbn>k__BackingField: 9781849676922
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Spanish language materials
+    - Diaries
+    - Juvenile fiction
+    - Fiction
+    - Family life
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26709744M
+    <OLID>k__BackingField: OL26709744M
+    <Languages>k__BackingField:
+    - jpn
+    - wel
+    - pol
+    - ger
+    - por
+    - eng
+    - spa
+    - chi
+    - baq
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Rodrick Rules
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2008
+    <Rating>k__BackingField: {x: 4.419355, y: 5}
+    <RatingCount>k__BackingField: 124
+    <Cover>k__BackingField: {fileID: 21300000, guid: f25950c82260ae9429005913e27643a6,
+      type: 3}
+    <Isbn>k__BackingField: 986848474X
+    <NumberOfPages>k__BackingField: 216
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - New York Times bestseller
+    - nyt:series_books=2009-01-10
+    - Families
+    - Diaries
+    - Middle schools
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24205139M
+    <OLID>k__BackingField: OL24205139M
+    <Languages>k__BackingField:
+    - spa
+    - ger
+    - jpn
+    - wel
+    - gre
+    - ita
+    - cat
+    - cze
+    - gle
+    - chi
+    - pol
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Long Haul
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 
+    <Rating>k__BackingField: {x: 4.3469386, y: 5}
+    <RatingCount>k__BackingField: 98
+    <Cover>k__BackingField: {fileID: 21300000, guid: 84aa3b61bd3645e4f80f978df08e4621,
+      type: 3}
+    <Isbn>k__BackingField: ISBN
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Automobile travel
+    - Humorous stories
+    - Families
+    - Diaries
+    - Comics & Graphic Novels
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26366428M
+    <OLID>k__BackingField: OL26366428M
+    <Languages>k__BackingField:
+    - chi
+    - dut
+    - pol
+    - spa
+    - baq
+    - por
+    - wel
+    - eng
+    - jpn
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Diary of a Wimpy Kid
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: April 1, 2007
+    <Rating>k__BackingField: {x: 4.2, y: 5}
+    <RatingCount>k__BackingField: 285
+    <Cover>k__BackingField: {fileID: 21300000, guid: 3c07705b022a2114db0c630e157de1c5,
+      type: 3}
+    <Isbn>k__BackingField: 9781419729454
+    <NumberOfPages>k__BackingField: 226
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - School stories
+    - Families
+    - Diaries
+    - Middle schools
+    - Family life
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL36660032M
+    <OLID>k__BackingField: OL36660032M
+    <Languages>k__BackingField:
+    - ara
+    - dut
+    - fre
+    - pol
+    - ger
+    - kor
+    - vie
+    - spa
+    - lat
+    - ita
+    - jpn
+    - baq
+    - por
+    - wel
+    - glg
+    - bul
+    - eng
+    - heb
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Third Wheel
+    <Authors>k__BackingField:
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2014
+    <Rating>k__BackingField: {x: 4.096774, y: 5}
+    <RatingCount>k__BackingField: 62
+    <Cover>k__BackingField: {fileID: 21300000, guid: 6dcae3e520fbd574e8bf7ed57c4a8943,
+      type: 3}
+    <Isbn>k__BackingField: 9780141353432
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Humorous stories
+    - Families
+    - Middle schools
+    - Diaries
+    - Dance parties
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26037426M
+    <OLID>k__BackingField: OL26037426M
+    <Languages>k__BackingField:
+    - cat
+    - jpn
+    - wel
+    - pol
+    - por
+    - eng
+    - spa
+    - chi
+    - tur
+    - baq
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  _booksToFetch: 10
+  _searchQuerry: Diary of a wimpy kid
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
   _addContentsTo: {fileID: 0}
   _getBooks: 0

@@ -1,9 +1,12 @@
+using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BookCover : MonoBehaviour
 {
+    public event Action OnBookUpdate;
+
     static PageManager _rootPageManager;
 
     [SerializeField] Image _image;
@@ -36,6 +39,9 @@ public class BookCover : MonoBehaviour
     public void UpdateUI()
     {
         BookData = _container.Books.FirstOrDefault(b => b.OLID == _bookOLID);
+        
+        // for BookTitleDisplayer to update text
+        OnBookUpdate?.Invoke();
 
         if (BookData == null) return;
 

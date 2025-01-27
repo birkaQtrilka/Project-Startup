@@ -127,7 +127,7 @@ public class DetailedBookUI : MonoBehaviour
     void SetReviews(BookData book)
     {
         //local average
-        float average = (float)book.LocalReviews.Average((r) => r.Rating);
+        float average = book.LocalReviews.Count == 0 ? 0 : (float)book.LocalReviews.Average((r) => r.Rating);
 
         SetRating(average, StefUtils.MAX_RATING, _localRatingImages);
 
