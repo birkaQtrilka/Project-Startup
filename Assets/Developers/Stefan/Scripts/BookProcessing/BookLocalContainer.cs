@@ -10,14 +10,14 @@ public class BookLocalContainer : ScriptableObject
 {
     [field: SerializeField] public AuthorData[] Authors { get; private set; }
     [field: SerializeField] public BookData[] Books { get; private set; }
-    [field: SerializeField] public Dictionary<string, BookData> BooksDictionary { get; private set; }
 
     [SerializeField] int _booksToFetch = 2;
+    [SerializeField] string _searchQuerry;
     [SerializeField] BookGetter _bookGetter;
+    [SerializeField] BookLocalContainer _addContentsTo;
 
     [SerializeField] bool _getBooks;
     [SerializeField] bool _removeAllBooks;
-    [SerializeField] bool _updateDictionary;
 
     [Header("For conveniency")]
     [SerializeField] UserData _user;
@@ -37,12 +37,15 @@ public class BookLocalContainer : ScriptableObject
         {
             _getBooks = false;
 
-            _ = GetBooks();
+            _ = GetBooks(_searchQuerry);
         }
-        if (_updateDictionary)
+        if (_addContentsTo != null)
         {
-            _updateDictionary = false;
-            UpdateDictionary();
+            var copy = _addContentsTo;
+            _addContentsTo = null;
+            if (copy == this) return;
+
+            copy.Books = copy.Books.Concat(Books).ToArray();
         }
         if(_ownBook)
         {
@@ -57,9 +60,8 @@ public class BookLocalContainer : ScriptableObject
         }
     }
     
-    void IncludeNotesInBooks()
+    public void IncludeNotesInBooks()
     {
-
         UserData[] users = Resources.FindObjectsOfTypeAll<UserData>();
         //I know this is really performance heavy but we won't have many objects so it should be fine for the prototype
         //in the future I would just use a database
@@ -68,7 +70,7 @@ public class BookLocalContainer : ScriptableObject
             foreach (var post in user.Posts)
             {
                 BookData book = GetBookData(post.OLID);
-                if(!book.Notes.Any(n => n.PublishTime == post.PublishTime))
+                if(!book.Notes.Any(n => n.ID == post.ID))
                     book.Notes.Add(post);
             }
 
@@ -91,12 +93,11 @@ public class BookLocalContainer : ScriptableObject
     async Task GetBooks()
     {
         Books = await _bookGetter.FetchData(_booksToFetch);
-        UpdateDictionary();
-        AssetDatabase.Refresh();
     }
 
-    public void UpdateDictionary()
+    async Task GetBooks(string querry)
     {
-        BooksDictionary = Books.ToDictionary((b) => b.OLID);
+        Books = await _bookGetter.FetchData(_booksToFetch, querry);
     }
+
 }

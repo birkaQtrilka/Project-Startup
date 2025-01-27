@@ -13,6 +13,8 @@ public class PostData
     public int Page;
 
     public UserData UserData;
+
+    public int ID;
 }
 
 public struct PublishTime
