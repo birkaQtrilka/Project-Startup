@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class OwnedBook : ScriptableObject
 {
     public UnityEvent<OwnedBook> OnProgressUpdate;
-    [field: SerializeField] public BookData BookData { get; private set; }
+    [field: SerializeField] public BookDataSO BookData { get; private set; }
 
     public int CurrentPage;
 
@@ -23,7 +23,7 @@ public class OwnedBook : ScriptableObject
         OnProgressUpdate?.Invoke(this);
     }
 
-    public void Init(BookData bookData)
+    public void Init(BookDataSO bookData)
     {
         BookData = bookData;
     }

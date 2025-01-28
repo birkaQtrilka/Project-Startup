@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Think and Grow Rich
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Think and Grow Rich
+  <Authors>k__BackingField:
+  - Napoleon Hill
+  <PublishDate>k__BackingField: 2011
+  <Rating>k__BackingField: {x: 4.038554, y: 5}
+  <RatingCount>k__BackingField: 415
+  <Cover>k__BackingField: {fileID: 21300000, guid: 03a3876c28e73f04a9f88955384326c6,
+    type: 3}
+  <Isbn>k__BackingField: 1507840780
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Wealth
+  - Success
+  - "Filosof\xEDa"
+  - Success in business
+  - "\xC9xito"
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24907110M
+  <OLID>k__BackingField: OL24907110M
+  <Languages>k__BackingField:
+  - fre
+  - ger
+  - ben
+  - mar
+  - chi
+  - tam
+  - hin
+  - arm
+  - spa
+  - por
+  - eng
+  - kor
+  <Description>k__BackingField: Napoleon Hill's quintessential volume Think and grow
+    rich, the all-time bestseller in the field of professional success, outlines
+    the laws of success and sets the standard of today's motivational thinking.
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

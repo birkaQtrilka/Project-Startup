@@ -12,10 +12,15 @@ public class UserData : ScriptableObject
 
     public string NickName;
     public Sprite ProfilePicture;
+    public string BirthDate;
+    public string Title;
+    public OwnedBook FavBook;
+    [TextArea]
+    public string Bio;
 
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library
-    public List<BookData> WishList;
+    public List<BookDataSO> WishList;
     public List<PostData> Posts;
 
 
@@ -55,32 +60,40 @@ public class UserData : ScriptableObject
         }
     }
 
-    public void OwnABook(BookData bookData)
+    public void OwnABook(BookDataSO bookData)
     {
-        for (int i = 0; i < OwnedBooks.Count; i++)
-            if (OwnedBooks[i] == null) OwnedBooks.RemoveAt(i--);
+        if (bookData == null)
+        {
+            Debug.LogError("BookData is null. Cannot own this book.");
+            return;
+        }
+
+        for (int i = OwnedBooks.Count - 1; i >= 0; i--)
+            if (OwnedBooks[i] == null) OwnedBooks.RemoveAt(i);
 
         if (OwnedBooks.Any(b => b.BookData.OLID == bookData.OLID)) return;
         Debug.Log("Owning book: " + bookData.Title);
         OwnedBook ownedBook = ScriptableObject.CreateInstance<OwnedBook>();
-        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks";
+        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks/Resources";
         if (!Directory.Exists(path))
         {
             Directory.CreateDirectory(path);
             Debug.Log("Directory created at: " + path);
         }
+        string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
 #if UNITY_EDITOR
-        AssetDatabase.CreateAsset(ownedBook, path + "/" + bookData.Title +".asset");
+        AssetDatabase.CreateAsset(ownedBook, $"{path}/{sanitizedTitle}.asset");
+        ownedBook.Init(bookData);
+
+        
         AssetDatabase.SaveAssets();
 #endif
         OwnedBooks.Add(ownedBook);
 
-        ownedBook.Init(bookData);
-
         OnBookOwn?.Invoke(ownedBook);
     }
 
-    public void DisownBook(BookData book)
+    public void DisownBook(BookDataSO book)
     {
         int index = -1;
         for (int i = 0; i < OwnedBooks.Count; i++)

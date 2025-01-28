@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -14,12 +13,12 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Image[] _ratingImages;
     [SerializeField] Image[] _friendImages;
     [SerializeField] Image _coverImg;
+    [SerializeField] Button _trackProgressButton;
 
     [SerializeField] Sprite _filledStar;
     [SerializeField] Sprite _emptyStar;
 
     [SerializeField] BookLocalContainer _bookDataContainer;
-    public string _bookOLID;
     [Header("For Info")]
     [SerializeField] TextMeshProUGUI _ageRating;
     [SerializeField] TextMeshProUGUI _longDescription;
@@ -35,17 +34,26 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Transform _reviewContainer;
     [Header("If false, will link to open library page")]
     [SerializeField] bool _linkToAmazon;
-
+    [SerializeField] public BookDataSO _bookData;
 
 
     void Start()
     {
-        BookData book = _bookDataContainer.Books.FirstOrDefault(b => b.OLID == _bookOLID) ?? _bookDataContainer.Books[0];
-        UpdateUI( book );    
+        UpdateUI(_bookData);
+        
     }
 
-    public void UpdateUI(BookData book)
+    public void UpdateUI(BookDataSO book)
     {
+        _bookData = book;
+        
+        if (_trackProgressButton != null)
+        {
+            bool isOwnerOfBook = UserManager.Instance.CurrentUser.OwnedBooks.Any(b => b.BookData == _bookData);
+
+            _trackProgressButton.gameObject.SetActive(isOwnerOfBook);
+        }
+
         if (_title != null)
             _title.text = book.Title;
         if (_description != null)
@@ -65,9 +73,15 @@ public class DetailedBookUI : MonoBehaviour
         {
             _getBookButton.onClick.RemoveAllListeners();
             if(_linkToAmazon)
-                _getBookButton.onClick.AddListener(() => Application.OpenURL("https://www.amazon.com/dp/" + book.Isbn));
+                _getBookButton.onClick.AddListener(() => {
+                    var copy = book;
+                    Application.OpenURL("https://www.amazon.com/dp/" + copy.Isbn);
+                });
             else
-                _getBookButton.onClick.AddListener(() => Application.OpenURL(book.OpenLibraryLink));
+                _getBookButton.onClick.AddListener(() => {
+                    var copy = book;
+                    Application.OpenURL(book.OpenLibraryLink);
+                });
 
         }
 
@@ -78,9 +92,9 @@ public class DetailedBookUI : MonoBehaviour
         if (_language != null)
             _language.text = "English";
 
-        SetReviews( book );
-        SetNotes( book );
-        SetFriends( book );
+        SetReviews(_bookData);
+        SetNotes(_bookData);
+        SetFriends(_bookData);
        
 
     }
@@ -95,7 +109,7 @@ public class DetailedBookUI : MonoBehaviour
             }
     }
 
-    void SetFriends(BookData book)
+    void SetFriends(BookDataSO book)
     {
         if (UserManager.Instance.CurrentUser.Friends.Count == 0)
         {
@@ -120,7 +134,7 @@ public class DetailedBookUI : MonoBehaviour
         }
     }
 
-    void SetNotes(BookData book)
+    void SetNotes(BookDataSO book)
     {
         if (_noteContainer == null) return;
 
@@ -138,13 +152,12 @@ public class DetailedBookUI : MonoBehaviour
         }
     }
 
-    void SetReviews(BookData book)
+    void SetReviews(BookDataSO book)
     {
         //local average
-        float average = book.LocalReviews.Count == 0 ? 0 : (float)book.LocalReviews.Average((r) => r.Rating);
+        float average = book.LocalReviews.Count == 0 ? 0 :(float)book.LocalReviews.Average((r) => r.Rating);
 
         SetRating(average, StefUtils.MAX_RATING, _localRatingImages);
-
 
 
         if (_reviewsCount != null)

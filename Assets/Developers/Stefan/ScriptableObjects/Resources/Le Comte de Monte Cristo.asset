@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Le Comte de Monte Cristo
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Le Comte de Monte Cristo
+  <Authors>k__BackingField:
+  - Alexandre Dumas
+  <PublishDate>k__BackingField: Jul 03, 2018
+  <Rating>k__BackingField: {x: 4.3170733, y: 5}
+  <RatingCount>k__BackingField: 164
+  <Cover>k__BackingField: {fileID: 21300000, guid: cb731236d96dcf547a1b701d300c473e,
+    type: 3}
+  <Isbn>k__BackingField: 0274663244
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - France -- History -- 19th century -- Fiction
+  - France
+  - Fiction
+  - France in fiction
+  - History
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27364908M
+  <OLID>k__BackingField: OL27364908M
+  <Languages>k__BackingField:
+  - jpn
+  - rus
+  - fin
+  - ara
+  - ben
+  - chi
+  - tur
+  - vie
+  - por
+  - und
+  - spa
+  - ita
+  - jrb
+  - eng
+  - swe
+  - fre
+  - mon
+  - dut
+  - ger
+  - heb
+  - tgl
+  - mul
+  - tel
+  - guj
+  - pol
+  - arm
+  - yid
+  <Description>k__BackingField: xxix, 608 pages ; 21 cm
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

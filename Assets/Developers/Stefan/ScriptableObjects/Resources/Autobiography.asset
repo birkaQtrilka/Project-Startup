@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Autobiography
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Autobiography
+  <Authors>k__BackingField:
+  - Benjamin Franklin
+  - Horatio Hastings Weld
+  - Charles W. Eliot
+  - James Zimmerhoff
+  - Charles Eliot
+  <PublishDate>k__BackingField: 1899
+  <Rating>k__BackingField: {x: 3.851852, y: 5}
+  <RatingCount>k__BackingField: 27
+  <Cover>k__BackingField: {fileID: 21300000, guid: 21c113da7fe2eaa46869e4b8c17262a9,
+    type: 3}
+  <Isbn>k__BackingField: 1480484059
+  <NumberOfPages>k__BackingField: 401
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Wills
+  - Scientists
+  - Printers
+  - American Maxims
+  - Inventors
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24151972M
+  <OLID>k__BackingField: OL24151972M
+  <Languages>k__BackingField:
+  - ita
+  - ger
+  - eng
+  - chi
+  - swe
+  - jpn
+  - fre
+  <Description>k__BackingField: 'Few men could compare to Benjamin Franklin. Virtually
+    self-taught, he excelled as an athlete, a man of letters, a printer, a scientist,
+    a wit, an inventor, an editor, and a writer, and he was probably the most successful
+    diplomat in American history. David Hume hailed him as the first great philosopher
+    and great man of letters in the New World.
+
+
+
+    Written initially to guide
+    his son, Franklin''s autobiography is a lively, spellbinding account of his unique
+    and eventful life. Stylistically his best work, it has become a classic in world
+    literature, one to inspire and delight readers everywhere.'
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

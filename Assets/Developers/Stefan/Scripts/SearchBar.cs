@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
+using System;
 public class SearchBar : MonoBehaviour
 {
     public UnityEvent<string> OnSearch;
@@ -66,8 +67,9 @@ public class SearchBar : MonoBehaviour
         var books = await _searchProcess;
 
         Debug.Log("Setting UI");
-        _bookDataUI.SetBooks(books);
+        _bookDataUI.SetBooks(null);
         _searchProcess= null;
+        throw new NotImplementedException("Haven't made a way to search with scriptable objects");
     }
     async Task<BookData[]> Search(string input, int amount)
     {

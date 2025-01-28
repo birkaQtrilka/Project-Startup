@@ -22,8 +22,7 @@ public class ActiveButtonUI : MonoBehaviour
 
         foreach (var btn in _buttons)
         {
-            if (btn == buttonImg) btn.color = _activeColor;
-            else btn.color = _inactiveColor;
+            btn.color = btn == buttonImg ? _activeColor : _inactiveColor;
         }
     }
 
