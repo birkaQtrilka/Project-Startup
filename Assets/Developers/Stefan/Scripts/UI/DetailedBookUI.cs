@@ -9,6 +9,7 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI _title;
     [SerializeField] TextMeshProUGUI _description;
     [SerializeField] TextMeshProUGUI _authorName;
+    [SerializeField] Button _getBookButton;
     [SerializeField] Image _authorImg;
     [SerializeField] Image[] _ratingImages;
     [SerializeField] Image[] _friendImages;
@@ -32,7 +33,8 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Image[] _localRatingImages;
     [SerializeField] ReviewUI _reviewPrefab;
     [SerializeField] Transform _reviewContainer;
-
+    [Header("If false, will link to open library page")]
+    [SerializeField] bool _linkToAmazon;
 
     void Start()
     {
@@ -56,6 +58,16 @@ public class DetailedBookUI : MonoBehaviour
 
         if(_coverImg != null) 
             _coverImg.sprite = book.Cover;
+
+        if(_getBookButton != null)
+        {
+            _getBookButton.onClick.RemoveAllListeners();
+            if(_linkToAmazon)
+                _getBookButton.onClick.AddListener(() => Application.OpenURL("https://www.amazon.com/dp/" + book.Isbn));
+            else
+                _getBookButton.onClick.AddListener(() => Application.OpenURL(book.OpenLibraryLink));
+
+        }
 
         if (_ageRating != null)
             _ageRating.text = "13+";
