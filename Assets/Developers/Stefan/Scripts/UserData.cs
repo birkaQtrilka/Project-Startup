@@ -81,10 +81,13 @@ public class UserData : ScriptableObject
             Debug.Log("Directory created at: " + path);
         }
         string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
+#if UNITY_EDITOR
         AssetDatabase.CreateAsset(ownedBook, $"{path}/{sanitizedTitle}.asset");
         ownedBook.Init(bookData);
-        AssetDatabase.SaveAssets();
 
+        
+        AssetDatabase.SaveAssets();
+#endif
         OwnedBooks.Add(ownedBook);
 
         OnBookOwn?.Invoke(ownedBook);

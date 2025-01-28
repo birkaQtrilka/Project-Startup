@@ -1,8 +1,12 @@
+using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BookCover : MonoBehaviour
 {
+    public event Action OnBookUpdate;
+
     static PageManager _rootPageManager;
 
     [SerializeField] Image _image;
@@ -29,8 +33,10 @@ public class BookCover : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (BookData == null) return;
+        
 
+        if (BookData == null) return;
+        OnBookUpdate?.Invoke();
         _image.sprite = BookData.Cover;
     }
 }
