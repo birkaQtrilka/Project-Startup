@@ -4,9 +4,9 @@
 /// </summary>
 public readonly struct BookClicked : IEvent
 {
-    public BookData Book { get; }
+    public BookDataSO Book { get; }
 
-    public BookClicked(BookData book)
+    public BookClicked(BookDataSO book)
     {
         Book = book;
     }

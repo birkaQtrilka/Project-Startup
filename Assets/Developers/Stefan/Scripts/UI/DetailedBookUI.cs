@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -19,7 +18,6 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Sprite _emptyStar;
 
     [SerializeField] BookLocalContainer _bookDataContainer;
-    [SerializeField] string _bookOLID;
     [Header("For Info")]
     [SerializeField] TextMeshProUGUI _ageRating;
     [SerializeField] TextMeshProUGUI _longDescription;
@@ -35,14 +33,14 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Transform _reviewContainer;
     [Header("If false, will link to open library page")]
     [SerializeField] bool _linkToAmazon;
+    [SerializeField] BookDataSO _bookData;
 
     void Start()
     {
-        BookData book = _bookDataContainer.Books.FirstOrDefault(b => b.OLID == _bookOLID) ?? _bookDataContainer.Books[0];
-        UpdateUI( book );    
+        UpdateUI(_bookData);    
     }
 
-    public void UpdateUI(BookData book)
+    public void UpdateUI(BookDataSO book)
     {
         if (_title != null)
             _title.text = book.Title;
@@ -76,9 +74,9 @@ public class DetailedBookUI : MonoBehaviour
         if (_language != null)
             _language.text = "English";
 
-        SetReviews( book );
-        SetNotes( book );
-        SetFriends( book );
+        SetReviews(_bookData);
+        SetNotes(_bookData);
+        SetFriends(_bookData);
        
 
     }
@@ -93,7 +91,7 @@ public class DetailedBookUI : MonoBehaviour
             }
     }
 
-    void SetFriends(BookData book)
+    void SetFriends(BookDataSO book)
     {
         if (UserManager.Instance.CurrentUser.Friends.Count == 0)
         {
@@ -118,7 +116,7 @@ public class DetailedBookUI : MonoBehaviour
         }
     }
 
-    void SetNotes(BookData book)
+    void SetNotes(BookDataSO book)
     {
         if (_noteContainer == null) return;
 
@@ -136,7 +134,7 @@ public class DetailedBookUI : MonoBehaviour
         }
     }
 
-    void SetReviews(BookData book)
+    void SetReviews(BookDataSO book)
     {
         //local average
         float average = book.LocalReviews.Count == 0 ? 0 :(float)book.LocalReviews.Average((r) => r.Rating);

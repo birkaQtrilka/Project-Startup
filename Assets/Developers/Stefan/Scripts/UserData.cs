@@ -20,7 +20,7 @@ public class UserData : ScriptableObject
 
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library
-    public List<BookData> WishList;
+    public List<BookDataSO> WishList;
     public List<PostData> Posts;
 
 
@@ -60,7 +60,7 @@ public class UserData : ScriptableObject
         }
     }
 
-    public void OwnABook(BookData bookData)
+    public void OwnABook(BookDataSO bookData)
     {
         if (bookData == null)
         {
@@ -90,7 +90,7 @@ public class UserData : ScriptableObject
         OnBookOwn?.Invoke(ownedBook);
     }
 
-    public void DisownBook(BookData book)
+    public void DisownBook(BookDataSO book)
     {
         int index = -1;
         for (int i = 0; i < OwnedBooks.Count; i++)
