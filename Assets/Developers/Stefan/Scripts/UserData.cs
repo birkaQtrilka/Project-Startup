@@ -69,8 +69,10 @@ public class UserData : ScriptableObject
             Directory.CreateDirectory(path);
             Debug.Log("Directory created at: " + path);
         }
+#if UNITY_EDITOR
         AssetDatabase.CreateAsset(ownedBook, path + "/" + bookData.Title +".asset");
         AssetDatabase.SaveAssets();
+#endif
         OwnedBooks.Add(ownedBook);
 
         ownedBook.Init(bookData);

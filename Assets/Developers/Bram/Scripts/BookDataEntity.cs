@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UIElements.Experimental;
-using static UnityEditor.PlayerSettings.Switch;
+    
 
 namespace DataBank
 {
