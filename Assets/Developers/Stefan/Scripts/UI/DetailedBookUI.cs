@@ -42,6 +42,8 @@ public class DetailedBookUI : MonoBehaviour
 
     public void UpdateUI(BookDataSO book)
     {
+        _bookData = book;
+
         if (_title != null)
             _title.text = book.Title;
         if (_description != null)
@@ -61,9 +63,15 @@ public class DetailedBookUI : MonoBehaviour
         {
             _getBookButton.onClick.RemoveAllListeners();
             if(_linkToAmazon)
-                _getBookButton.onClick.AddListener(() => Application.OpenURL("https://www.amazon.com/dp/" + book.Isbn));
+                _getBookButton.onClick.AddListener(() => {
+                    var copy = book;
+                    Application.OpenURL("https://www.amazon.com/dp/" + copy.Isbn);
+                });
             else
-                _getBookButton.onClick.AddListener(() => Application.OpenURL(book.OpenLibraryLink));
+                _getBookButton.onClick.AddListener(() => {
+                    var copy = book;
+                    Application.OpenURL(book.OpenLibraryLink);
+                });
 
         }
 
@@ -140,7 +148,6 @@ public class DetailedBookUI : MonoBehaviour
         float average = book.LocalReviews.Count == 0 ? 0 :(float)book.LocalReviews.Average((r) => r.Rating);
 
         SetRating(average, StefUtils.MAX_RATING, _localRatingImages);
-
 
 
         if (_reviewsCount != null)

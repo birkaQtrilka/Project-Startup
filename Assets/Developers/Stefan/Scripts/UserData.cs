@@ -74,7 +74,7 @@ public class UserData : ScriptableObject
         if (OwnedBooks.Any(b => b.BookData.OLID == bookData.OLID)) return;
         Debug.Log("Owning book: " + bookData.Title);
         OwnedBook ownedBook = ScriptableObject.CreateInstance<OwnedBook>();
-        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks";
+        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks/Resources";
         if (!Directory.Exists(path))
         {
             Directory.CreateDirectory(path);

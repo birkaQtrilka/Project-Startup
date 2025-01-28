@@ -163,7 +163,14 @@ MonoBehaviour:
       [1]: https://openlibrary.org/works/OL14933414W/The_Fellowship_of_the_Ring\r\n 
       [2]: https://openlibrary.org/works/OL27479W/The_Two_Towers\r\n  [3]: https://openlibrary.org/works/OL27516W/The_Return_of_the_King"
     <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL51711484M
+      PublishTime: 2 days ago
+      IsEdited: 0
+      Content: cheecky lil guy
+      Page: 103
+      UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
+      ID: 3334542
   - <Title>k__BackingField: The fellowship of the ring
     <Authors>k__BackingField:
     - J.R.R. Tolkien
@@ -223,7 +230,14 @@ MonoBehaviour:
       the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his
       evil purpose."
     <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL43079986M
+      PublishTime: 1 week ago
+      IsEdited: 1
+      Content: I don't agree with his choice, he should stay with his friends
+      Page: 34
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+      ID: 547542565
   - <Title>k__BackingField: The Two Towers
     <Authors>k__BackingField:
     - J.R.R. Tolkien
@@ -347,7 +361,14 @@ MonoBehaviour:
       Trilogy is a tale that will obsess you, possess you, and stay with you forever.\r\n\r\nThis
       book is intended for mature audiences."
     <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL50541203M
+      PublishTime: 1 minute ago
+      IsEdited: 0
+      Content: Omg so hot
+      Page: 43
+      UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
+      ID: 5446346
   - <Title>k__BackingField: Fifty Shades Darker
     <Authors>k__BackingField:
     - E. L. James
@@ -513,7 +534,14 @@ MonoBehaviour:
       his seducer, and the deranged devotion of Leila, his former submissive, drag
       Christian down into the past?
     <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+    <Notes>k__BackingField:
+    - OLID: OL27408960M
+      PublishTime: 2 weeks ago
+      IsEdited: 0
+      Content: Chilling moment, I had to turn on the light for that one
+      Page: 55
+      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+      ID: 43675553
   - <Title>k__BackingField: The Sea of Monsters
     <Authors>k__BackingField:
     - Rick Riordan
@@ -1238,7 +1266,7 @@ MonoBehaviour:
   _removeAllBooks: 0
   _concatAfterGettingBooks: 1
   _user: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
-  _olidToOwn: OL28508807M
+  _bookToOwn: {fileID: 0}
   _ownBook: 0
   _includeAllNotes: 0
   _path: Assets/Developers/Stefan/ScriptableObjects/Resources/

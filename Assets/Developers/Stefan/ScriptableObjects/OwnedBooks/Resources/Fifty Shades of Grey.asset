@@ -15,56 +15,6 @@ MonoBehaviour:
   OnProgressUpdate:
     m_PersistentCalls:
       m_Calls: []
-  <BookData>k__BackingField:
-    <Title>k__BackingField: Fifty Shades of Grey
-    <Authors>k__BackingField:
-    - E. L. James
-    <PublishDate>k__BackingField: 2012
-    <Rating>k__BackingField: {x: 3.968627, y: 5}
-    <RatingCount>k__BackingField: 255
-    <Cover>k__BackingField: {fileID: 21300000, guid: 91ba5aebc17a6dc4ca541134ee774120,
-      type: 3}
-    <Isbn>k__BackingField: 1101911603
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Man-woman relationships, fiction
-    - FICTION / Contemporary Women
-    - Sexual dominance and submission
-    - FICTION / Romance / Contemporary
-    - Dominance (Psychology)
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL50541203M
-    <OLID>k__BackingField: OL50541203M
-    <Languages>k__BackingField:
-    - eng
-    - heb
-    - fre
-    - chi
-    - ita
-    - hin
-    - ger
-    - spa
-    - dut
-    - vie
-    - tur
-    - jpn
-    - rus
-    - pol
-    - srp
-    <Description>k__BackingField: "When literature student Anastasia Steele goes
-      to interview young entrepreneur Christian Grey, she encounters a man who is
-      beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled
-      to realize she wants this man and, despite his enigmatic reserve, finds she
-      is desperate to get close to him. Unable to resist Ana\u2019s quiet beauty,
-      wit, and independent spirit, Grey admits he wants her, too\u2014but on his
-      own terms.\r\n \r\nShocked yet thrilled by Grey\u2019s singular erotic tastes,
-      Ana hesitates. For all the trappings of success\u2014his multinational businesses,
-      his vast wealth, his loving family\u2014Grey is a man tormented by demons and
-      consumed by the need to control. When the couple embarks on a daring, passionately
-      physical affair, Ana discovers Christian Grey\u2019s secrets and explores her
-      own dark desires.\r\n\r\nErotic, amusing, and deeply moving, the Fifty Shades
-      Trilogy is a tale that will obsess you, possess you, and stay with you forever.\r\n\r\nThis
-      book is intended for mature audiences."
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
+  <BookData>k__BackingField: {fileID: 11400000, guid: 46daeca7ef469f74d8ace263c318ccc2,
+    type: 2}
   CurrentPage: 100

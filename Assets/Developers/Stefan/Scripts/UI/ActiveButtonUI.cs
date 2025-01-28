@@ -6,9 +6,6 @@ public class ActiveButtonUI : MonoBehaviour
     [SerializeField] Image[] _buttons;
     [SerializeField] Color _activeColor;
     [SerializeField] Color _inactiveColor;
-    [SerializeField] bool _doImageSwap;
-    [SerializeField] Sprite _activeImage;
-    [SerializeField] Sprite _inactiveImage;
 
     void Start()
     {
@@ -25,14 +22,7 @@ public class ActiveButtonUI : MonoBehaviour
 
         foreach (var btn in _buttons)
         {
-            if(_doImageSwap)
-            {
-                btn.sprite = btn == buttonImg ? _activeImage : _inactiveImage;
-            }
-            else
-            {
-                btn.color = btn == buttonImg ? _activeColor : _inactiveColor;
-            }
+            btn.color = btn == buttonImg ? _activeColor : _inactiveColor;
         }
     }
 

@@ -23,7 +23,7 @@ public class BookCover : MonoBehaviour
 
     void OnEnable()
     {
-        if(BookData == null && _updateOnEnable)
+        if(BookData != null && _updateOnEnable)
             UpdateUI();
     }
 

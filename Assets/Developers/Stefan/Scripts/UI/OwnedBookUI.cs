@@ -15,8 +15,9 @@ public class OwnedBookUI : MonoBehaviour
 
         if (_ownedBook == null)
             _ownedBook = Resources.Load<OwnedBook>(_cover.BookData.Title);
+        if (_ownedBook == null) return;
 
-        float fill = (float)_ownedBook.CurrentPage / _ownedBook.BookData.NumberOfPages;
+            float fill = (float)_ownedBook.CurrentPage / _ownedBook.BookData.NumberOfPages;
         _fill.fillAmount = fill;
     }
 

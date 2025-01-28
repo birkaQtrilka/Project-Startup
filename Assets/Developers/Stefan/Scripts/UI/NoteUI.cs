@@ -21,6 +21,8 @@ public class NoteUI : MonoBehaviour
 
         OwnedBook ownedBook = post.UserData.OwnedBooks.FirstOrDefault(x => x.BookData.OLID == post.OLID);
 
+        if (ownedBook == null) return;
+
         float fill = (float)ownedBook.CurrentPage / ownedBook.BookData.NumberOfPages;
         if(_progressBarFill != null)
             _progressBarFill.fillAmount = fill;
