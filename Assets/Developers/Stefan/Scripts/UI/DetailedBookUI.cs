@@ -19,7 +19,7 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Sprite _emptyStar;
 
     [SerializeField] BookLocalContainer _bookDataContainer;
-    [SerializeField] string _bookOLID;
+    public string _bookOLID;
     [Header("For Info")]
     [SerializeField] TextMeshProUGUI _ageRating;
     [SerializeField] TextMeshProUGUI _longDescription;
@@ -35,6 +35,8 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Transform _reviewContainer;
     [Header("If false, will link to open library page")]
     [SerializeField] bool _linkToAmazon;
+
+
 
     void Start()
     {
