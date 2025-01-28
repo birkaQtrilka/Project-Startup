@@ -988,3 +988,5 @@ MonoBehaviour:
   _pageNum: {fileID: 7523826411153958099}
   _author: {fileID: 8566176121262959694}
   _pfp: {fileID: 7799152182962503119}
+  _bookCover: {fileID: 1980288693721894600}
+  _progressBarFill: {fileID: 0}
