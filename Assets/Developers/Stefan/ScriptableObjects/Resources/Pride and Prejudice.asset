@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Pride and Prejudice
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Pride and Prejudice
+  <Authors>k__BackingField:
+  - Jane Austen
+  <PublishDate>k__BackingField: September 1984
+  <Rating>k__BackingField: {x: 4.139932, y: 5}
+  <RatingCount>k__BackingField: 293
+  <Cover>k__BackingField: {fileID: 21300000, guid: 564384c0798e2794d95d9fee98735bbc,
+    type: 3}
+  <Isbn>k__BackingField: 0521825148
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Fiction, Romance, Historical, Regency
+  - British and irish fiction (fictional works by one author)
+  - Brothers and sisters
+  - Courtship
+  - Drama
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL11073210M
+  <OLID>k__BackingField: OL11073210M
+  <Languages>k__BackingField:
+  - hun
+  - jpn
+  - rus
+  - srp
+  - fin
+  - chi
+  - tam
+  - vie
+  - por
+  - pan
+  - kor
+  - ita
+  - spa
+  - eng
+  - ind
+  - swe
+  - fre
+  - cor
+  - cze
+  - dut
+  - ger
+  - mul
+  - guj
+  - hin
+  - pol
+  - sin
+  <Description>k__BackingField: 'Pride and Prejudice is an 1813 novel of manners
+    written by Jane Austen. The novel follows the character development of Elizabeth
+    Bennet, the dynamic protagonist of the book who learns about the repercussions
+    of hasty judgments and comes to appreciate the difference between superficial
+    goodness and actual goodness.
+
+
+
+    Mr. Bennet, owner of the Longbourn estate
+    in Hertfordshire, has five daughters, but his property is entailed and can only
+    be passed to a male heir. His wife also lacks an inheritance, so his family faces
+    becoming very poor upon his death. Thus, it is imperative that at least one of
+    the girls marry well to support the others, which is a motivation that drives
+    the plot.'
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

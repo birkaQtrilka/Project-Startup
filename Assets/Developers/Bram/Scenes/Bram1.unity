@@ -34304,6 +34304,7 @@ MonoBehaviour:
   _title: {fileID: 1623955099}
   _description: {fileID: 1625465052}
   _authorName: {fileID: 1014429111}
+  _getBookButton: {fileID: 0}
   _authorImg: {fileID: 126905899}
   _ratingImages:
   - {fileID: 1483044382}
@@ -34327,6 +34328,7 @@ MonoBehaviour:
   _localRatingImages: []
   _reviewPrefab: {fileID: 0}
   _reviewContainer: {fileID: 0}
+  _linkToAmazon: 0
 --- !u!114 &719790627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54404,12 +54406,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170406868}
   m_CullTransparentMesh: 1
---- !u!1 &1171704714 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7028103325924211800, guid: f302e8965ea07b146b65108a41524d31,
-    type: 3}
-  m_PrefabInstance: {fileID: 1780158205}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1182754046
 GameObject:
   m_ObjectHideFlags: 0
@@ -69583,6 +69579,7 @@ MonoBehaviour:
   _title: {fileID: 1285764593}
   _description: {fileID: 792638728}
   _authorName: {fileID: 591941247}
+  _getBookButton: {fileID: 0}
   _authorImg: {fileID: 1561676094}
   _ratingImages:
   - {fileID: 1010257993}
@@ -69619,6 +69616,7 @@ MonoBehaviour:
   _reviewPrefab: {fileID: 5256262703063666803, guid: 395869cf517d597428a04001206e5c96,
     type: 3}
   _reviewContainer: {fileID: 2008446930}
+  _linkToAmazon: 0
 --- !u!1 &1527779544
 GameObject:
   m_ObjectHideFlags: 0
@@ -81365,7 +81363,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1171704714}
+      objectReference: {fileID: 0}
     - target: {fileID: 4261751586138553677, guid: f302e8965ea07b146b65108a41524d31,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState

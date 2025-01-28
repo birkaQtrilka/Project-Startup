@@ -12,6 +12,11 @@ public class UserData : ScriptableObject
 
     public string NickName;
     public Sprite ProfilePicture;
+    public string BirthDate;
+    public string Title;
+    public OwnedBook FavBook;
+    [TextArea]
+    public string Bio;
 
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library
@@ -57,8 +62,14 @@ public class UserData : ScriptableObject
 
     public void OwnABook(BookData bookData)
     {
-        for (int i = 0; i < OwnedBooks.Count; i++)
-            if (OwnedBooks[i] == null) OwnedBooks.RemoveAt(i--);
+        if (bookData == null)
+        {
+            Debug.LogError("BookData is null. Cannot own this book.");
+            return;
+        }
+
+        for (int i = OwnedBooks.Count - 1; i >= 0; i--)
+            if (OwnedBooks[i] == null) OwnedBooks.RemoveAt(i);
 
         if (OwnedBooks.Any(b => b.BookData.OLID == bookData.OLID)) return;
         Debug.Log("Owning book: " + bookData.Title);
@@ -69,11 +80,12 @@ public class UserData : ScriptableObject
             Directory.CreateDirectory(path);
             Debug.Log("Directory created at: " + path);
         }
-        AssetDatabase.CreateAsset(ownedBook, path + "/" + bookData.Title +".asset");
-        AssetDatabase.SaveAssets();
-        OwnedBooks.Add(ownedBook);
-
+        string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
+        AssetDatabase.CreateAsset(ownedBook, $"{path}/{sanitizedTitle}.asset");
         ownedBook.Init(bookData);
+        AssetDatabase.SaveAssets();
+
+        OwnedBooks.Add(ownedBook);
 
         OnBookOwn?.Invoke(ownedBook);
     }

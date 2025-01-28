@@ -22,7 +22,8 @@ public class RecomendationAlgo : ScriptableObject
     void OnEnable()
     {
         _keywordSources.Add(_mainUser.SearchedStuff);
-        _keywordSources.Add(_mainUser.OwnedBooks.Select(b => b.BookData.Authors[0]).ToList());
+
+        _keywordSources.Add(_mainUser.OwnedBooks.Where(b => b.BookData !=null && b.BookData.Authors.Length > 0).Select(b => b.BookData.Authors[0]).ToList());
         _keywordSources.Add(_mainUser.ClickedBookIds);
     }
 

@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
+using System.IO;
 
 [CreateAssetMenu(menuName = "BookContainer")]
 public class BookLocalContainer : ScriptableObject
@@ -23,6 +24,8 @@ public class BookLocalContainer : ScriptableObject
     [SerializeField] string _olidToOwn;
     [SerializeField] bool _ownBook;
     [SerializeField] bool _includeAllNotes;
+    [SerializeField] string _path;
+    [SerializeField] bool _generateIntoScriptableObjects;
 
     void OnValidate()
     {
@@ -56,6 +59,12 @@ public class BookLocalContainer : ScriptableObject
         {
             _includeAllNotes = false;
             IncludeNotesInBooks();
+        }
+
+        if(_generateIntoScriptableObjects)
+        {
+            _generateIntoScriptableObjects = false;
+            GenerateScriptableObjectsFromBooks();
         }
     }
     
@@ -105,6 +114,19 @@ public class BookLocalContainer : ScriptableObject
             Books = Books.Concat(await _bookGetter.FetchData(_booksToFetch, querry)).ToArray();
         else
             Books = await _bookGetter.FetchData(_booksToFetch, querry);
+
     }
 
+    void GenerateScriptableObjectsFromBooks()
+    {
+        foreach (var book in Books)
+        {
+            var so = ScriptableObject.CreateInstance<BookDataSO>();
+            so.Init(book);
+
+            string sanitizedTitle = string.Concat(book.Title.Split(Path.GetInvalidFileNameChars()));
+            AssetDatabase.CreateAsset(so, _path + sanitizedTitle + ".asset");
+        }
+        AssetDatabase.SaveAssets();
+    }
 }

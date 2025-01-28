@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Can't Hurt Me
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Can't Hurt Me
+  <Authors>k__BackingField:
+  - David Goggins
+  <PublishDate>k__BackingField: 2018
+  <Rating>k__BackingField: {x: 4.463158, y: 5}
+  <RatingCount>k__BackingField: 95
+  <Cover>k__BackingField: {fileID: 21300000, guid: 9d9a1ab6169812642a1c40ca55a23987,
+    type: 3}
+  <Isbn>k__BackingField: 1544512287
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - nyt:advice-how-to-and-miscellaneous=2019-01-13
+  - New York Times bestseller
+  - United states, navy, seals
+  - United states, navy, biography
+  - United states, air force
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32603074M
+  <OLID>k__BackingField: OL32603074M
+  <Languages>k__BackingField: []
+  <Description>k__BackingField: 'New York Times best seller
+
+
+
+    Over 4 million
+    copies sold
+
+
+
+    For David Goggins, childhood was a nightmare--poverty, prejudice,
+    and physical abuse colored his days and haunted his nights. But through self-discipline,
+    mental toughness, and hard work, Goggins transformed himself from a depressed,
+    overweight young man with no future into a US Armed Forces icon and one of the
+    world''s top endurance athletes. The only man in history to complete elite training
+    as a Navy SEAL, Army Ranger, and Air Force tactical air controller, he went on
+    to set records in numerous endurance events, inspiring Outside magazine to name
+    him the Fittest (Real) Man in America.
+
+
+
+    In Can''t Hurt Me, he shares his
+    astonishing life story and reveals that most of us tap into only 40 percent of
+    our capabilities. Goggins calls this The 40% Rule, and his story illuminates
+    a path that anyone can follow to push past pain, demolish fear, and reach their
+    full potential.
+
+
+
+    An annotated edition of Can''t Hurt Me, offering over
+    two hours of bonus content featuring deeper insights and never-before-told stories
+    shared by David. Not available in other formats.'
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

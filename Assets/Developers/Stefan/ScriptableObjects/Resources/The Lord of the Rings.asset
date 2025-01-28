@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: The Lord of the Rings
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: The Lord of the Rings
+  <Authors>k__BackingField:
+  - J.R.R. Tolkien
+  <PublishDate>k__BackingField: June 1994
+  <Rating>k__BackingField: {x: 4.5625, y: 5}
+  <RatingCount>k__BackingField: 80
+  <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+    type: 3}
+  <Isbn>k__BackingField: 1611748860
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - The Lord of the Rings
+  - Fiction
+  - "Ficci\xF3n"
+  - English Fantasy fiction
+  - "Ficci\xF3n fant\xE1stica inglesa"
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8610140M
+  <OLID>k__BackingField: OL8610140M
+  <Languages>k__BackingField:
+  - fre
+  - swe
+  - dut
+  - ger
+  - glg
+  - ita
+  - tur
+  - rus
+  - jpn
+  - slo
+  - cat
+  - cze
+  - pol
+  - bul
+  - spa
+  - por
+  - eng
+  - kor
+  <Description>k__BackingField: "Originally published from 1954 through 1956, J.R.R.
+    Tolkien's richly complex series ushered in a new age of epic adventure storytelling.
+    A philologist and illustrator who took inspiration from his work, Tolkien invented
+    the modern heroic quest novel from the ground up, creating not just a world,
+    but a domain, not just a lexicon, but a language, that would spawn countless
+    imitators and lead to the inception of the epic fantasy genre. Today, THE LORD
+    OF THE RINGS is considered \"the most influential fantasy novel ever written.\"
+    (THE ENCYCLOPEDIA OF FANTASY)\r\n\r\nDuring his travels across Middle-earth,
+    the hobbit Bilbo Baggins had found the Ring. But the simple band of gold was
+    far from ordinary; it was in fact the One Ring - the greatest of the ancient
+    Rings of Power. Sauron, the Dark Lord, had infused it with his own evil magic,
+    and when it was lost, he was forced to flee into hiding.\r\n\r\nBut now Sauron's
+    exile has ended and his power is spreading anew, fueled by the knowledge that
+    his treasure has been found. He has gathered all the Great Rings to him, and
+    will stop at nothing to reclaim the One that will complete his dominion. The
+    only way to stop him is to cast the Ruling Ring deep into the Fire-Mountain at
+    the heart of the land of Mordor--Sauron's dark realm.\r\n\r\nFate has placed
+    the burden in the hands of Frodo Baggins, Bilbo's heir...and he is resolved to
+    bear it to its end. Or his own. \r\n\r\n\r\n----------\r\n\r\n\r\n**Contains**\r\n\r\n
+    - [The Fellowship of the Ring][1]\r\n - [The Two Towers][2]\r\n - [The Return
+    of the King][3]\r\n - [The Lord of the Rings [2/2]](https://openlibrary.org/works/OL27306128W)\r\n
+    - [The Lord of the Rings [1/6]](https://openlibrary.org/works/OL24170898W)\r\n
+    - [The Lord of the Rings [1/9]](https://openlibrary.org/works/OL27305953W)\r\n
+    - [The Lord of the Rings [2/9]](https://openlibrary.org/works/OL27305892W)\r\n
+    - [The Lord of the Rings [3/9]](https://openlibrary.org/works/OL27306048W)\r\n\r\n\r\n\r\n 
+    [1]: https://openlibrary.org/works/OL14933414W/The_Fellowship_of_the_Ring\r\n 
+    [2]: https://openlibrary.org/works/OL27479W/The_Two_Towers\r\n  [3]: https://openlibrary.org/works/OL27516W/The_Return_of_the_King"
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

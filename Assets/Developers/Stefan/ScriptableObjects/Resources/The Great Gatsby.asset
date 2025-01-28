@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: The Great Gatsby
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: The Great Gatsby
+  <Authors>k__BackingField:
+  - F. Scott Fitzgerald
+  <PublishDate>k__BackingField: 2013
+  <Rating>k__BackingField: {x: 3.9671052, y: 5}
+  <RatingCount>k__BackingField: 152
+  <Cover>k__BackingField: {fileID: 21300000, guid: 6113e8ba111d6414d90fb2252f918806,
+    type: 3}
+  <Isbn>k__BackingField: 6586490049
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Married people, fiction
+  - American fiction (fictional works by one author)
+  - Fiction, psychological
+  - Long island (n.y.), fiction
+  - Fiction
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26495480M
+  <OLID>k__BackingField: OL26495480M
+  <Languages>k__BackingField:
+  - dan
+  - kor
+  - spa
+  - ita
+  - dut
+  - ger
+  - eng
+  - chi
+  - ind
+  - swe
+  - jpn
+  - heb
+  - pol
+  - fre
+  - rum
+  - por
+  <Description>k__BackingField: "Here is a novel, glamorous, ironical, compassionate
+    \u2013 a marvelous fusion into unity of the curious incongruities of the life
+    of the period \u2013 which reveals a hero like no other \u2013 one who could
+    live at no other time and in no other place. But he will live as a character,
+    we surmise, as long as the memory of any reader lasts.\r\n\r\n\"There was something
+    gorgeous about him, some heightened sensitivity to the promises of life.... It
+    was an extraordinary gift for hope, a romantic readiness such as I have never
+    found in any other person and which it is not likely I shall ever find again.\"\r\n\r\nIt
+    is the story of this Jay Gatsby who came so mysteriously to West Egg, of his
+    sumptuous entertainments, and of his love for Daisy Buchanan \u2013 a story that
+    ranges from pure lyrical beauty to sheer brutal realism, and is infused with
+    a sense of the strangeness of human circumstance in a heedless universe.\r\n\r\nIt
+    is a magical, living book, blended of irony, romance, and mysticism.\r\n\r\n--first
+    edition jacket\r\n\r\n\r\n----------\r\nAlso contained in:\r\n\r\n - [The Fitzgerald
+    Reader](https://openlibrary.org/works/OL468551W/The_Fitzgerald_Reader)\r\n -
+    [Three Novels of F. Scott Fitzgerald ](https://openlibrary.org/works/OL468557W)"
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []
