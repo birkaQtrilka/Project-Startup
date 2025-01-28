@@ -16,7 +16,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NickName: BOBer
-  ProfilePicture: {fileID: 21300000, guid: 7dac65489b0b6a640bb9fa257c5565fa, type: 3}
+  ProfilePicture: {fileID: 21300000, guid: d29c9c972faee7b478d730941fdcdad1, type: 3}
   Friends: []
   OwnedBooks:
   - {fileID: 11400000, guid: 6805f5f942430a5469381557b3d1693f, type: 2}

@@ -16,7 +16,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NickName: TwanGuy
-  ProfilePicture: {fileID: 21300000, guid: 6ff085d8296c2ff44b6308ec3f1397d3, type: 3}
+  ProfilePicture: {fileID: 21300000, guid: 35b6f882a32fb07489008ec36ea370e5, type: 3}
   Friends:
   - {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
   OwnedBooks:
