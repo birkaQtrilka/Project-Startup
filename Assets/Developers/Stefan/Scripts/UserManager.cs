@@ -30,5 +30,6 @@ public class UserManager : MonoBehaviour
     {
         if (EventSystem.current.currentSelectedGameObject == null)
             EventSystem.current.SetSelectedGameObject(_lastSelectedButton);
+        _lastSelectedButton = EventSystem.current.currentSelectedGameObject;
     }
 }
