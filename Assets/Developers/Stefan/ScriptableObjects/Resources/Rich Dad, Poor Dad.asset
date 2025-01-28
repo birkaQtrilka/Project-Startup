@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Rich Dad, Poor Dad
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Rich Dad, Poor Dad
+  <Authors>k__BackingField:
+  - Robert T. Kiyosaki
+  - Sharon L. Lechter
+  <PublishDate>k__BackingField: 2017
+  <Rating>k__BackingField: {x: 4.0846047, y: 5}
+  <RatingCount>k__BackingField: 721
+  <Cover>k__BackingField: {fileID: 21300000, guid: 06e822fd4508516439c8d9225b7c9b46,
+    type: 3}
+  <Isbn>k__BackingField: 0359727891
+  <NumberOfPages>k__BackingField: 294
+  <NumberOfChapters>k__BackingField: 12
+  <Genres>k__BackingField:
+  - Rich people
+  - Personal Finance
+  - Investments
+  - Finanzas personales
+  - Inversiones
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27234831M
+  <OLID>k__BackingField: OL27234831M
+  <Languages>k__BackingField:
+  - spa
+  - eng
+  - chi
+  - ind
+  - tur
+  - jpn
+  - rus
+  - por
+  <Description>k__BackingField: "April of 2022 marks a 25-year milestone for the
+    personal finance classic Rich Dad Poor Dad that still ranks as the #1 Personal
+    Finance book of all time. And although 25 years have passed since Rich Dad Poor
+    Dad was first published, readers will find that very little in the book itself
+    has changed \u2014 and for good reason. While so much in our world is changing
+    a high speed, the lessons about money and the principles of Rich Dad Poor Dad
+    haven\u2019t changed. Today, as money continues to play a key role in our daily
+    lives, the messages in Robert Kiyosaki\u2019s international bestseller are more
+    timely and more important than ever.\r\n\r\nMilestones \r\n\r\nWhile there is
+    a milestone  to commemorate \u2014 and a new section in the book on Why Milestones
+    Are Important \u2014 preserving the integrity of the original content is testimony
+    to the fact that this book has truly stood the test of time. The sidebars throughout
+    the book (that were updated for the 20-year anniversary edition) have been updated
+    again, but the core principles that parents and grandparents \u2014 those who
+    embraced Robert\u2019s story and messages 25 years ago \u2014 are sharing them
+    with new generations who have found that its timeless wisdom and no-nonsense
+    lessons can be applied to anyone\u2019s life and their vision for a future that
+    includes taking control of their finances.\r\nPeople of all cultures and countries
+    celebrate milestones. We use them to measure time, mark progress, reflect on
+    the lessons we\u2019ve learned, and celebrate accomplishments\u2026 and they
+    give meaning to our life\u2019s journey. They are a way that we integrate past,
+    present, and future\u2026 looking back at where we started, where we are today\u2026
+    and the promise of all that the future can hold."
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Rich Dad Poor Dad
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Rich Dad Poor Dad
+  <Authors>k__BackingField:
+  - Robert T. Kiyosaki
+  - Tom Parks
+  <PublishDate>k__BackingField: May 14, 2019
+  <Rating>k__BackingField: {x: 4.625, y: 5}
+  <RatingCount>k__BackingField: 8
+  <Cover>k__BackingField: {fileID: 21300000, guid: 97ad440529b604b42b9b63c3206bcf9c,
+    type: 3}
+  <Isbn>k__BackingField: 1978691688
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField: []
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32637231M
+  <OLID>k__BackingField: OL32637231M
+  <Languages>k__BackingField:
+  - ita
+  <Description>k__BackingField: "It's been nearly 25 years since Robert Kiyosaki\u2019s
+    Rich Dad Poor Dad first made waves in the Personal Finance arena.\r\nIt has since
+    become the **#1 Personal Finance book of all time**... translated into dozens
+    of languages and sold around the world.\r\n\r\nRich Dad Poor Dad is Robert's
+    story of growing up with two dads \u2014 his real father and the father of his
+    best friend, his rich dad \u2014 and the ways in which both men shaped his thoughts
+    about money and investing. The book explodes the myth that you need to earn a
+    high income to be rich and explains the difference between working for money
+    and having your money work for you.\r\n\r\n20 Years... 20/20 Hindsight\r\nIn
+    the 20th Anniversary Edition of this classic, Robert offers an update on what
+    we\u2019ve seen over the past 20 years related to money, investing, and the global
+    economy. Sidebars throughout the book will take readers \u201Cfast forward\u201D
+    \u2014 from 1997 to today \u2014 as Robert assesses how the principles taught
+    by his rich dad have stood the test of time.\r\n\r\nIn many ways, the messages
+    of Rich Dad Poor Dad, messages that were criticized and challenged two decades
+    ago, are more meaningful, relevant and important today than they were 20 years
+    ago.\r\n\r\nAs always, readers can expect that Robert will be candid, insightful...
+    and continue to rock more than a few boats in his retrospective.\r\n\r\nWill
+    there be a few surprises? Count on it.\r\n\r\nRich Dad Poor Dad...\r\n\u2022
+    Explodes the myth that you need to earn a high income to become rich\r\n\u2022
+    Challenges the belief that your house is an asset\r\n\u2022 Shows parents why
+    they can't rely on the school system to teach their kids\r\nabout money\r\n\u2022
+    Defines once and for all an asset and a liability\r\n\u2022 Teaches you what
+    to teach your kids about money for their future financial success."
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

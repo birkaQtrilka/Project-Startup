@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Fifty Shades Freed
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Fifty Shades Freed
+  <Authors>k__BackingField:
+  - E. L. James
+  <PublishDate>k__BackingField: 2012
+  <Rating>k__BackingField: {x: 3.4117646, y: 5}
+  <RatingCount>k__BackingField: 34
+  <Cover>k__BackingField: {fileID: 21300000, guid: dc19a84e69f4ff1459e2ea2f64838ec0,
+    type: 3}
+  <Isbn>k__BackingField: 8425349966
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Fiction, Romance, Contemporary
+  - Sexual dominance and submission, fiction
+  - "Relaciones hombre-mujer, Ficci\xF3n"
+  - Sadomasoquismo
+  - "Cuentos er\xF3ticos"
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL50541267M
+  <OLID>k__BackingField: OL50541267M
+  <Languages>k__BackingField:
+  - kor
+  - spa
+  - ita
+  - ger
+  - eng
+  - chi
+  - tur
+  - rus
+  - jpn
+  - pol
+  - fre
+  - srp
+  <Description>k__BackingField: 'Cuando la inexperta estudiante Anastasia Steele
+    conocio al joven, seductor y exitoso empresario Christian Grey, nacio entre ellos
+    una sensual relacion que cambio sus vidas para siempre.Sin embargo, desconcertada
+    y llevada al limite por las peculiares practicas eroticas de Christian, la joven
+    lucha por conseguir un mayor com promiso por parte de Grey. Y Christian accede
+    con tal de no perderla.Ahora, Ana y Christian lo tienen todo: amor, pasion, intimidad,
+    bienestar y un mundo de infinitas posibilidades. Pero cuando parece que la fuerza
+    de su relacion puede superar cualquier obstaculo, la fatalidad, el rencor y el
+    destino se conjuran para hacer realidad los peores temores de Ana."Cincuenta
+    sombras: la exitosa combinacion de historia romantica y juego erotico de alto
+    voltaje que ha tocado la fibra de muchas mujeres.'
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

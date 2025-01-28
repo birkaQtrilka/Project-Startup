@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Tempest
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Tempest
+  <Authors>k__BackingField:
+  - William Shakespeare
+  <PublishDate>k__BackingField: 2013
+  <Rating>k__BackingField: {x: 4, y: 5}
+  <RatingCount>k__BackingField: 50
+  <Cover>k__BackingField: {fileID: 21300000, guid: 878292e831870244b90237a891f815ad,
+    type: 3}
+  <Isbn>k__BackingField: 0582848660
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - 'English literature: Shakespeare criticism'
+  - 'English literature: Shakespeare texts'
+  - Plays / Drama
+  - Literary Criticism
+  - Classics
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26475705M
+  <OLID>k__BackingField: OL26475705M
+  <Languages>k__BackingField:
+  - eng
+  - dan
+  - cat
+  - fin
+  - pol
+  - heb
+  - por
+  - chi
+  - tel
+  - mar
+  - spa
+  - ita
+  - yid
+  - pan
+  - epo
+  - swe
+  - hin
+  - ger
+  - dut
+  - mul
+  - gre
+  - fao
+  - nep
+  - fre
+  - wel
+  - kor
+  - enm
+  - swa
+  - jpn
+  <Description>k__BackingField: "The Tempest is a play by William Shakespeare, believed
+    to have been written in 1610\u201311, and thought by many critics to be the last
+    play that Shakespeare wrote alone. It is set on a remote island, where Prospero,
+    the rightful Duke of Milan, plots to restore his daughter Miranda to her rightful
+    place using illusion and skilful manipulation. He conjures up a storm, the eponymous
+    tempest, to lure his usurping brother Antonio and the complicit King Alonso of
+    Naples to the island. There, his machinations bring about the revelation of Antonio's
+    lowly nature, the redemption of the King, and the marriage of Miranda to Alonso's
+    son, Ferdinand."
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

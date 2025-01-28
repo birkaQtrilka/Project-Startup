@@ -16,20 +16,64 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   <BookData>k__BackingField:
-    <Title>k__BackingField: 
-    <Authors>k__BackingField: []
-    <PublishDate>k__BackingField: 
-    <Rating>k__BackingField: {x: 0, y: 0}
-    <RatingCount>k__BackingField: 0
-    <Cover>k__BackingField: {fileID: 0}
-    <Isbn>k__BackingField: 
-    <NumberOfPages>k__BackingField: 0
+    <Title>k__BackingField: The fellowship of the ring
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2005
+    <Rating>k__BackingField: {x: 4.363636, y: 5}
+    <RatingCount>k__BackingField: 330
+    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
+      type: 3}
+    <Isbn>k__BackingField: 8445009591
+    <NumberOfPages>k__BackingField: 539
     <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: 
-    <OLID>k__BackingField: 
-    <Languages>k__BackingField: []
-    <Description>k__BackingField: 
+    <Genres>k__BackingField:
+    - Elves
+    - Dwarves
+    - evil
+    - fear
+    - hope
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL43079986M
+    <OLID>k__BackingField: OL43079986M
+    <Languages>k__BackingField:
+    - por
+    - jpn
+    - swe
+    - bul
+    - ast
+    - rus
+    - ger
+    - hrv
+    - yid
+    - nor
+    - ind
+    - spa
+    - tur
+    - afr
+    - fre
+    - eng
+    - pol
+    - glg
+    - chi
+    - ita
+    - hun
+    - dut
+    - cat
+    - dan
+    <Description>k__BackingField: "One Ring to rule them all, One Ring to find them,
+      One Ring to bring them all and in the darkness bind them.\r\n\r\n\u201CA unique,
+      wholly realized other world, evoked from deep in the well of Time, massively
+      detailed, absorbingly entertaining, profound in meaning.\u201D\u2014The New
+      York Times\r\n\r\nIn ancient times the Rings of Power were crafted by the Elven-smiths,
+      and Sauron, the Dark Lord, forged the One Ring, filling it with his own power
+      so that he could rule all others. But the One Ring was taken from him, and
+      though he sought it throughout Middle-earth, it remained lost to him. After
+      many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In
+      a sleepy village in the Shire, young Frodo Baggins finds himself faced with
+      an immense task, as his elderly cousin Bilbo entrusts the Ring to his care.
+      Frodo must leave his home and make a perilous journey across Middle-earth to
+      the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his
+      evil purpose."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  CurrentPage: 0
+  CurrentPage: 102

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: The Undercover Economist
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: The Undercover Economist
+  <Authors>k__BackingField:
+  - Tim Harford
+  <PublishDate>k__BackingField: March 2006
+  <Rating>k__BackingField: {x: 4.142857, y: 5}
+  <RatingCount>k__BackingField: 14
+  <Cover>k__BackingField: {fileID: 21300000, guid: 8b26a3084c576cc469c407ff586ae0cb,
+    type: 3}
+  <Isbn>k__BackingField: 0316731161
+  <NumberOfPages>k__BackingField: 100
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - Economy
+  - Undercover Economist
+  - Tim Harford
+  - Economics
+  - Consumer education
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8483321M
+  <OLID>k__BackingField: OL8483321M
+  <Languages>k__BackingField:
+  - eng
+  - spa
+  <Description>k__BackingField: Critically acclaimed as one of the most successful
+    economy books of all time, and a 'must-read' for those of us in the general public
+    who want to understand how society works, but do not want this information to
+    be conveyed in an Oxbridge multipolysyllabic tone, Tim Harford's book gives us
+    an insight into the relevance of the economy to our everyday lives. It begins
+    humbly with the author's relatable bemoaning of coffee and its prices, which
+    is cleverly analogized in the simple, but brilliant and still-relevant ideas
+    of nineteenth-century economist David Ricardo. Organized into clear chapters
+    which target different aspects of the economy's impacts on our life, the book
+    later progresses onto more developed concepts such as the reasons (sub-prime
+    mortgages!) behind the banking collapse of Lehman Brothers in 2008. Written in
+    an aware style from an economist's perspective, this book is thoroughly worthwhile
+    reading.
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

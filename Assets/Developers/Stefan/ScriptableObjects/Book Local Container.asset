@@ -14,1505 +14,1232 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Authors>k__BackingField: []
   <Books>k__BackingField:
-  - <Title>k__BackingField: "\u1F38\u03BB\u03B9\u03AC\u03C2"
+  - <Title>k__BackingField: The Hitch Hiker's Guide to the Galaxy
     <Authors>k__BackingField:
-    - "\u038C\u03BC\u03B7\u03C1\u03BF\u03C2"
-    <PublishDate>k__BackingField: 1869
-    <Rating>k__BackingField: {x: 3.9861112, y: 5}
-    <RatingCount>k__BackingField: 72
-    <Cover>k__BackingField: {fileID: 21300000, guid: 7e76d0cf972d6f64aa17f77a05ffdad0,
+    - Douglas Adams
+    <PublishDate>k__BackingField: 1980
+    <Rating>k__BackingField: {x: 4.540741, y: 5}
+    <RatingCount>k__BackingField: 135
+    <Cover>k__BackingField: {fileID: 21300000, guid: 30eafc4e5febbbd4396e828e11565845,
       type: 3}
-    <Isbn>k__BackingField: 9781600837791
-    <NumberOfPages>k__BackingField: 0
-    <NumberOfChapters>k__BackingField: 0
+    <Isbn>k__BackingField: 1509808310
+    <NumberOfPages>k__BackingField: 159
+    <NumberOfChapters>k__BackingField: 35
     <Genres>k__BackingField:
-    - Odysseus (Greek mythology)
-    - Juvenile poetry
-    - Readers
-    - Greeks
-    - Poetry
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24347580M
-    <OLID>k__BackingField: OL24347580M
+    - comic science fiction
+    - Vogons
+    - Humorous fiction
+    - Imaginary voyages
+    - wit and humour
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32838419M
+    <OLID>k__BackingField: OL32838419M
     <Languages>k__BackingField:
-    - gle
-    - gla
-    - rus
-    - ukr
-    - ara
-    - ice
-    - chi
     - tur
-    - tam
-    - rum
-    - por
-    - und
-    - ita
-    - spa
-    - eng
-    - gre
+    - ger
     - fre
+    - rus
+    - chi
     - cze
-    - dut
-    - ger
-    - heb
-    - lat
-    - mul
-    - pol
-    - arm
-    - grc
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: "L\u2019\xE9tranger"
-    <Authors>k__BackingField:
-    - Albert Camus
-    <PublishDate>k__BackingField: 1966
-    <Rating>k__BackingField: {x: 3.9534883, y: 5}
-    <RatingCount>k__BackingField: 86
-    <Cover>k__BackingField: {fileID: 21300000, guid: 9932ab04afd5f564a91cde41e436a62e,
-      type: 3}
-    <Isbn>k__BackingField: 9798365269804
-    <NumberOfPages>k__BackingField: 156
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Murder
-    - Fiction
-    - Medicine in Literature
-    - French
-    - Novelas francesas
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL16779968M
-    <OLID>k__BackingField: OL16779968M
-    <Languages>k__BackingField:
-    - eng
-    - por
-    - fre
-    - wel
-    - chi
-    - swe
-    - vie
-    - jav
-    - hin
-    - ger
-    - spa
-    - mul
-    - dut
-    - ita
-    - jpn
-    - pol
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Jahangiri's Handbook on Injectable intravenous Drugs
-      English - Persian Edition
-    <Authors>k__BackingField:
-    - Hamideh Jahangiri
-    - Dr. Alireza Norouzi
-    - Alireza Mobaraki
-    <PublishDate>k__BackingField: 2018-04-25
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 8
-    <Cover>k__BackingField: {fileID: 21300000, guid: 7dac65489b0b6a640bb9fa257c5565fa,
-      type: 3}
-    <Isbn>k__BackingField: 9786138386490
-    <NumberOfPages>k__BackingField: 284
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL49359652M
-    <OLID>k__BackingField: OL49359652M
-    <Languages>k__BackingField:
-    - per
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Elements
-    <Authors>k__BackingField:
-    - Euclid
-    <PublishDate>k__BackingField: 1752
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 8
-    <Cover>k__BackingField: {fileID: 21300000, guid: 645790d6cc5780c488aefbb85f9be6a0,
-      type: 3}
-    <Isbn>k__BackingField: 0486600904
-    <NumberOfPages>k__BackingField: 430
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Fundamentos Da Geometria
-    - great_books_of_the_western_world
-    - Geometria Analitica
-    - Mathematics
-    - Geometria
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL18369109M
-    <OLID>k__BackingField: OL18369109M
-    <Languages>k__BackingField:
-    - fre
-    - lat
-    - ger
-    - por
-    - gre
-    - eng
-    - heb
-    - ara
-    - grc
-    - spa
-    - rus
-    - ita
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Bible
-    <Authors>k__BackingField:
-    - Bible
-    <PublishDate>k__BackingField: 1814
-    <Rating>k__BackingField: {x: 3.9848485, y: 5}
-    <RatingCount>k__BackingField: 66
-    <Cover>k__BackingField: {fileID: 21300000, guid: 115aff9873f129b4bb4b822dc4afb840,
-      type: 3}
-    <Isbn>k__BackingField: 0340863188
-    <NumberOfPages>k__BackingField: 814
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Manuscripts, Latin (Medieval and modern)
-    - Glossaries, vocabularies
-    - Early works to 1800
-    - Bible
-    - Religion
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL33174771M
-    <OLID>k__BackingField: OL33174771M
-    <Languages>k__BackingField:
-    - urd
-    - mar
-    - hun
-    - dak
-    - jpn
-    - asm
-    - ukr
-    - fin
-    - ara
-    - nic
-    - per
-    - ben
-    - chi
-    - tam
-    - afr
-    - syr
-    - por
-    - und
-    - spa
-    - ita
-    - zul
-    - eng
-    - nav
-    - fre
-    - ton
-    - ger
-    - heb
-    - lat
-    - mao
-    - mul
-    - tel
-    - hin
-    - arm
-    - grc
-    - yid
-    <Description>k__BackingField: Cool book
-    <LocalReviews>k__BackingField:
-    - PublishTime: 1 week ago
-      IsEdited: 0
-      Content: Very religious, I like religy
-      Rating: 5
-      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-    <Notes>k__BackingField:
-    - OLID: OL33174771M
-      PublishTime: 1 day ago
-      IsEdited: 1
-      Content: Didn't know jesus could do that, damn
-      Page: 45
-      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
-      ID: 32532532
-  - <Title>k__BackingField: Carmilla
-    <Authors>k__BackingField:
-    - Joseph Sheridan Le Fanu
-    <PublishDate>k__BackingField: 2021
-    <Rating>k__BackingField: {x: 3.8979592, y: 5}
-    <RatingCount>k__BackingField: 49
-    <Cover>k__BackingField: {fileID: 21300000, guid: 269af3a5f7b63f8479a21d6eec50a165,
-      type: 3}
-    <Isbn>k__BackingField: 9798571721950
-    <NumberOfPages>k__BackingField: 0
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - English Fantasy fiction
-    - Fantasy fiction, English
-    - Fiction
-    - Lesbians
-    - Vampires
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38536021M
-    <OLID>k__BackingField: OL38536021M
-    <Languages>k__BackingField:
-    - ita
-    - spa
-    - eng
-    - fre
-    - por
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Mindfulness in Plain English
-    <Authors>k__BackingField:
-    - Bhante H. Gunaratana
-    <PublishDate>k__BackingField: September 25, 2002
-    <Rating>k__BackingField: {x: 4.4545455, y: 5}
-    <RatingCount>k__BackingField: 11
-    <Cover>k__BackingField: {fileID: 21300000, guid: 576e8ceff6b067c4c83d7f17057300a8,
-      type: 3}
-    <Isbn>k__BackingField: 0861713214
-    <NumberOfPages>k__BackingField: 224
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Mindfulness
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8308587M
-    <OLID>k__BackingField: OL8308587M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: "A mysterious island. An abandoned orphanage. A
-      strange collection of photographs.\nWhen sixteen-year-old Jacob Portman follows
-      a trail of clues left by his grandfather, he stumbles upon the ruins of Miss
-      Peregrine\u2019s Home for Peculiar Children. But as he explores, he realizes
-      the children who once lived there may have been more than just peculiar\u2014they
-      may have been dangerous. And they might still be alive.\nBlending haunting
-      vintage photography with an eerie, fantastical tale, Miss Peregrine\u2019s
-      Home for Peculiar Children is a spine-tingling adventure filled with wonder,
-      mystery, and a world unlike any other.\n"
-    <LocalReviews>k__BackingField:
-    - PublishTime: 1 week ago
-      IsEdited: 1
-      Content: It was prettty good, I didn't like the third chapter though
-      Rating: 2
-      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-    <Notes>k__BackingField:
-    - OLID: OL8308587M
-      PublishTime: 2 days ago
-      IsEdited: 0
-      Content: I didn't expect that, they should date
-      Page: 12
-      UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-      ID: 53463464
-  - <Title>k__BackingField: Don Quixote
-    <Authors>k__BackingField:
-    - Miguel de Cervantes Saavedra
-    - Michael J. Marshall
-    - John Ormsby
-    - Anonymous
-    <PublishDate>k__BackingField: 2018
-    <Rating>k__BackingField: {x: 3.787234, y: 5}
-    <RatingCount>k__BackingField: 47
-    <Cover>k__BackingField: {fileID: 21300000, guid: d265500017b57cd4498ba014a4190eb6,
-      type: 3}
-    <Isbn>k__BackingField: 1587263742
-    <NumberOfPages>k__BackingField: 786
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Don Quixote (Cervantes Saavedra, Miguel de)
-    - Quotations
-    - Knights and knighthood
-    - Social life and customs
-    - Fiction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL56599487M
-    <OLID>k__BackingField: OL56599487M
-    <Languages>k__BackingField:
-    - mar
-    - gle
-    - jpn
-    - rus
-    - alb
-    - srp
-    - hrv
-    - ara
-    - dan
-    - chi
-    - vie
-    - por
-    - und
     - spa
     - ita
     - eng
-    - swe
-    - gre
-    - fre
-    - baq
-    - ori
-    - dut
-    - ger
-    - heb
-    - lat
-    - tel
-    - glg
-    - hin
-    - yid
-    <Description>k__BackingField: no description
+    <Description>k__BackingField: "The Hitchhiker's Guide to the Galaxy is the first
+      of six books in the Hitchhiker's Guide to the Galaxy comedy science fiction
+      \"hexalogy\" by Douglas Adams. The novel is an adaptation of the first four
+      parts of Adams's radio series of the same name. The novel was first published
+      in London on 12 October 1979. It sold 250,000 copies in the first three months.\r\n\r\nThe
+      namesake of the novel is The Hitchhiker's Guide to the Galaxy, a fictional
+      guide book for hitchhikers (inspired by the Hitch-hiker's Guide to Europe)
+      written in the form of an encyclopaedia.\r\n\r\n\r\n----------\r\nAlso contained
+      in:\r\n\r\n - [The Hitch Hiker's Guide to the Galaxy: A Trilogy in Four Parts][1]\r\n
+      - [The More than Complete Hitchhiker's Guide][2]\r\n - [Ultimate Hitchhiker's
+      Guide to the Galaxy](https://openlibrary.org/works/OL2163706W)\r\n\r\n  [1]:
+      https://openlibrary.org/works/OL2163692W\r\n  [2]: https://openlibrary.org/works/OL2163713W"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Imitation of Christ
+  - <Title>k__BackingField: Cabin Fever
     <Authors>k__BackingField:
-    - "Thomas \xE0 Kempis"
-    - "J\xE9r\xF4me de Gonnelieu"
-    - Richard Challoner
-    - Ronald Arbuthnott Knox
-    - Michael Oakley
-    - Paul M. Bechtel
-    - Joseph N. Tylenda
-    - Elder Mullan
-    - Henri Belleau
-    - "F\xE9licit\xE9 Robert de Lamennais"
-    - John Payne
-    - William C. Creasy
-    - Thomas Rogers
-    - Sixtus V Pope
-    - Hal McElwaine Helms
-    - Harold C. Gardiner
-    - Richard Whitford
-    - Edgar Daplyn
-    - David Alexander MacLennan
-    - E. M. Blaiklock
-    - Aloysius Croft
-    - Harold Bolton
-    - Richard Whitford
-    - Wilfrid Raynal
-    - Henry Parry Liddon
-    - "F\xE9licit\xE9 Robert De Lamennais"
-    - Jon M. Sweeney
-    - Rev. William Benham
-    - Rev. William Rev. William Benham
-    - Valenti Angelo
-    - Challoner
-    - Leo Sherley-Price
-    - Paul Wesley Chilcote
-    - Pierre Corneille
-    - Thomas Chalmers
-    - George Hickes
-    <PublishDate>k__BackingField: 1910
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 5
-    <Cover>k__BackingField: {fileID: 21300000, guid: b12c6d5209a924b46a3d067557fa287e,
+    - Jeff Kinney
+    <PublishDate>k__BackingField: 2011
+    <Rating>k__BackingField: {x: 4.52459, y: 5}
+    <RatingCount>k__BackingField: 122
+    <Cover>k__BackingField: {fileID: 21300000, guid: b76183c1e7cefc54b876d6f672440339,
       type: 3}
-    <Isbn>k__BackingField: 9781434611468
-    <NumberOfPages>k__BackingField: 227
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Early works to 1800
-    - Christian life
-    - Devotional literature
-    - Example
-    - Meditations
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL22883240M
-    <OLID>k__BackingField: OL22883240M
-    <Languages>k__BackingField:
-    - wel
-    - kor
-    - spa
-    - ben
-    - ita
-    - gle
-    - cre
-    - ger
-    - eng
-    - lat
-    - mul
-    - fre
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Common Sense
-    <Authors>k__BackingField:
-    - Thomas Paine
-    <PublishDate>k__BackingField: 1776
-    <Rating>k__BackingField: {x: 4.2222223, y: 5}
-    <RatingCount>k__BackingField: 9
-    <Cover>k__BackingField: {fileID: 21300000, guid: d9d38c5369d99de4f840ac22e3501db7,
-      type: 3}
-    <Isbn>k__BackingField: 9780140390162
-    <NumberOfPages>k__BackingField: 99
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Political science
-    - Politics and government
-    - Monarchy
-    - Early works to 1800
-    - Society of Friends
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL6936150M
-    <OLID>k__BackingField: OL6936150M
-    <Languages>k__BackingField:
-    - spa
-    - ger
-    - eng
-    - chi
-    - fre
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField:
-    - OLID: OL6936150M
-      PublishTime: 3 days ago
-      IsEdited: 1
-      Content: 'What a twisst! '
-      Page: 39
-      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
-      ID: 0
-    - OLID: OL6936150M
-      PublishTime: 3 days ago
-      IsEdited: 1
-      Content: 'What a twisst! '
-      Page: 39
-      UserData: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
-      ID: 32553252
-  - <Title>k__BackingField: On Liberty
-    <Authors>k__BackingField:
-    - John Stuart Mill
-    <PublishDate>k__BackingField: 1996
-    <Rating>k__BackingField: {x: 4.2222223, y: 5}
-    <RatingCount>k__BackingField: 9
-    <Cover>k__BackingField: {fileID: 21300000, guid: 733126366fdc1984591464e002ed1b20,
-      type: 3}
-    <Isbn>k__BackingField: 0192501704
-    <NumberOfPages>k__BackingField: 216
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - "Libert\xE9"
-    - Morale
-    - Politique
-    - Liberty
-    - Women's rights
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL15552351M
-    <OLID>k__BackingField: OL15552351M
-    <Languages>k__BackingField:
-    - per
-    - dan
-    - urd
-    - spa
-    - ger
-    - eng
-    - chi
-    - heb
-    - jpn
-    - swe
-    - fre
-    - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Pearl
-    <Authors>k__BackingField:
-    - John Steinbeck
-    <PublishDate>k__BackingField: January 1, 2000
-    <Rating>k__BackingField: {x: 3.525, y: 5}
-    <RatingCount>k__BackingField: 40
-    <Cover>k__BackingField: {fileID: 21300000, guid: 7953a5bf6eaffde478abfd488197b852,
-      type: 3}
-    <Isbn>k__BackingField: 9780241980361
-    <NumberOfPages>k__BackingField: 240
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Open Library Staff Picks
-    - Avaricia
-    - Buceadores de perlas
-    - Family
-    - Fishers
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL11039010M
-    <OLID>k__BackingField: OL11039010M
-    <Languages>k__BackingField:
-    - fre
-    - dut
-    - ger
-    - cat
-    - cpf
-    - alb
-    - ind
-    - spa
-    - eng
-    - pus
-    - kor
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Die Leiden des jungen Werthers
-    <Authors>k__BackingField:
-    - Johann Wolfgang von Goethe
-    <PublishDate>k__BackingField: 
-    <Rating>k__BackingField: {x: 3.52, y: 5}
-    <RatingCount>k__BackingField: 25
-    <Cover>k__BackingField: {fileID: 21300000, guid: 1037736b548bb074c99e72bb21b32c3a,
-      type: 3}
-    <Isbn>k__BackingField: 9780812969900
-    <NumberOfPages>k__BackingField: 255
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Translations into English
-    - Travel
-    - German fiction
-    - Young men
-    - Fiction in Spanish
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL21449184M
-    <OLID>k__BackingField: OL21449184M
-    <Languages>k__BackingField:
-    - glg
-    - cat
-    - ger
-    - fre
-    - por
-    - arm
-    - chi
-    - baq
-    - est
-    - heb
-    - urd
-    - yid
-    - spa
-    - ita
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Essays
-    <Authors>k__BackingField:
-    - Francis Bacon
-    <PublishDate>k__BackingField: June 1988
-    <Rating>k__BackingField: {x: 3.6363637, y: 5}
-    <RatingCount>k__BackingField: 11
-    <Cover>k__BackingField: {fileID: 21300000, guid: d67dbc99fbb93be4f9000883a2c32c19,
-      type: 3}
-    <Isbn>k__BackingField: 1564592286
-    <NumberOfPages>k__BackingField: 0
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Aphorisms and apothegms
-    - Classical Mythology
-    - Early works to 1800
-    - English essays
-    - Good and evil
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL12800002M
-    <OLID>k__BackingField: OL12800002M
-    <Languages>k__BackingField:
-    - eng
-    - pan
-    - fre
-    - lat
-    - ger
-    - ita
-    - jpn
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: La Poetica
-    <Authors>k__BackingField:
-    - Aristotle
-    <PublishDate>k__BackingField: 1908
-    <Rating>k__BackingField: {x: 3.6666667, y: 5}
-    <RatingCount>k__BackingField: 12
-    <Cover>k__BackingField: {fileID: 21300000, guid: 947dee9a15b4aa84cbf36f89d9aafdd0,
-      type: 3}
-    <Isbn>k__BackingField: 1585101877
-    <NumberOfPages>k__BackingField: 0
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Metaphysics
-    - Early works to 1800
-    - Metaphysica (Aristoteles)
-    - Rhetoric, ancient
-    - Ethics, greece
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL7046625M
-    <OLID>k__BackingField: OL7046625M
-    <Languages>k__BackingField:
-    - fre
-    - nor
-    - ukr
-    - ger
-    - ita
-    - mul
-    - gre
-    - grc
-    - wel
-    - chi
-    - ara
-    - urd
-    - per
-    - heb
-    - spa
-    - eng
-    - lat
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField:
-    - OLID: OL7046625M
-      PublishTime: 15 hours ago
-      IsEdited: 1
-      Content: So romantic, If my bf doesn't tell me that tomorrow, I will leave
-        him
-      Page: 12
-      UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
-      ID: 325235325
-  - <Title>k__BackingField: The Lord of the Rings
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2003
-    <Rating>k__BackingField: {x: 4.5625, y: 5}
-    <RatingCount>k__BackingField: 80
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 1611748860
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - The Lord of the Rings
-    - Fiction
-    - "Ficci\xF3n"
-    - English Fantasy fiction
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
-    <OLID>k__BackingField: OL51711484M
-    <Languages>k__BackingField:
-    - fre
-    - swe
-    - dut
-    - ger
-    - glg
-    - ita
-    - tur
-    - rus
-    - jpn
-    - slo
-    - cat
-    - cze
-    - pol
-    - bul
-    - spa
-    - por
-    - eng
-    - kor
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The fellowship of the ring
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1984-03
-    <Rating>k__BackingField: {x: 4.3636365, y: 5}
-    <RatingCount>k__BackingField: 330
-    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
-      type: 3}
-    <Isbn>k__BackingField: 9783608955361
-    <NumberOfPages>k__BackingField: 527
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Dwarves
-    - evil
-    - fear
-    - hope
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24373119M
-    <OLID>k__BackingField: OL24373119M
-    <Languages>k__BackingField:
-    - por
-    - jpn
-    - swe
-    - bul
-    - ast
-    - rus
-    - ger
-    - hrv
-    - yid
-    - nor
-    - ind
-    - spa
-    - tur
-    - afr
-    - fre
-    - eng
-    - pol
-    - glg
-    - chi
-    - ita
-    - hun
-    - dut
-    - cat
-    - dan
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Two Towers
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2012
-    <Rating>k__BackingField: {x: 4.3737373, y: 5}
-    <RatingCount>k__BackingField: 198
-    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
-      type: 3}
-    <Isbn>k__BackingField: 9781556903229
-    <NumberOfPages>k__BackingField: 352
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Ents
-    - Orcs
-    - hobbits
-    - magic
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26447954M
-    <OLID>k__BackingField: OL26447954M
-    <Languages>k__BackingField:
-    - hun
-    - jpn
-    - ast
-    - rus
-    - hrv
-    - dan
-    - cat
-    - chi
-    - tur
-    - afr
-    - por
-    - spa
-    - ita
-    - eng
-    - swe
-    - ind
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
-    - ger
-    - pol
-    - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Hobbit
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2001?
-    <Rating>k__BackingField: {x: 4.2818184, y: 5}
-    <RatingCount>k__BackingField: 440
-    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
-      type: 3}
-    <Isbn>k__BackingField: 0007497911
-    <NumberOfPages>k__BackingField: 306
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Arkenstone
-    - Battle of Five Armies
-    - invisibility
-    - thrushes
-    - eagles
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
-    <OLID>k__BackingField: OL24946057M
-    <Languages>k__BackingField:
-    - nob
-    - cor
-    - jpn
-    - vie
-    - cze
-    - swe
-    - lat
-    - fre
-    - dan
-    - rus
-    - haw
-    - rum
-    - yid
-    - fin
-    - bre
-    - dut
-    - ger
-    - ita
-    - tur
-    - cat
-    - pol
-    - bul
-    - gle
-    - epo
-    - chi
-    - heb
-    - spa
-    - por
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the King
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1976-03
-    <Rating>k__BackingField: {x: 4.3626375, y: 5}
-    <RatingCount>k__BackingField: 91
-    <Cover>k__BackingField: {fileID: 21300000, guid: c1669fa7986e41043a0f7b5a3d5ea605,
-      type: 3}
-    <Isbn>k__BackingField: 9780261102378
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Hobbits
-    - The Lord of the Rings
-    - hope
-    - fear
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10682515M
-    <OLID>k__BackingField: OL10682515M
-    <Languages>k__BackingField:
-    - rus
-    - slo
-    - srp
-    - hrv
-    - cat
-    - chi
-    - tur
-    - vie
-    - afr
-    - por
-    - kor
-    - spa
-    - ita
-    - eng
-    - ind
-    - gre
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
-    - ger
-    - pol
-    - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Harry Potter and the Order of the Phoenix
-    <Authors>k__BackingField:
-    - J. K. Rowling
-    <PublishDate>k__BackingField: 2007
-    <Rating>k__BackingField: {x: 4.2687745, y: 5}
-    <RatingCount>k__BackingField: 253
-    <Cover>k__BackingField: {fileID: 21300000, guid: 80f0706724e5167499d04d443ce72d91,
-      type: 3}
-    <Isbn>k__BackingField: 9785389077904
-    <NumberOfPages>k__BackingField: 766
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Children's Books/Ages 9-12 Fiction
-    - Witches and warlocks
-    - Juvenile audience
-    - Juvenile works
-    - Magic
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL37768153M
-    <OLID>k__BackingField: OL37768153M
-    <Languages>k__BackingField:
-    - cat
-    - bul
-    - vie
-    - rus
-    - spa
-    - fre
-    - dut
-    - tha
-    - ukr
-    - dan
-    - swe
-    - hun
-    - heb
-    - ita
-    - jpn
-    - lit
-    - ben
-    - ara
-    - hin
-    - cze
-    - ger
-    - pol
-    - hrv
-    - por
-    - eng
-    - chi
-    - tur
-    - kor
-    - per
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Lord of the Rings
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2003
-    <Rating>k__BackingField: {x: 4.5625, y: 5}
-    <RatingCount>k__BackingField: 80
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 1611748860
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - The Lord of the Rings
-    - Fiction
-    - "Ficci\xF3n"
-    - English Fantasy fiction
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
-    <OLID>k__BackingField: OL51711484M
-    <Languages>k__BackingField:
-    - fre
-    - swe
-    - dut
-    - ger
-    - glg
-    - ita
-    - tur
-    - rus
-    - jpn
-    - slo
-    - cat
-    - cze
-    - pol
-    - bul
-    - spa
-    - por
-    - eng
-    - kor
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The fellowship of the ring
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1984-03
-    <Rating>k__BackingField: {x: 4.3636365, y: 5}
-    <RatingCount>k__BackingField: 330
-    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
-      type: 3}
-    <Isbn>k__BackingField: 9783608955361
-    <NumberOfPages>k__BackingField: 527
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Dwarves
-    - evil
-    - fear
-    - hope
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24373119M
-    <OLID>k__BackingField: OL24373119M
-    <Languages>k__BackingField:
-    - por
-    - jpn
-    - swe
-    - bul
-    - ast
-    - rus
-    - ger
-    - hrv
-    - yid
-    - nor
-    - ind
-    - spa
-    - tur
-    - afr
-    - fre
-    - eng
-    - pol
-    - glg
-    - chi
-    - ita
-    - hun
-    - dut
-    - cat
-    - dan
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Two Towers
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2012
-    <Rating>k__BackingField: {x: 4.3737373, y: 5}
-    <RatingCount>k__BackingField: 198
-    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
-      type: 3}
-    <Isbn>k__BackingField: 9781556903229
-    <NumberOfPages>k__BackingField: 352
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Ents
-    - Orcs
-    - hobbits
-    - magic
-    - "Ficci\xF3n fant\xE1stica inglesa"
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26447954M
-    <OLID>k__BackingField: OL26447954M
-    <Languages>k__BackingField:
-    - hun
-    - jpn
-    - ast
-    - rus
-    - hrv
-    - dan
-    - cat
-    - chi
-    - tur
-    - afr
-    - por
-    - spa
-    - ita
-    - eng
-    - swe
-    - ind
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
-    - ger
-    - pol
-    - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Hobbit
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2001?
-    <Rating>k__BackingField: {x: 4.2818184, y: 5}
-    <RatingCount>k__BackingField: 440
-    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
-      type: 3}
-    <Isbn>k__BackingField: 0007497911
-    <NumberOfPages>k__BackingField: 306
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Arkenstone
-    - Battle of Five Armies
-    - invisibility
-    - thrushes
-    - eagles
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
-    <OLID>k__BackingField: OL24946057M
-    <Languages>k__BackingField:
-    - nob
-    - cor
-    - jpn
-    - vie
-    - cze
-    - swe
-    - lat
-    - fre
-    - dan
-    - rus
-    - haw
-    - rum
-    - yid
-    - fin
-    - bre
-    - dut
-    - ger
-    - ita
-    - tur
-    - cat
-    - pol
-    - bul
-    - gle
-    - epo
-    - chi
-    - heb
-    - spa
-    - por
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the King
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1976-03
-    <Rating>k__BackingField: {x: 4.3626375, y: 5}
-    <RatingCount>k__BackingField: 91
-    <Cover>k__BackingField: {fileID: 21300000, guid: c1669fa7986e41043a0f7b5a3d5ea605,
-      type: 3}
-    <Isbn>k__BackingField: 9780261102378
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Elves
-    - Hobbits
-    - The Lord of the Rings
-    - hope
-    - fear
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10682515M
-    <OLID>k__BackingField: OL10682515M
-    <Languages>k__BackingField:
-    - rus
-    - slo
-    - srp
-    - hrv
-    - cat
-    - chi
-    - tur
-    - vie
-    - afr
-    - por
-    - kor
-    - spa
-    - ita
-    - eng
-    - ind
-    - gre
-    - bul
-    - fre
-    - baq
-    - cze
-    - dut
-    - ger
-    - pol
-    - yid
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Novels (Hobbit / Lord of the Rings)
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1997 November 3
-    <Rating>k__BackingField: {x: 4.571429, y: 5}
-    <RatingCount>k__BackingField: 21
-    <Cover>k__BackingField: {fileID: 0}
-    <Isbn>k__BackingField: 9788533615687
-    <NumberOfPages>k__BackingField: 1472
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Fiction, fantasy, epic
-    - Middle earth (imaginary place), fiction
-    - Baggins, frodo (fictitious character), fiction
-    - Baggins, bilbo (fictitious character), fiction
-    - Gandalf (fictitious character), fiction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10236416M
-    <OLID>k__BackingField: OL10236416M
-    <Languages>k__BackingField:
-    - eng
-    - rus
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Art of The Fellowship of the Ring
-    <Authors>k__BackingField:
-    - Gary Russell
-    <PublishDate>k__BackingField: 2002
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 5
-    <Cover>k__BackingField: {fileID: 21300000, guid: 50f962f2115efb84e943dd494707d8cc,
-      type: 3}
-    <Isbn>k__BackingField: 9780618212903
-    <NumberOfPages>k__BackingField: 192
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Motion pictures, setting and scenery
-    - Cinematography, special effects
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3585054M
-    <OLID>k__BackingField: OL3585054M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The silver call
-    <Authors>k__BackingField:
-    - Dennis L. McKiernan
-    <PublishDate>k__BackingField: 2001
-    <Rating>k__BackingField: {x: 4.6666665, y: 5}
-    <RatingCount>k__BackingField: 3
-    <Cover>k__BackingField: {fileID: 21300000, guid: bc16d19285539a54e9b19f353bea35fb,
-      type: 3}
-    <Isbn>k__BackingField: 9780451458612
-    <NumberOfPages>k__BackingField: 506
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - American Fantasy fiction
-    - Fantasy fiction, American
-    - Fantasy fiction, American. journey
-    - travel
-    - dwarves
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3667138M
-    <OLID>k__BackingField: OL3667138M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Changing Geography
-    <Authors>k__BackingField:
-    - David Storey
-    - Chris Smith
-    <PublishDate>k__BackingField: 
-    <Rating>k__BackingField: {x: 4.3333335, y: 5}
-    <RatingCount>k__BackingField: 3
-    <Cover>k__BackingField: {fileID: 21300000, guid: d2de2cb6554365342a0dd7bbe5b508eb,
-      type: 3}
-    <Isbn>k__BackingField: 9780618391004
+    <Isbn>k__BackingField: 014133763X
     <NumberOfPages>k__BackingField: 218
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Middle-Earth (Imaginary place)
-    - Middle Earth (Imaginary place)
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Fantasy fiction
-    - Handbooks, manuals
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL20943866M
-    <OLID>k__BackingField: OL20943866M
+    - New York Times bestseller
+    - nyt:series_books=2009-01-10
+    - Diary Of A Wimpy Kid Book 06 Cabin Fever
+    - Families
+    - Middle schools
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL25109421M
+    <OLID>k__BackingField: OL25109421M
     <Languages>k__BackingField:
     - eng
-    <Description>k__BackingField: no description
+    - heb
+    - cat
+    - por
+    - wel
+    - baq
+    - chi
+    - ger
+    - spa
+    - ita
+    - jpn
+    - pol
+    <Description>k__BackingField: "Greg Heffley is in big trouble. School property
+      has been damaged, and Greg is the prime suspect. But the crazy thing is, he\u2019s
+      innocent. Or at least sort of.\r\n\r\nThe authorities are closing in, but when
+      a surprise blizzard hits, the Heffley family is trapped indoors. Greg knows
+      that when the snow melts he\u2019s going to have to face the music, but could
+      any punishment be worse than being stuck inside with your family for the holidays?"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
   - <Title>k__BackingField: The Lord of the Rings
     <Authors>k__BackingField:
-    - Brian Sibley
-    <PublishDate>k__BackingField: 2002
-    <Rating>k__BackingField: {x: 4.5, y: 5}
-    <RatingCount>k__BackingField: 2
-    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
-      type: 3}
-    <Isbn>k__BackingField: 0618260226
-    <NumberOfPages>k__BackingField: 191
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Lord of the rings, the fellowship of the ring (Motion picture)
-    - Lord of the rings, the return of the king (Motion picture)
-    - Lord of the rings, the two towers (Motion picture)
-    - Motion pictures, history
-    - Motion pictures, production and direction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700728M
-    <OLID>k__BackingField: OL3700728M
-    <Languages>k__BackingField:
-    - dut
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Lord of the Rings. Appendices
-    <Authors>k__BackingField:
     - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 2001
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 2
+    <PublishDate>k__BackingField: 2003
+    <Rating>k__BackingField: {x: 4.5625, y: 5}
+    <RatingCount>k__BackingField: 80
     <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
       type: 3}
-    <Isbn>k__BackingField: 9783608936384
+    <Isbn>k__BackingField: 1611748860
     <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
+    - The Lord of the Rings
     - Fiction
     - "Ficci\xF3n"
     - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - Baggins, Frodo (Personaje literario)
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL44095980M
-    <OLID>k__BackingField: OL44095980M
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
+    <OLID>k__BackingField: OL51711484M
     <Languages>k__BackingField:
-    - eng
-    - spa
+    - fre
+    - swe
+    - dut
     - ger
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Fell Beasts and Wondrous Magic Sourcebook (The Lord of
-      the Rings Roleplaying Game)
-    <Authors>k__BackingField:
-    - Decipher RPG
-    <PublishDate>k__BackingField: June 2003
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 2183378edaf25e34980e56825145f566,
-      type: 3}
-    <Isbn>k__BackingField: 9781582369563
-    <NumberOfPages>k__BackingField: 96
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8786597M
-    <OLID>k__BackingField: OL8786597M
-    <Languages>k__BackingField:
+    - glg
+    - ita
+    - tur
+    - rus
+    - jpn
+    - slo
+    - cat
+    - cze
+    - pol
+    - bul
+    - spa
+    - por
     - eng
-    <Description>k__BackingField: no description
+    - kor
+    <Description>k__BackingField: "Originally published from 1954 through 1956, J.R.R.
+      Tolkien's richly complex series ushered in a new age of epic adventure storytelling.
+      A philologist and illustrator who took inspiration from his work, Tolkien invented
+      the modern heroic quest novel from the ground up, creating not just a world,
+      but a domain, not just a lexicon, but a language, that would spawn countless
+      imitators and lead to the inception of the epic fantasy genre. Today, THE LORD
+      OF THE RINGS is considered \"the most influential fantasy novel ever written.\"
+      (THE ENCYCLOPEDIA OF FANTASY)\r\n\r\nDuring his travels across Middle-earth,
+      the hobbit Bilbo Baggins had found the Ring. But the simple band of gold was
+      far from ordinary; it was in fact the One Ring - the greatest of the ancient
+      Rings of Power. Sauron, the Dark Lord, had infused it with his own evil magic,
+      and when it was lost, he was forced to flee into hiding.\r\n\r\nBut now Sauron's
+      exile has ended and his power is spreading anew, fueled by the knowledge that
+      his treasure has been found. He has gathered all the Great Rings to him, and
+      will stop at nothing to reclaim the One that will complete his dominion. The
+      only way to stop him is to cast the Ruling Ring deep into the Fire-Mountain
+      at the heart of the land of Mordor--Sauron's dark realm.\r\n\r\nFate has placed
+      the burden in the hands of Frodo Baggins, Bilbo's heir...and he is resolved
+      to bear it to its end. Or his own. \r\n\r\n\r\n----------\r\n\r\n\r\n**Contains**\r\n\r\n
+      - [The Fellowship of the Ring][1]\r\n - [The Two Towers][2]\r\n - [The Return
+      of the King][3]\r\n - [The Lord of the Rings [2/2]](https://openlibrary.org/works/OL27306128W)\r\n
+      - [The Lord of the Rings [1/6]](https://openlibrary.org/works/OL24170898W)\r\n
+      - [The Lord of the Rings [1/9]](https://openlibrary.org/works/OL27305953W)\r\n
+      - [The Lord of the Rings [2/9]](https://openlibrary.org/works/OL27305892W)\r\n
+      - [The Lord of the Rings [3/9]](https://openlibrary.org/works/OL27306048W)\r\n\r\n\r\n\r\n 
+      [1]: https://openlibrary.org/works/OL14933414W/The_Fellowship_of_the_Ring\r\n 
+      [2]: https://openlibrary.org/works/OL27479W/The_Two_Towers\r\n  [3]: https://openlibrary.org/works/OL27516W/The_Return_of_the_King"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the King Roleplaying Adventure Game (The
-      Lord of the Rings Roleplaying Game)
-    <Authors>k__BackingField:
-    - Decipher RPG
-    <PublishDate>k__BackingField: July 2004
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 4374918336fc7bb48a5e28edb1a059c4,
-      type: 3}
-    <Isbn>k__BackingField: 9781582369655
-    <NumberOfPages>k__BackingField: 56
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL12284829M
-    <OLID>k__BackingField: OL12284829M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Sauron Defeated
+  - <Title>k__BackingField: The fellowship of the ring
     <Authors>k__BackingField:
     - J.R.R. Tolkien
-    - Christopher Tolkien
-    <PublishDate>k__BackingField: 1992
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: c0875193d99992b40847a63be82a7300,
+    <PublishDate>k__BackingField: 2005
+    <Rating>k__BackingField: {x: 4.363636, y: 5}
+    <RatingCount>k__BackingField: 330
+    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
       type: 3}
-    <Isbn>k__BackingField: 9780007348268
-    <NumberOfPages>k__BackingField: 482
+    <Isbn>k__BackingField: 8445009591
+    <NumberOfPages>k__BackingField: 539
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Textual Criticism
-    - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - British and irish fiction (fictional works by one author)
-    - Fiction, fantasy, epic
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL1712510M
-    <OLID>k__BackingField: OL1712510M
+    - Elves
+    - Dwarves
+    - evil
+    - fear
+    - hope
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL43079986M
+    <OLID>k__BackingField: OL43079986M
+    <Languages>k__BackingField:
+    - por
+    - jpn
+    - swe
+    - bul
+    - ast
+    - rus
+    - ger
+    - hrv
+    - yid
+    - nor
+    - ind
+    - spa
+    - tur
+    - afr
+    - fre
+    - eng
+    - pol
+    - glg
+    - chi
+    - ita
+    - hun
+    - dut
+    - cat
+    - dan
+    <Description>k__BackingField: "One Ring to rule them all, One Ring to find them,
+      One Ring to bring them all and in the darkness bind them.\r\n\r\n\u201CA unique,
+      wholly realized other world, evoked from deep in the well of Time, massively
+      detailed, absorbingly entertaining, profound in meaning.\u201D\u2014The New
+      York Times\r\n\r\nIn ancient times the Rings of Power were crafted by the Elven-smiths,
+      and Sauron, the Dark Lord, forged the One Ring, filling it with his own power
+      so that he could rule all others. But the One Ring was taken from him, and
+      though he sought it throughout Middle-earth, it remained lost to him. After
+      many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In
+      a sleepy village in the Shire, young Frodo Baggins finds himself faced with
+      an immense task, as his elderly cousin Bilbo entrusts the Ring to his care.
+      Frodo must leave his home and make a perilous journey across Middle-earth to
+      the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his
+      evil purpose."
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Two Towers
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: xxxx
+    <Rating>k__BackingField: {x: 4.3737373, y: 5}
+    <RatingCount>k__BackingField: 198
+    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
+      type: 3}
+    <Isbn>k__BackingField: 0007141300
+    <NumberOfPages>k__BackingField: 381
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Ents
+    - Orcs
+    - hobbits
+    - magic
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL45329737M
+    <OLID>k__BackingField: OL45329737M
+    <Languages>k__BackingField:
+    - hun
+    - jpn
+    - ast
+    - rus
+    - hrv
+    - dan
+    - cat
+    - chi
+    - tur
+    - afr
+    - por
+    - spa
+    - ita
+    - eng
+    - swe
+    - ind
+    - bul
+    - fre
+    - baq
+    - cze
+    - dut
+    - ger
+    - pol
+    - yid
+    <Description>k__BackingField: "The Lord of the Rings, J.R.R. Tolkien's three-volume
+      epic, is set in the imaginary world of Middle-earth -- home to many strange
+      beings, and most notably hobbits, a peace-loving \"little people,\" cheerful
+      and shy. Since its original British publication in 1954-55, the saga has entranced
+      readers of all ages. It is at once a classic myth and a modern fairy tale.
+      Critic Michael Straight has hailed it as one of the \"very few works of genius
+      in recent literature.\" Middle-earth is a world receptive to poets, scholars,
+      children, and all other people of good will. Donald Barr has described it as
+      \"a scrubbed morning world, and a ringing nightmare world...especially sunlit,
+      and shadowed by perils very fundamental, of a peculiarly uncompounded darkness.\"
+      The story of this world is one of high and heroic adventure. Barr compared
+      it to Beowulf, C.S. Lewis to Orlando Furioso, W.H. Auden to The Thirty-nine
+      Steps. In fact the saga is sui generis -- a triumph of imagination which springs
+      to life within its own framework and on its own terms. - Jacket flap.\r\n\r\nFrodo
+      and the Companions of the Ring have been beset by danger during their quest
+      to prevent the Ruling Ring from falling into the hands of the Dark Lord by
+      destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in
+      the battle with an evil spirit in the Mines of Moria; and at the Falls of Rauros,
+      Boromir, seduced by the power of the Ring, tried to seize it by force. While
+      Frodo and Sam made their escape the rest of the company were attacked by Orcs.
+      Now they continue their journey alone down the great River Anduin \u2013 alone,
+      that is, save for the mysterious creeping figure that follows wherever they
+      go. J.R.R. Tolkien\u2019s great work of imaginative fiction has been labelled
+      both a heroic romance and a classic fantasy fiction. By turns comic and homely,
+      epic and diabolic, the narrative moves through countless changes of scene and
+      character in an imaginary world which is totally convincing in its detail.\r\n\r\n----------\r\n**Also
+      contained in:**\r\n\r\n - [The Lord of the Rings][1]\r\n\r\n\r\n  [1]: https://openlibrary.org/works/OL27448W/The_Lord_of_the_Rings"
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Fifty Shades of Grey
+    <Authors>k__BackingField:
+    - E. L. James
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 3.9686275, y: 5}
+    <RatingCount>k__BackingField: 255
+    <Cover>k__BackingField: {fileID: 21300000, guid: 91ba5aebc17a6dc4ca541134ee774120,
+      type: 3}
+    <Isbn>k__BackingField: 1101911603
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Man-woman relationships, fiction
+    - FICTION / Contemporary Women
+    - Sexual dominance and submission
+    - FICTION / Romance / Contemporary
+    - Dominance (Psychology)
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL50541203M
+    <OLID>k__BackingField: OL50541203M
     <Languages>k__BackingField:
     - eng
-    <Description>k__BackingField: no description
+    - heb
+    - fre
+    - chi
+    - ita
+    - hin
+    - ger
+    - spa
+    - dut
+    - vie
+    - tur
+    - jpn
+    - rus
+    - pol
+    - srp
+    <Description>k__BackingField: "When literature student Anastasia Steele goes
+      to interview young entrepreneur Christian Grey, she encounters a man who is
+      beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled
+      to realize she wants this man and, despite his enigmatic reserve, finds she
+      is desperate to get close to him. Unable to resist Ana\u2019s quiet beauty,
+      wit, and independent spirit, Grey admits he wants her, too\u2014but on his
+      own terms.\r\n \r\nShocked yet thrilled by Grey\u2019s singular erotic tastes,
+      Ana hesitates. For all the trappings of success\u2014his multinational businesses,
+      his vast wealth, his loving family\u2014Grey is a man tormented by demons and
+      consumed by the need to control. When the couple embarks on a daring, passionately
+      physical affair, Ana discovers Christian Grey\u2019s secrets and explores her
+      own dark desires.\r\n\r\nErotic, amusing, and deeply moving, the Fifty Shades
+      Trilogy is a tale that will obsess you, possess you, and stay with you forever.\r\n\r\nThis
+      book is intended for mature audiences."
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Fifty Shades Darker
+    <Authors>k__BackingField:
+    - E. L. James
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 3.419355, y: 5}
+    <RatingCount>k__BackingField: 31
+    <Cover>k__BackingField: {fileID: 21300000, guid: 6b3da823703a77a4f87ae637aba5a9fc,
+      type: 3}
+    <Isbn>k__BackingField: 8375085952
+    <NumberOfPages>k__BackingField: 544
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Sexual dominance and submission, fiction
+    - Man-woman relationships, fiction
+    - Relaciones hombre-mujer
+    - "Ficci\xF3n"
+    - Sadomasoquismo
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32281715M
+    <OLID>k__BackingField: OL32281715M
+    <Languages>k__BackingField:
+    - ger
+    - pol
+    - vie
+    - rus
+    - spa
+    - por
+    - fre
+    - eng
+    - lav
+    - chi
+    - kor
+    - jpn
+    - ita
+    - tur
+    <Description>k__BackingField: 'Daunted by the singular tastes and dark secrets
+      of the beautiful, tormented young entrepreneur Christian Grey, Anastasia Steele
+      has broken off their relationship to start a new career with a Seattle publishing
+      house.
+
+      But, desire for Christian still dominates her every waking thought,
+      and when he proposes a new arrangement, Ana cannot resist. They rekindle their
+      searing sensual affair, and Ana learns more about the barrowing past of her
+      damaged, driven, and demanding Fifty Shades.
+
+      While Christian wrestles
+      with his inner demons, Ana, must confront the anger and envy of the woman who
+      came before her, and make the most important decision of her life.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Grey
+    <Authors>k__BackingField:
+    - E. L. James
+    <PublishDate>k__BackingField: 2015
+    <Rating>k__BackingField: {x: 4.2, y: 5}
+    <RatingCount>k__BackingField: 5
+    <Cover>k__BackingField: {fileID: 21300000, guid: bbd8762649dd9fe47a40616889c62e87,
+      type: 3}
+    <Isbn>k__BackingField: 8804661607
+    <NumberOfPages>k__BackingField: 740
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - 50 Shades of Grey
+    - Fiction
+    - Erotic stories
+    - Man-woman relationships,  mfiction
+    - Businessmen, fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27187676M
+    <OLID>k__BackingField: OL27187676M
+    <Languages>k__BackingField:
+    - fre
+    - jpn
+    - ger
+    - spa
+    - pol
+    - rus
+    - dut
+    - ita
+    - eng
+    <Description>k__BackingField: Christian Grey exercises control in all things;
+      his world is neat, disciplined, and utterly empty ... until the day that Anastasia
+      Steele falls into his office, in a tangle of shapely limbs and tumbling brown
+      hair. He tries to forget her, but instead is swept up in a storm of emotion
+      he cannot comprehend and cannot resist. Unlike any woman he has known before,
+      shy, unworldly Ana seems to see right through him ... past the business prodigy
+      and the penthouse lifestyle to Christian's cold, wounded heart.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Fifty Shades Freed
+    <Authors>k__BackingField:
+    - E. L. James
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 3.4117646, y: 5}
+    <RatingCount>k__BackingField: 34
+    <Cover>k__BackingField: {fileID: 21300000, guid: dc19a84e69f4ff1459e2ea2f64838ec0,
+      type: 3}
+    <Isbn>k__BackingField: 8425349966
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction, Romance, Contemporary
+    - Sexual dominance and submission, fiction
+    - "Relaciones hombre-mujer, Ficci\xF3n"
+    - Sadomasoquismo
+    - "Cuentos er\xF3ticos"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL50541267M
+    <OLID>k__BackingField: OL50541267M
+    <Languages>k__BackingField:
+    - kor
+    - spa
+    - ita
+    - ger
+    - eng
+    - chi
+    - tur
+    - rus
+    - jpn
+    - pol
+    - fre
+    - srp
+    <Description>k__BackingField: 'Cuando la inexperta estudiante Anastasia Steele
+      conocio al joven, seductor y exitoso empresario Christian Grey, nacio entre
+      ellos una sensual relacion que cambio sus vidas para siempre.Sin embargo, desconcertada
+      y llevada al limite por las peculiares practicas eroticas de Christian, la
+      joven lucha por conseguir un mayor com promiso por parte de Grey. Y Christian
+      accede con tal de no perderla.Ahora, Ana y Christian lo tienen todo: amor,
+      pasion, intimidad, bienestar y un mundo de infinitas posibilidades. Pero cuando
+      parece que la fuerza de su relacion puede superar cualquier obstaculo, la fatalidad,
+      el rencor y el destino se conjuran para hacer realidad los peores temores de
+      Ana."Cincuenta sombras: la exitosa combinacion de historia romantica y juego
+      erotico de alto voltaje que ha tocado la fibra de muchas mujeres.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Darker
+    <Authors>k__BackingField:
+    - E. L. James
+    <PublishDate>k__BackingField: Dec 19, 2017
+    <Rating>k__BackingField: {x: 4.5, y: 5}
+    <RatingCount>k__BackingField: 2
+    <Cover>k__BackingField: {fileID: 21300000, guid: 0316a9b529933804ba5395672e6a540d,
+      type: 3}
+    <Isbn>k__BackingField: 0525563598
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Sexual dominance and submission, fiction
+    - Man-woman relationships, fiction
+    - Relaciones hombre-mujer
+    - "Ficci\xF3n"
+    - Gente de negocios
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27408960M
+    <OLID>k__BackingField: OL27408960M
+    <Languages>k__BackingField:
+    - spa
+    - pol
+    - eng
+    <Description>k__BackingField: Their scorching, sensual affair ended in heartbreak
+      and recrimination, but Christian Grey cannot get Anastasia Steele out of his
+      mind, or his blood. Determined to win her back, he tries to suppress his darkest
+      desires and his need for complete control, and to love Ana on her own terms.
+      But the horrors of his childhood still haunt him, and Ana's scheming boss,
+      Jack Hyde, clearly wants her for himself.  Can Christian's confidant and therapist,
+      Dr. Flynn, help him face down his demons? Or will the possessiveness of Elena,
+      his seducer, and the deranged devotion of Leila, his former submissive, drag
+      Christian down into the past?
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Sea of Monsters
+    <Authors>k__BackingField:
+    - Rick Riordan
+    <PublishDate>k__BackingField: 2013
+    <Rating>k__BackingField: {x: 4.462069, y: 5}
+    <RatingCount>k__BackingField: 145
+    <Cover>k__BackingField: {fileID: 21300000, guid: 3902c734e6c7da445b5b0176afb4596e,
+      type: 3}
+    <Isbn>k__BackingField: 0545003407
+    <NumberOfPages>k__BackingField: 272
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction
+    - Fantasy
+    - Identity
+    - Greek Mythology
+    - Juvenile fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL28508807M
+    <OLID>k__BackingField: OL28508807M
+    <Languages>k__BackingField:
+    - chi
+    - spa
+    - por
+    - fre
+    - ger
+    - eng
+    - vie
+    - pol
+    <Description>k__BackingField: It is the second book in the Percy Jackson series
+      where Percy is sent on a quest (well, I wouldn't say SENT) to retrieve the
+      golden fleece that will hep cure Thalia's tree to protect camp-half blood.
+      Old enemies appear and new ones emerge. How will Percy and his band of loyal
+      friends survive?
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: A Monster Calls
+    <Authors>k__BackingField:
+    - Patrick Ness
+    - Jim Kay
+    - Siobhan Dowd
+    <PublishDate>k__BackingField: 2011
+    <Rating>k__BackingField: {x: 4.76, y: 5}
+    <RatingCount>k__BackingField: 25
+    <Cover>k__BackingField: {fileID: 21300000, guid: b6ae278277d5d6f4eb44af5d7c2d4a9c,
+      type: 3}
+    <Isbn>k__BackingField: 1406311529
+    <NumberOfPages>k__BackingField: 204
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Mothers and sons
+    - Single-parent families
+    - Fiction
+    - Loss (Psychology)
+    - Schools
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL25130584M
+    <OLID>k__BackingField: OL25130584M
+    <Languages>k__BackingField:
+    - eng
+    - ita
+    <Description>k__BackingField: A brilliant, graphic novel written by young but
+      promising Patrick Ness. This is the story about 13 year old Conor and his mother
+      who is dying of cancer. Conor has to face the cruelty of real life and learn
+      to let his close and dearest go. When no human can help him Monster appears...
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Great Gatsby
+    <Authors>k__BackingField:
+    - F. Scott Fitzgerald
+    <PublishDate>k__BackingField: 2013
+    <Rating>k__BackingField: {x: 3.9671052, y: 5}
+    <RatingCount>k__BackingField: 152
+    <Cover>k__BackingField: {fileID: 21300000, guid: 6113e8ba111d6414d90fb2252f918806,
+      type: 3}
+    <Isbn>k__BackingField: 6586490049
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Married people, fiction
+    - American fiction (fictional works by one author)
+    - Fiction, psychological
+    - Long island (n.y.), fiction
+    - Fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26495480M
+    <OLID>k__BackingField: OL26495480M
+    <Languages>k__BackingField:
+    - dan
+    - kor
+    - spa
+    - ita
+    - dut
+    - ger
+    - eng
+    - chi
+    - ind
+    - swe
+    - jpn
+    - heb
+    - pol
+    - fre
+    - rum
+    - por
+    <Description>k__BackingField: "Here is a novel, glamorous, ironical, compassionate
+      \u2013 a marvelous fusion into unity of the curious incongruities of the life
+      of the period \u2013 which reveals a hero like no other \u2013 one who could
+      live at no other time and in no other place. But he will live as a character,
+      we surmise, as long as the memory of any reader lasts.\r\n\r\n\"There was something
+      gorgeous about him, some heightened sensitivity to the promises of life....
+      It was an extraordinary gift for hope, a romantic readiness such as I have
+      never found in any other person and which it is not likely I shall ever find
+      again.\"\r\n\r\nIt is the story of this Jay Gatsby who came so mysteriously
+      to West Egg, of his sumptuous entertainments, and of his love for Daisy Buchanan
+      \u2013 a story that ranges from pure lyrical beauty to sheer brutal realism,
+      and is infused with a sense of the strangeness of human circumstance in a heedless
+      universe.\r\n\r\nIt is a magical, living book, blended of irony, romance, and
+      mysticism.\r\n\r\n--first edition jacket\r\n\r\n\r\n----------\r\nAlso contained
+      in:\r\n\r\n - [The Fitzgerald Reader](https://openlibrary.org/works/OL468551W/The_Fitzgerald_Reader)\r\n
+      - [Three Novels of F. Scott Fitzgerald ](https://openlibrary.org/works/OL468557W)"
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Monster at the End of This Book
+    <Authors>k__BackingField:
+    - Jon Stone
+    - Michael Smollin
+    <PublishDate>k__BackingField: July 27, 1999
+    <Rating>k__BackingField: {x: 4.5, y: 5}
+    <RatingCount>k__BackingField: 18
+    <Cover>k__BackingField: {fileID: 21300000, guid: 4d227113d1e45334dbbd563c35ec328c,
+      type: 3}
+    <Isbn>k__BackingField: 0375804013
+    <NumberOfPages>k__BackingField: 32
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Children's Media Tie-In Books
+    - "Children\u2019s Board Books"
+    - "Children\u2019s Picture Books"
+    - self-reference
+    - Fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL7428206M
+    <OLID>k__BackingField: OL7428206M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: Is there a monster at the end of this book? Lovable,
+      furry old Grover believes that there is, and he will try anything to stop you
+      from turning the pages to find him! The Monster at the End of This Book, the
+      bestselling Sesame Street book of all time, is an exciting and highly original
+      tale that children will want to read again and again.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Tempest
+    <Authors>k__BackingField:
+    - William Shakespeare
+    <PublishDate>k__BackingField: 2013
+    <Rating>k__BackingField: {x: 4, y: 5}
+    <RatingCount>k__BackingField: 50
+    <Cover>k__BackingField: {fileID: 21300000, guid: 878292e831870244b90237a891f815ad,
+      type: 3}
+    <Isbn>k__BackingField: 0582848660
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - 'English literature: Shakespeare criticism'
+    - 'English literature: Shakespeare texts'
+    - Plays / Drama
+    - Literary Criticism
+    - Classics
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26475705M
+    <OLID>k__BackingField: OL26475705M
+    <Languages>k__BackingField:
+    - eng
+    - dan
+    - cat
+    - fin
+    - pol
+    - heb
+    - por
+    - chi
+    - tel
+    - mar
+    - spa
+    - ita
+    - yid
+    - pan
+    - epo
+    - swe
+    - hin
+    - ger
+    - dut
+    - mul
+    - gre
+    - fao
+    - nep
+    - fre
+    - wel
+    - kor
+    - enm
+    - swa
+    - jpn
+    <Description>k__BackingField: "The Tempest is a play by William Shakespeare,
+      believed to have been written in 1610\u201311, and thought by many critics
+      to be the last play that Shakespeare wrote alone. It is set on a remote island,
+      where Prospero, the rightful Duke of Milan, plots to restore his daughter Miranda
+      to her rightful place using illusion and skilful manipulation. He conjures
+      up a storm, the eponymous tempest, to lure his usurping brother Antonio and
+      the complicit King Alonso of Naples to the island. There, his machinations
+      bring about the revelation of Antonio's lowly nature, the redemption of the
+      King, and the marriage of Miranda to Alonso's son, Ferdinand."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
   - <Title>k__BackingField: The Lord of the Rings
     <Authors>k__BackingField:
-    - Gary Russell
-    <PublishDate>k__BackingField: 2003
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: June 1994
+    <Rating>k__BackingField: {x: 4.5625, y: 5}
+    <RatingCount>k__BackingField: 80
     <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
       type: 3}
-    <Isbn>k__BackingField: 9780618430291
-    <NumberOfPages>k__BackingField: 192
+    <Isbn>k__BackingField: 1611748860
+    <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Motion pictures
-    - Middle Earth (Imaginary place)
-    - Lord of the rings, the two towers (Motion picture)
-    - Lord of the rings, the return of the king (Motion picture)
-    - Setting and scenery
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700865M
-    <OLID>k__BackingField: OL3700865M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Film Book of J.R.R. Tolkien's The Lord Of The Rings
-    <Authors>k__BackingField:
-    - Saul Zaentz
-    <PublishDate>k__BackingField: 1978
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 0}
-    <Isbn>k__BackingField: 034528139X
-    <NumberOfPages>k__BackingField: 76
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - 'Lord of the rings (Motion picture : 1978)'
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10683160M
-    <OLID>k__BackingField: OL10683160M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Lord of the Rings
-    <Authors>k__BackingField:
-    - Cedco Publishing
-    <PublishDate>k__BackingField: October 2001
-    <Rating>k__BackingField: {x: 5, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: c938c8b6fa63ab14b9f4fb40322a2e0e,
-      type: 3}
-    <Isbn>k__BackingField: 0768325234
-    <NumberOfPages>k__BackingField: 128
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10957364M
-    <OLID>k__BackingField: OL10957364M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Study Guide
-    <Authors>k__BackingField:
-    - SuperSummary
-    <PublishDate>k__BackingField: 2019
-    <Rating>k__BackingField: {x: 3.25, y: 5}
-    <RatingCount>k__BackingField: 4
-    <Cover>k__BackingField: {fileID: 21300000, guid: 79dfd8c415154f949aa4e5724aab0716,
-      type: 3}
-    <Isbn>k__BackingField: 9798626933246
-    <NumberOfPages>k__BackingField: 51
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38135459M
-    <OLID>k__BackingField: OL38135459M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Return of the Shadow
-    <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: 1990
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 1caa3745d52470c43a2e81553dc656b0,
-      type: 3}
-    <Isbn>k__BackingField: 0261102036
-    <NumberOfPages>k__BackingField: 497
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
+    - The Lord of the Rings
+    - Fiction
+    - "Ficci\xF3n"
     - English Fantasy fiction
-    - Middle Earth (Imaginary place)
-    - History and criticism
-    - Lord of the rings
-    - Fantasy fiction, English
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL22855921M
-    <OLID>k__BackingField: OL22855921M
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8610140M
+    <OLID>k__BackingField: OL8610140M
+    <Languages>k__BackingField:
+    - fre
+    - swe
+    - dut
+    - ger
+    - glg
+    - ita
+    - tur
+    - rus
+    - jpn
+    - slo
+    - cat
+    - cze
+    - pol
+    - bul
+    - spa
+    - por
+    - eng
+    - kor
+    <Description>k__BackingField: "Originally published from 1954 through 1956, J.R.R.
+      Tolkien's richly complex series ushered in a new age of epic adventure storytelling.
+      A philologist and illustrator who took inspiration from his work, Tolkien invented
+      the modern heroic quest novel from the ground up, creating not just a world,
+      but a domain, not just a lexicon, but a language, that would spawn countless
+      imitators and lead to the inception of the epic fantasy genre. Today, THE LORD
+      OF THE RINGS is considered \"the most influential fantasy novel ever written.\"
+      (THE ENCYCLOPEDIA OF FANTASY)\r\n\r\nDuring his travels across Middle-earth,
+      the hobbit Bilbo Baggins had found the Ring. But the simple band of gold was
+      far from ordinary; it was in fact the One Ring - the greatest of the ancient
+      Rings of Power. Sauron, the Dark Lord, had infused it with his own evil magic,
+      and when it was lost, he was forced to flee into hiding.\r\n\r\nBut now Sauron's
+      exile has ended and his power is spreading anew, fueled by the knowledge that
+      his treasure has been found. He has gathered all the Great Rings to him, and
+      will stop at nothing to reclaim the One that will complete his dominion. The
+      only way to stop him is to cast the Ruling Ring deep into the Fire-Mountain
+      at the heart of the land of Mordor--Sauron's dark realm.\r\n\r\nFate has placed
+      the burden in the hands of Frodo Baggins, Bilbo's heir...and he is resolved
+      to bear it to its end. Or his own. \r\n\r\n\r\n----------\r\n\r\n\r\n**Contains**\r\n\r\n
+      - [The Fellowship of the Ring][1]\r\n - [The Two Towers][2]\r\n - [The Return
+      of the King][3]\r\n - [The Lord of the Rings [2/2]](https://openlibrary.org/works/OL27306128W)\r\n
+      - [The Lord of the Rings [1/6]](https://openlibrary.org/works/OL24170898W)\r\n
+      - [The Lord of the Rings [1/9]](https://openlibrary.org/works/OL27305953W)\r\n
+      - [The Lord of the Rings [2/9]](https://openlibrary.org/works/OL27305892W)\r\n
+      - [The Lord of the Rings [3/9]](https://openlibrary.org/works/OL27306048W)\r\n\r\n\r\n\r\n 
+      [1]: https://openlibrary.org/works/OL14933414W/The_Fellowship_of_the_Ring\r\n 
+      [2]: https://openlibrary.org/works/OL27479W/The_Two_Towers\r\n  [3]: https://openlibrary.org/works/OL27516W/The_Return_of_the_King"
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Can't Hurt Me
+    <Authors>k__BackingField:
+    - David Goggins
+    <PublishDate>k__BackingField: 2018
+    <Rating>k__BackingField: {x: 4.463158, y: 5}
+    <RatingCount>k__BackingField: 95
+    <Cover>k__BackingField: {fileID: 21300000, guid: 9d9a1ab6169812642a1c40ca55a23987,
+      type: 3}
+    <Isbn>k__BackingField: 1544512287
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - nyt:advice-how-to-and-miscellaneous=2019-01-13
+    - New York Times bestseller
+    - United states, navy, seals
+    - United states, navy, biography
+    - United states, air force
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32603074M
+    <OLID>k__BackingField: OL32603074M
+    <Languages>k__BackingField: []
+    <Description>k__BackingField: 'New York Times best seller
+
+
+
+      Over 4 million
+      copies sold
+
+
+
+      For David Goggins, childhood was a nightmare--poverty,
+      prejudice, and physical abuse colored his days and haunted his nights. But
+      through self-discipline, mental toughness, and hard work, Goggins transformed
+      himself from a depressed, overweight young man with no future into a US Armed
+      Forces icon and one of the world''s top endurance athletes. The only man in
+      history to complete elite training as a Navy SEAL, Army Ranger, and Air Force
+      tactical air controller, he went on to set records in numerous endurance events,
+      inspiring Outside magazine to name him the Fittest (Real) Man in America.
+
+
+
+      In
+      Can''t Hurt Me, he shares his astonishing life story and reveals that most
+      of us tap into only 40 percent of our capabilities. Goggins calls this The
+      40% Rule, and his story illuminates a path that anyone can follow to push past
+      pain, demolish fear, and reach their full potential.
+
+
+
+      An annotated
+      edition of Can''t Hurt Me, offering over two hours of bonus content featuring
+      deeper insights and never-before-told stories shared by David. Not available
+      in other formats.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Le Comte de Monte Cristo
+    <Authors>k__BackingField:
+    - Alexandre Dumas
+    <PublishDate>k__BackingField: Jul 03, 2018
+    <Rating>k__BackingField: {x: 4.3170733, y: 5}
+    <RatingCount>k__BackingField: 164
+    <Cover>k__BackingField: {fileID: 21300000, guid: cb731236d96dcf547a1b701d300c473e,
+      type: 3}
+    <Isbn>k__BackingField: 0274663244
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - France -- History -- 19th century -- Fiction
+    - France
+    - Fiction
+    - France in fiction
+    - History
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27364908M
+    <OLID>k__BackingField: OL27364908M
+    <Languages>k__BackingField:
+    - jpn
+    - rus
+    - fin
+    - ara
+    - ben
+    - chi
+    - tur
+    - vie
+    - por
+    - und
+    - spa
+    - ita
+    - jrb
+    - eng
+    - swe
+    - fre
+    - mon
+    - dut
+    - ger
+    - heb
+    - tgl
+    - mul
+    - tel
+    - guj
+    - pol
+    - arm
+    - yid
+    <Description>k__BackingField: xxix, 608 pages ; 21 cm
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Pride and Prejudice
+    <Authors>k__BackingField:
+    - Jane Austen
+    <PublishDate>k__BackingField: September 1984
+    <Rating>k__BackingField: {x: 4.1399317, y: 5}
+    <RatingCount>k__BackingField: 293
+    <Cover>k__BackingField: {fileID: 21300000, guid: 564384c0798e2794d95d9fee98735bbc,
+      type: 3}
+    <Isbn>k__BackingField: 0521825148
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction, Romance, Historical, Regency
+    - British and irish fiction (fictional works by one author)
+    - Brothers and sisters
+    - Courtship
+    - Drama
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL11073210M
+    <OLID>k__BackingField: OL11073210M
+    <Languages>k__BackingField:
+    - hun
+    - jpn
+    - rus
+    - srp
+    - fin
+    - chi
+    - tam
+    - vie
+    - por
+    - pan
+    - kor
+    - ita
+    - spa
+    - eng
+    - ind
+    - swe
+    - fre
+    - cor
+    - cze
+    - dut
+    - ger
+    - mul
+    - guj
+    - hin
+    - pol
+    - sin
+    <Description>k__BackingField: 'Pride and Prejudice is an 1813 novel of manners
+      written by Jane Austen. The novel follows the character development of Elizabeth
+      Bennet, the dynamic protagonist of the book who learns about the repercussions
+      of hasty judgments and comes to appreciate the difference between superficial
+      goodness and actual goodness.
+
+
+
+      Mr. Bennet, owner of the Longbourn estate
+      in Hertfordshire, has five daughters, but his property is entailed and can
+      only be passed to a male heir. His wife also lacks an inheritance, so his family
+      faces becoming very poor upon his death. Thus, it is imperative that at least
+      one of the girls marry well to support the others, which is a motivation that
+      drives the plot.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Think and Grow Rich
+    <Authors>k__BackingField:
+    - Napoleon Hill
+    <PublishDate>k__BackingField: 2011
+    <Rating>k__BackingField: {x: 4.038554, y: 5}
+    <RatingCount>k__BackingField: 415
+    <Cover>k__BackingField: {fileID: 21300000, guid: 03a3876c28e73f04a9f88955384326c6,
+      type: 3}
+    <Isbn>k__BackingField: 1507840780
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Wealth
+    - Success
+    - "Filosof\xEDa"
+    - Success in business
+    - "\xC9xito"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24907110M
+    <OLID>k__BackingField: OL24907110M
+    <Languages>k__BackingField:
+    - fre
+    - ger
+    - ben
+    - mar
+    - chi
+    - tam
+    - hin
+    - arm
+    - spa
+    - por
+    - eng
+    - kor
+    <Description>k__BackingField: Napoleon Hill's quintessential volume Think and
+      grow rich, the all-time bestseller in the field of professional success, outlines
+      the laws of success and sets the standard of today's motivational thinking.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Rich Dad, Poor Dad
+    <Authors>k__BackingField:
+    - Robert T. Kiyosaki
+    - Sharon L. Lechter
+    <PublishDate>k__BackingField: 2017
+    <Rating>k__BackingField: {x: 4.0846047, y: 5}
+    <RatingCount>k__BackingField: 721
+    <Cover>k__BackingField: {fileID: 21300000, guid: 06e822fd4508516439c8d9225b7c9b46,
+      type: 3}
+    <Isbn>k__BackingField: 0359727891
+    <NumberOfPages>k__BackingField: 294
+    <NumberOfChapters>k__BackingField: 12
+    <Genres>k__BackingField:
+    - Rich people
+    - Personal Finance
+    - Investments
+    - Finanzas personales
+    - Inversiones
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27234831M
+    <OLID>k__BackingField: OL27234831M
     <Languages>k__BackingField:
     - spa
     - eng
-    <Description>k__BackingField: no description
+    - chi
+    - ind
+    - tur
+    - jpn
+    - rus
+    - por
+    <Description>k__BackingField: "April of 2022 marks a 25-year milestone for the
+      personal finance classic Rich Dad Poor Dad that still ranks as the #1 Personal
+      Finance book of all time. And although 25 years have passed since Rich Dad
+      Poor Dad was first published, readers will find that very little in the book
+      itself has changed \u2014 and for good reason. While so much in our world is
+      changing a high speed, the lessons about money and the principles of Rich Dad
+      Poor Dad haven\u2019t changed. Today, as money continues to play a key role
+      in our daily lives, the messages in Robert Kiyosaki\u2019s international bestseller
+      are more timely and more important than ever.\r\n\r\nMilestones \r\n\r\nWhile
+      there is a milestone  to commemorate \u2014 and a new section in the book on
+      Why Milestones Are Important \u2014 preserving the integrity of the original
+      content is testimony to the fact that this book has truly stood the test of
+      time. The sidebars throughout the book (that were updated for the 20-year anniversary
+      edition) have been updated again, but the core principles that parents and
+      grandparents \u2014 those who embraced Robert\u2019s story and messages 25
+      years ago \u2014 are sharing them with new generations who have found that
+      its timeless wisdom and no-nonsense lessons can be applied to anyone\u2019s
+      life and their vision for a future that includes taking control of their finances.\r\nPeople
+      of all cultures and countries celebrate milestones. We use them to measure
+      time, mark progress, reflect on the lessons we\u2019ve learned, and celebrate
+      accomplishments\u2026 and they give meaning to our life\u2019s journey. They
+      are a way that we integrate past, present, and future\u2026 looking back at
+      where we started, where we are today\u2026 and the promise of all that the
+      future can hold."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: O Archontas Ton Dachtylidion 2
+  - <Title>k__BackingField: East of Eden
     <Authors>k__BackingField:
-    - J.R.R. Tolkien
-    <PublishDate>k__BackingField: Jul 24, 2002
-    <Rating>k__BackingField: {x: 4, y: 5}
-    <RatingCount>k__BackingField: 1
-    <Cover>k__BackingField: {fileID: 21300000, guid: 740d9d24bf3acfb46af06938e4a76b41,
+    - John Steinbeck
+    <PublishDate>k__BackingField: 1952-01-01
+    <Rating>k__BackingField: {x: 4.0128207, y: 5}
+    <RatingCount>k__BackingField: 78
+    <Cover>k__BackingField: {fileID: 21300000, guid: d865ae83af1796644b2203d827a30d2e,
       type: 3}
-    <Isbn>k__BackingField: 9600403678
-    <NumberOfPages>k__BackingField: 414
+    <Isbn>k__BackingField: 0553086480
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - migrant labor
+    - historical fiction
+    - domestic fiction
+    - depravity
+    - beneficence
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL49203562M
+    <OLID>k__BackingField: OL49203562M
+    <Languages>k__BackingField:
+    - ita
+    - ger
+    - spa
+    - vie
+    - swe
+    - gre
+    - cze
+    - eng
+    - pol
+    - jpn
+    - chi
+    - fre
+    <Description>k__BackingField: "Steinbeck considered East of Eden to be his masterpiece.
+      In his journal, Journal of a Novel (often read as a companion to the novel)
+      he notes that \u201Cthis is the book I have always wanted and have worked and
+      prayed to be able to write Set primarily in the Salinas Valley in the early
+      twentieth century, the novel traces three generations of two families \u2013
+      the Trasks and the Hamiltons \u2013 as they grapple with the ever-present forces
+      of good and evil. From this plot emerged some of Steinbeck\u2019s most fascinating
+      characters \u2013 many of whom are modeled after people in his own life.\r\n\r\nPart
+      allegory, part autobiography, and part epic, East of Eden was an ambitious
+      project from the start \u2013 a gift to Steinbeck\u2019s sons that was meant
+      to teach them about identity, grief, and what it means to be human. Tinged
+      with biblical echoes of the fall of Adam and Eve and the rivalry of Cain and
+      Abel, this sprawling saga has captivated audiences everywhere for generations.
+      It is through the popularization of East of Eden that the Salinas Valley was
+      truly transformed into \u201Cthe valley of the world\u201D; a place where everyone
+      is able to find a piece of themselves in the golden, rolling hills.\r\n([source][1])\r\n\r\n\r\n----------\r\nContains:\r\n\r\n
+      - [East of Eden 1/2][2]\r\n - [East of Eden 2/2][3]\r\n\r\n----------\r\nAlso
+      contained in:\r\n\r\n - [East of Eden / The Wayward Bus][4]\r\n - [The Grapes
+      of Wrath / The Moon is Down / Cannery Row / East of Eden / Of Mice and Men][5]\r\n
+      - [Novels 1942-1952](https://openlibrary.org/works/OL15334093W/Novels_1942-1952)\r\n
+      - [Reader's Digest Condensed Books: Spring 1953 Selections](https://openlibrary.org/works/OL15158232W)\r\n\r\n\r\n 
+      [1]: http://www.steinbeck.org/about-john/his-works/\r\n  [2]: https://openlibrary.org/works/OL17811975W/East_of_Eden_1_2\r\n 
+      [3]: https://openlibrary.org/works/OL18023025W/East_of_Eden_2_2\r\n  [4]: https://openlibrary.org/works/OL15138391W/East_of_Eden_The_Wayward_Bus\r\n 
+      [5]: https://openlibrary.org/works/OL23165W/The_Grapes_of_Wrath_The_Moon_is_Down_Cannery_Row_East_of_Eden_Of_Mice_and_Men"
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Undercover Economist
+    <Authors>k__BackingField:
+    - Tim Harford
+    <PublishDate>k__BackingField: March 2006
+    <Rating>k__BackingField: {x: 4.142857, y: 5}
+    <RatingCount>k__BackingField: 14
+    <Cover>k__BackingField: {fileID: 21300000, guid: 8b26a3084c576cc469c407ff586ae0cb,
+      type: 3}
+    <Isbn>k__BackingField: 0316731161
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Economy
+    - Undercover Economist
+    - Tim Harford
+    - Economics
+    - Consumer education
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8483321M
+    <OLID>k__BackingField: OL8483321M
+    <Languages>k__BackingField:
+    - eng
+    - spa
+    <Description>k__BackingField: Critically acclaimed as one of the most successful
+      economy books of all time, and a 'must-read' for those of us in the general
+      public who want to understand how society works, but do not want this information
+      to be conveyed in an Oxbridge multipolysyllabic tone, Tim Harford's book gives
+      us an insight into the relevance of the economy to our everyday lives. It begins
+      humbly with the author's relatable bemoaning of coffee and its prices, which
+      is cleverly analogized in the simple, but brilliant and still-relevant ideas
+      of nineteenth-century economist David Ricardo. Organized into clear chapters
+      which target different aspects of the economy's impacts on our life, the book
+      later progresses onto more developed concepts such as the reasons (sub-prime
+      mortgages!) behind the banking collapse of Lehman Brothers in 2008. Written
+      in an aware style from an economist's perspective, this book is thoroughly
+      worthwhile reading.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Rich Dad Poor Dad
+    <Authors>k__BackingField:
+    - Robert T. Kiyosaki
+    - Tom Parks
+    <PublishDate>k__BackingField: May 14, 2019
+    <Rating>k__BackingField: {x: 4.625, y: 5}
+    <RatingCount>k__BackingField: 8
+    <Cover>k__BackingField: {fileID: 21300000, guid: 97ad440529b604b42b9b63c3206bcf9c,
+      type: 3}
+    <Isbn>k__BackingField: 1978691688
+    <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField: []
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL39203520M
-    <OLID>k__BackingField: OL39203520M
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32637231M
+    <OLID>k__BackingField: OL32637231M
     <Languages>k__BackingField:
-    - gre
-    <Description>k__BackingField: no description
+    - ita
+    <Description>k__BackingField: "It's been nearly 25 years since Robert Kiyosaki\u2019s
+      Rich Dad Poor Dad first made waves in the Personal Finance arena.\r\nIt has
+      since become the **#1 Personal Finance book of all time**... translated into
+      dozens of languages and sold around the world.\r\n\r\nRich Dad Poor Dad is
+      Robert's story of growing up with two dads \u2014 his real father and the father
+      of his best friend, his rich dad \u2014 and the ways in which both men shaped
+      his thoughts about money and investing. The book explodes the myth that you
+      need to earn a high income to be rich and explains the difference between working
+      for money and having your money work for you.\r\n\r\n20 Years... 20/20 Hindsight\r\nIn
+      the 20th Anniversary Edition of this classic, Robert offers an update on what
+      we\u2019ve seen over the past 20 years related to money, investing, and the
+      global economy. Sidebars throughout the book will take readers \u201Cfast forward\u201D
+      \u2014 from 1997 to today \u2014 as Robert assesses how the principles taught
+      by his rich dad have stood the test of time.\r\n\r\nIn many ways, the messages
+      of Rich Dad Poor Dad, messages that were criticized and challenged two decades
+      ago, are more meaningful, relevant and important today than they were 20 years
+      ago.\r\n\r\nAs always, readers can expect that Robert will be candid, insightful...
+      and continue to rock more than a few boats in his retrospective.\r\n\r\nWill
+      there be a few surprises? Count on it.\r\n\r\nRich Dad Poor Dad...\r\n\u2022
+      Explodes the myth that you need to earn a high income to become rich\r\n\u2022
+      Challenges the belief that your house is an asset\r\n\u2022 Shows parents why
+      they can't rely on the school system to teach their kids\r\nabout money\r\n\u2022
+      Defines once and for all an asset and a liability\r\n\u2022 Teaches you what
+      to teach your kids about money for their future financial success."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  _booksToFetch: 15
+  - <Title>k__BackingField: Autobiography
+    <Authors>k__BackingField:
+    - Benjamin Franklin
+    - Horatio Hastings Weld
+    - Charles W. Eliot
+    - James Zimmerhoff
+    - Charles Eliot
+    <PublishDate>k__BackingField: 1899
+    <Rating>k__BackingField: {x: 3.851852, y: 5}
+    <RatingCount>k__BackingField: 27
+    <Cover>k__BackingField: {fileID: 21300000, guid: 21c113da7fe2eaa46869e4b8c17262a9,
+      type: 3}
+    <Isbn>k__BackingField: 1480484059
+    <NumberOfPages>k__BackingField: 401
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Wills
+    - Scientists
+    - Printers
+    - American Maxims
+    - Inventors
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24151972M
+    <OLID>k__BackingField: OL24151972M
+    <Languages>k__BackingField:
+    - ita
+    - ger
+    - eng
+    - chi
+    - swe
+    - jpn
+    - fre
+    <Description>k__BackingField: 'Few men could compare to Benjamin Franklin. Virtually
+      self-taught, he excelled as an athlete, a man of letters, a printer, a scientist,
+      a wit, an inventor, an editor, and a writer, and he was probably the most successful
+      diplomat in American history. David Hume hailed him as the first great philosopher
+      and great man of letters in the New World.
+
+
+
+      Written initially to guide
+      his son, Franklin''s autobiography is a lively, spellbinding account of his
+      unique and eventful life. Stylistically his best work, it has become a classic
+      in world literature, one to inspire and delight readers everywhere.'
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  _booksToFetch: 5
   _searchQuerry: 
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
   _addContentsTo: {fileID: 0}
   _getBooks: 0
   _removeAllBooks: 0
-  _user: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-  _olidToOwn: OL26447954M
+  _concatAfterGettingBooks: 1
+  _user: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+  _olidToOwn: OL28508807M
   _ownBook: 0
   _includeAllNotes: 0
+  _path: Assets/Developers/Stefan/ScriptableObjects/Resources/
+  _generateIntoScriptableObjects: 0
