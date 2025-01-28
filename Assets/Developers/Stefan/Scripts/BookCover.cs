@@ -12,9 +12,14 @@ public class BookCover : MonoBehaviour
     [SerializeField] Image _image;
     [SerializeField] BookLocalContainer _container;
     [SerializeField] string _bookOLID;
-    
+    [SerializeField] bool _updateOnEnable = true;
     public BookLocalContainer Container => _container;
     public BookData BookData { get; private set; }
+
+    public void SetOlid(string olid)
+    {
+        _bookOLID = olid;
+    }
 
     public void SendToBookOverview()
     {
@@ -32,7 +37,7 @@ public class BookCover : MonoBehaviour
 
     void OnEnable()
     {
-        if(BookData == null)
+        if(BookData == null && _updateOnEnable)
             UpdateUI();
     }
 

@@ -642,333 +642,573 @@ MonoBehaviour:
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Cabin Fever
+  - <Title>k__BackingField: The Lord of the Rings
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2014
-    <Rating>k__BackingField: {x: 4.52459, y: 5}
-    <RatingCount>k__BackingField: 122
-    <Cover>k__BackingField: {fileID: 21300000, guid: 9207b8430d2934243bab1776f6f737ff,
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2003
+    <Rating>k__BackingField: {x: 4.5625, y: 5}
+    <RatingCount>k__BackingField: 80
+    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
       type: 3}
-    <Isbn>k__BackingField: 9787540553654
-    <NumberOfPages>k__BackingField: 217
+    <Isbn>k__BackingField: 1611748860
+    <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - New York Times bestseller
-    - nyt:series_books=2009-01-10
-    - Diary Of A Wimpy Kid Book 06 Cabin Fever
-    - Families
-    - Middle schools
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL32093254M
-    <OLID>k__BackingField: OL32093254M
-    <Languages>k__BackingField:
-    - eng
-    - heb
-    - cat
-    - por
-    - wel
-    - baq
-    - chi
-    - ger
-    - spa
-    - ita
-    - jpn
-    - pol
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Dog Days
-    <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2009
-    <Rating>k__BackingField: {x: 4.47482, y: 5}
-    <RatingCount>k__BackingField: 139
-    <Cover>k__BackingField: {fileID: 21300000, guid: 534b09713af1586458b65b2b8d0e1f2d,
-      type: 3}
-    <Isbn>k__BackingField: 0810988887
-    <NumberOfPages>k__BackingField: 214
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Clergy
-    - Dogs
+    - The Lord of the Rings
     - Fiction
-    - Spouses of clergy
-    - Theft
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24032505M
-    <OLID>k__BackingField: OL24032505M
+    - "Ficci\xF3n"
+    - English Fantasy fiction
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL51711484M
+    <OLID>k__BackingField: OL51711484M
     <Languages>k__BackingField:
-    - wel
-    - spa
-    - ita
-    - gle
+    - fre
+    - swe
+    - dut
     - ger
-    - heb
-    - eng
-    - chi
+    - glg
+    - ita
+    - tur
+    - rus
     - jpn
-    - por
-    - bul
+    - slo
+    - cat
+    - cze
     - pol
-    - baq
+    - bul
+    - spa
+    - por
+    - eng
+    - kor
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Double Down
+  - <Title>k__BackingField: The fellowship of the ring
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2016
-    <Rating>k__BackingField: {x: 4.525773, y: 5}
-    <RatingCount>k__BackingField: 97
-    <Cover>k__BackingField: {fileID: 21300000, guid: 56756c7bbe18a1541a2a72115314e03d,
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1984-03
+    <Rating>k__BackingField: {x: 4.3636365, y: 5}
+    <RatingCount>k__BackingField: 330
+    <Cover>k__BackingField: {fileID: 21300000, guid: b5274d5f482bdc24ea0e4b918f394c0a,
       type: 3}
-    <Isbn>k__BackingField: 9781419725906
-    <NumberOfPages>k__BackingField: 217
+    <Isbn>k__BackingField: 9783608955361
+    <NumberOfPages>k__BackingField: 527
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Elves
+    - Dwarves
+    - evil
+    - fear
+    - hope
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24373119M
+    <OLID>k__BackingField: OL24373119M
+    <Languages>k__BackingField:
+    - por
+    - jpn
+    - swe
+    - bul
+    - ast
+    - rus
+    - ger
+    - hrv
+    - yid
+    - nor
+    - ind
+    - spa
+    - tur
+    - afr
+    - fre
+    - eng
+    - pol
+    - glg
+    - chi
+    - ita
+    - hun
+    - dut
+    - cat
+    - dan
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Two Towers
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 4.3737373, y: 5}
+    <RatingCount>k__BackingField: 198
+    <Cover>k__BackingField: {fileID: 21300000, guid: 8c033edd9bf61594984d71fc85c73978,
+      type: 3}
+    <Isbn>k__BackingField: 9781556903229
+    <NumberOfPages>k__BackingField: 352
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Ents
+    - Orcs
+    - hobbits
+    - magic
+    - "Ficci\xF3n fant\xE1stica inglesa"
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26447954M
+    <OLID>k__BackingField: OL26447954M
+    <Languages>k__BackingField:
+    - hun
+    - jpn
+    - ast
+    - rus
+    - hrv
+    - dan
+    - cat
+    - chi
+    - tur
+    - afr
+    - por
+    - spa
+    - ita
+    - eng
+    - swe
+    - ind
+    - bul
+    - fre
+    - baq
+    - cze
+    - dut
+    - ger
+    - pol
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Hobbit
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2001?
+    <Rating>k__BackingField: {x: 4.2818184, y: 5}
+    <RatingCount>k__BackingField: 440
+    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
+      type: 3}
+    <Isbn>k__BackingField: 0007497911
+    <NumberOfPages>k__BackingField: 306
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Arkenstone
+    - Battle of Five Armies
+    - invisibility
+    - thrushes
+    - eagles
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
+    <OLID>k__BackingField: OL24946057M
+    <Languages>k__BackingField:
+    - nob
+    - cor
+    - jpn
+    - vie
+    - cze
+    - swe
+    - lat
+    - fre
+    - dan
+    - rus
+    - haw
+    - rum
+    - yid
+    - fin
+    - bre
+    - dut
+    - ger
+    - ita
+    - tur
+    - cat
+    - pol
+    - bul
+    - gle
+    - epo
+    - chi
+    - heb
+    - spa
+    - por
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Return of the King
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1976-03
+    <Rating>k__BackingField: {x: 4.3626375, y: 5}
+    <RatingCount>k__BackingField: 91
+    <Cover>k__BackingField: {fileID: 21300000, guid: c1669fa7986e41043a0f7b5a3d5ea605,
+      type: 3}
+    <Isbn>k__BackingField: 9780261102378
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Elves
+    - Hobbits
+    - The Lord of the Rings
+    - hope
+    - fear
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10682515M
+    <OLID>k__BackingField: OL10682515M
+    <Languages>k__BackingField:
+    - rus
+    - slo
+    - srp
+    - hrv
+    - cat
+    - chi
+    - tur
+    - vie
+    - afr
+    - por
+    - kor
+    - spa
+    - ita
+    - eng
+    - ind
+    - gre
+    - bul
+    - fre
+    - baq
+    - cze
+    - dut
+    - ger
+    - pol
+    - yid
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Novels (Hobbit / Lord of the Rings)
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1997 November 3
+    <Rating>k__BackingField: {x: 4.571429, y: 5}
+    <RatingCount>k__BackingField: 21
+    <Cover>k__BackingField: {fileID: 0}
+    <Isbn>k__BackingField: 9788533615687
+    <NumberOfPages>k__BackingField: 1472
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction, fantasy, epic
+    - Middle earth (imaginary place), fiction
+    - Baggins, frodo (fictitious character), fiction
+    - Baggins, bilbo (fictitious character), fiction
+    - Gandalf (fictitious character), fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10236416M
+    <OLID>k__BackingField: OL10236416M
+    <Languages>k__BackingField:
+    - eng
+    - rus
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Art of The Fellowship of the Ring
+    <Authors>k__BackingField:
+    - Gary Russell
+    <PublishDate>k__BackingField: 2002
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 5
+    <Cover>k__BackingField: {fileID: 21300000, guid: 50f962f2115efb84e943dd494707d8cc,
+      type: 3}
+    <Isbn>k__BackingField: 9780618212903
+    <NumberOfPages>k__BackingField: 192
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Lord of the rings, the fellowship of the ring (Motion picture)
+    - Motion pictures, setting and scenery
+    - Cinematography, special effects
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3585054M
+    <OLID>k__BackingField: OL3585054M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The silver call
+    <Authors>k__BackingField:
+    - Dennis L. McKiernan
+    <PublishDate>k__BackingField: 2001
+    <Rating>k__BackingField: {x: 4.6666665, y: 5}
+    <RatingCount>k__BackingField: 3
+    <Cover>k__BackingField: {fileID: 21300000, guid: bc16d19285539a54e9b19f353bea35fb,
+      type: 3}
+    <Isbn>k__BackingField: 9780451458612
+    <NumberOfPages>k__BackingField: 506
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - American Fantasy fiction
+    - Fantasy fiction, American
+    - Fantasy fiction, American. journey
+    - travel
+    - dwarves
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3667138M
+    <OLID>k__BackingField: OL3667138M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Changing Geography
+    <Authors>k__BackingField:
+    - David Storey
+    - Chris Smith
+    <PublishDate>k__BackingField: 
+    <Rating>k__BackingField: {x: 4.3333335, y: 5}
+    <RatingCount>k__BackingField: 3
+    <Cover>k__BackingField: {fileID: 21300000, guid: d2de2cb6554365342a0dd7bbe5b508eb,
+      type: 3}
+    <Isbn>k__BackingField: 9780618391004
+    <NumberOfPages>k__BackingField: 218
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Middle-Earth (Imaginary place)
+    - Middle Earth (Imaginary place)
+    - Lord of the rings, the fellowship of the ring (Motion picture)
+    - Fantasy fiction
+    - Handbooks, manuals
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL20943866M
+    <OLID>k__BackingField: OL20943866M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Lord of the Rings
+    <Authors>k__BackingField:
+    - Brian Sibley
+    <PublishDate>k__BackingField: 2002
+    <Rating>k__BackingField: {x: 4.5, y: 5}
+    <RatingCount>k__BackingField: 2
+    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+      type: 3}
+    <Isbn>k__BackingField: 0618260226
+    <NumberOfPages>k__BackingField: 191
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Lord of the rings, the fellowship of the ring (Motion picture)
+    - Lord of the rings, the return of the king (Motion picture)
+    - Lord of the rings, the two towers (Motion picture)
+    - Motion pictures, history
+    - Motion pictures, production and direction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700728M
+    <OLID>k__BackingField: OL3700728M
+    <Languages>k__BackingField:
+    - dut
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Lord of the Rings. Appendices
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2001
+    <Rating>k__BackingField: {x: 4, y: 5}
+    <RatingCount>k__BackingField: 2
+    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+      type: 3}
+    <Isbn>k__BackingField: 9783608936384
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction
+    - "Ficci\xF3n"
+    - English Fantasy fiction
+    - Middle Earth (Imaginary place)
+    - Baggins, Frodo (Personaje literario)
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL44095980M
+    <OLID>k__BackingField: OL44095980M
+    <Languages>k__BackingField:
+    - eng
+    - spa
+    - ger
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Fell Beasts and Wondrous Magic Sourcebook (The Lord of
+      the Rings Roleplaying Game)
+    <Authors>k__BackingField:
+    - Decipher RPG
+    <PublishDate>k__BackingField: June 2003
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: 2183378edaf25e34980e56825145f566,
+      type: 3}
+    <Isbn>k__BackingField: 9781582369563
+    <NumberOfPages>k__BackingField: 96
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL8786597M
+    <OLID>k__BackingField: OL8786597M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Return of the King Roleplaying Adventure Game (The
+      Lord of the Rings Roleplaying Game)
+    <Authors>k__BackingField:
+    - Decipher RPG
+    <PublishDate>k__BackingField: July 2004
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: 4374918336fc7bb48a5e28edb1a059c4,
+      type: 3}
+    <Isbn>k__BackingField: 9781582369655
+    <NumberOfPages>k__BackingField: 56
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL12284829M
+    <OLID>k__BackingField: OL12284829M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Sauron Defeated
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    - Christopher Tolkien
+    <PublishDate>k__BackingField: 1992
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: c0875193d99992b40847a63be82a7300,
+      type: 3}
+    <Isbn>k__BackingField: 9780007348268
+    <NumberOfPages>k__BackingField: 482
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Textual Criticism
+    - English Fantasy fiction
+    - Middle Earth (Imaginary place)
+    - British and irish fiction (fictional works by one author)
+    - Fiction, fantasy, epic
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL1712510M
+    <OLID>k__BackingField: OL1712510M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: The Lord of the Rings
+    <Authors>k__BackingField:
+    - Gary Russell
+    <PublishDate>k__BackingField: 2003
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: df9e7ab86cfca6d49987cfee268e8273,
+      type: 3}
+    <Isbn>k__BackingField: 9780618430291
+    <NumberOfPages>k__BackingField: 192
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
     - Motion pictures
-    - Humorous Stories
-    - JUVENILE FICTION
-    - JUVENILE FICTION / Humorous Stories
-    - Comics & Graphic Novels
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL53351605M
-    <OLID>k__BackingField: OL53351605M
+    - Middle Earth (Imaginary place)
+    - Lord of the rings, the two towers (Motion picture)
+    - Lord of the rings, the return of the king (Motion picture)
+    - Setting and scenery
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL3700865M
+    <OLID>k__BackingField: OL3700865M
     <Languages>k__BackingField:
-    - chi
-    - baq
-    - jpn
-    - spa
-    - wel
-    - pol
     - eng
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Getaway
+  - <Title>k__BackingField: The Film Book of J.R.R. Tolkien's The Lord Of The Rings
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2017
-    <Rating>k__BackingField: {x: 4.6296296, y: 5}
-    <RatingCount>k__BackingField: 54
-    <Cover>k__BackingField: {fileID: 21300000, guid: 5e5995a6077b19b488e84bfc22552c31,
-      type: 3}
-    <Isbn>k__BackingField: 1683351118
-    <NumberOfPages>k__BackingField: 100
+    - Saul Zaentz
+    <PublishDate>k__BackingField: 1978
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 0}
+    <Isbn>k__BackingField: 034528139X
+    <NumberOfPages>k__BackingField: 76
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Humorous stories
-    - Diaries
-    - JUVENILE FICTION / Humorous Stories
-    - Juvenile fiction
-    - Family life
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27383445M
-    <OLID>k__BackingField: OL27383445M
+    - 'Lord of the rings (Motion picture : 1978)'
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10683160M
+    <OLID>k__BackingField: OL10683160M
     <Languages>k__BackingField:
-    - spa
     - eng
-    - chi
-    - pol
-    - baq
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Deep End
+  - <Title>k__BackingField: Lord of the Rings
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2020
-    <Rating>k__BackingField: {x: 4.6829267, y: 5}
-    <RatingCount>k__BackingField: 41
-    <Cover>k__BackingField: {fileID: 21300000, guid: a8bc401be6ee52740a79f50cd8993d2f,
+    - Cedco Publishing
+    <PublishDate>k__BackingField: October 2001
+    <Rating>k__BackingField: {x: 5, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: c938c8b6fa63ab14b9f4fb40322a2e0e,
       type: 3}
-    <Isbn>k__BackingField: 8310134398
-    <NumberOfPages>k__BackingField: 100
+    <Isbn>k__BackingField: 0768325234
+    <NumberOfPages>k__BackingField: 128
     <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Children's literature
-    - Humor
-    - Graphic novel
-    - Diary fiction
-    - Family
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38790178M
-    <OLID>k__BackingField: OL38790178M
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10957364M
+    <OLID>k__BackingField: OL10957364M
     <Languages>k__BackingField:
-    - pol
     - eng
-    - spa
-    - chi
-    - baq
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Old School
+  - <Title>k__BackingField: Study Guide
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: Feb 16, 2015
-    <Rating>k__BackingField: {x: 4.5058823, y: 5}
-    <RatingCount>k__BackingField: 85
-    <Cover>k__BackingField: {fileID: 21300000, guid: 1e6ce06a2488c844c87c1bb975c2759f,
+    - SuperSummary
+    <PublishDate>k__BackingField: 2019
+    <Rating>k__BackingField: {x: 3.25, y: 5}
+    <RatingCount>k__BackingField: 4
+    <Cover>k__BackingField: {fileID: 21300000, guid: 79dfd8c415154f949aa4e5724aab0716,
       type: 3}
-    <Isbn>k__BackingField: 9781849676922
-    <NumberOfPages>k__BackingField: 100
+    <Isbn>k__BackingField: 9798626933246
+    <NumberOfPages>k__BackingField: 51
     <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Spanish language materials
-    - Diaries
-    - Juvenile fiction
-    - Fiction
-    - Family life
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26709744M
-    <OLID>k__BackingField: OL26709744M
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL38135459M
+    <OLID>k__BackingField: OL38135459M
     <Languages>k__BackingField:
-    - jpn
-    - wel
-    - pol
-    - ger
-    - por
     - eng
-    - spa
-    - chi
-    - baq
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Rodrick Rules
+  - <Title>k__BackingField: The Return of the Shadow
     <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2008
-    <Rating>k__BackingField: {x: 4.419355, y: 5}
-    <RatingCount>k__BackingField: 124
-    <Cover>k__BackingField: {fileID: 21300000, guid: f25950c82260ae9429005913e27643a6,
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 1990
+    <Rating>k__BackingField: {x: 4, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: 1caa3745d52470c43a2e81553dc656b0,
       type: 3}
-    <Isbn>k__BackingField: 986848474X
-    <NumberOfPages>k__BackingField: 216
+    <Isbn>k__BackingField: 0261102036
+    <NumberOfPages>k__BackingField: 497
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - New York Times bestseller
-    - nyt:series_books=2009-01-10
-    - Families
-    - Diaries
-    - Middle schools
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24205139M
-    <OLID>k__BackingField: OL24205139M
+    - English Fantasy fiction
+    - Middle Earth (Imaginary place)
+    - History and criticism
+    - Lord of the rings
+    - Fantasy fiction, English
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL22855921M
+    <OLID>k__BackingField: OL22855921M
     <Languages>k__BackingField:
     - spa
-    - ger
-    - jpn
-    - wel
+    - eng
+    <Description>k__BackingField: no description
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: O Archontas Ton Dachtylidion 2
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: Jul 24, 2002
+    <Rating>k__BackingField: {x: 4, y: 5}
+    <RatingCount>k__BackingField: 1
+    <Cover>k__BackingField: {fileID: 21300000, guid: 740d9d24bf3acfb46af06938e4a76b41,
+      type: 3}
+    <Isbn>k__BackingField: 9600403678
+    <NumberOfPages>k__BackingField: 414
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL39203520M
+    <OLID>k__BackingField: OL39203520M
+    <Languages>k__BackingField:
     - gre
-    - ita
-    - cat
-    - cze
-    - gle
-    - chi
-    - pol
-    - eng
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Long Haul
-    <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 
-    <Rating>k__BackingField: {x: 4.3469386, y: 5}
-    <RatingCount>k__BackingField: 98
-    <Cover>k__BackingField: {fileID: 21300000, guid: 84aa3b61bd3645e4f80f978df08e4621,
-      type: 3}
-    <Isbn>k__BackingField: ISBN
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Automobile travel
-    - Humorous stories
-    - Families
-    - Diaries
-    - Comics & Graphic Novels
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26366428M
-    <OLID>k__BackingField: OL26366428M
-    <Languages>k__BackingField:
-    - chi
-    - dut
-    - pol
-    - spa
-    - baq
-    - por
-    - wel
-    - eng
-    - jpn
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Diary of a Wimpy Kid
-    <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: April 1, 2007
-    <Rating>k__BackingField: {x: 4.2, y: 5}
-    <RatingCount>k__BackingField: 285
-    <Cover>k__BackingField: {fileID: 21300000, guid: 3c07705b022a2114db0c630e157de1c5,
-      type: 3}
-    <Isbn>k__BackingField: 9781419729454
-    <NumberOfPages>k__BackingField: 226
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - School stories
-    - Families
-    - Diaries
-    - Middle schools
-    - Family life
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL36660032M
-    <OLID>k__BackingField: OL36660032M
-    <Languages>k__BackingField:
-    - ara
-    - dut
-    - fre
-    - pol
-    - ger
-    - kor
-    - vie
-    - spa
-    - lat
-    - ita
-    - jpn
-    - baq
-    - por
-    - wel
-    - glg
-    - bul
-    - eng
-    - heb
-    <Description>k__BackingField: no description
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Third Wheel
-    <Authors>k__BackingField:
-    - Jeff Kinney
-    <PublishDate>k__BackingField: 2014
-    <Rating>k__BackingField: {x: 4.096774, y: 5}
-    <RatingCount>k__BackingField: 62
-    <Cover>k__BackingField: {fileID: 21300000, guid: 6dcae3e520fbd574e8bf7ed57c4a8943,
-      type: 3}
-    <Isbn>k__BackingField: 9780141353432
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Humorous stories
-    - Families
-    - Middle schools
-    - Diaries
-    - Dance parties
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL26037426M
-    <OLID>k__BackingField: OL26037426M
-    <Languages>k__BackingField:
-    - cat
-    - jpn
-    - wel
-    - pol
-    - por
-    - eng
-    - spa
-    - chi
-    - tur
-    - baq
     <Description>k__BackingField: no description
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
@@ -979,6 +1219,6 @@ MonoBehaviour:
   _getBooks: 0
   _removeAllBooks: 0
   _user: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
-  _olidToOwn: OL8308587M
+  _olidToOwn: OL26447954M
   _ownBook: 0
   _includeAllNotes: 0

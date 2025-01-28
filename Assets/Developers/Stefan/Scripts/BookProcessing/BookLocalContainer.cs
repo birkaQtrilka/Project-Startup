@@ -1,8 +1,6 @@
-using Newtonsoft.Json.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEditor;
-using System.Collections.Generic;
 using System.Linq;
 
 [CreateAssetMenu(menuName = "BookContainer")]
@@ -18,6 +16,7 @@ public class BookLocalContainer : ScriptableObject
 
     [SerializeField] bool _getBooks;
     [SerializeField] bool _removeAllBooks;
+    [SerializeField] bool _concatAfterGettingBooks;
 
     [Header("For conveniency")]
     [SerializeField] UserData _user;
@@ -76,8 +75,10 @@ public class BookLocalContainer : ScriptableObject
 
 
         }
+#if UNITY_EDITOR
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+#endif
     }
 
     public OwnedBook GetOwnedBook(UserData fromUser, string olid)
@@ -92,12 +93,18 @@ public class BookLocalContainer : ScriptableObject
 
     async Task GetBooks()
     {
+        if(_concatAfterGettingBooks)
+        Books.Concat(await _bookGetter.FetchData(_booksToFetch));
+            else
         Books = await _bookGetter.FetchData(_booksToFetch);
     }
 
     async Task GetBooks(string querry)
     {
-        Books = await _bookGetter.FetchData(_booksToFetch, querry);
+        if (_concatAfterGettingBooks)
+            Books = Books.Concat(await _bookGetter.FetchData(_booksToFetch, querry)).ToArray();
+        else
+            Books = await _bookGetter.FetchData(_booksToFetch, querry);
     }
 
 }
