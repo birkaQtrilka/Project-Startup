@@ -15,7 +15,7 @@ public class ProgressScrollwheelSelector : MonoBehaviour
         int a;
 
         // I need book data so i know the number of pages the book has
-        OwnedBook myBook = UserManager.Instance.CurrentUser.OwnedBooks.FirstOrDefault(b => b.BookData.OLID == _DBUI._bookOLID);
+        OwnedBook myBook = UserManager.Instance.CurrentUser.OwnedBooks.FirstOrDefault(b => b.BookData == _DBUI._bookData);
         //myBook.CurrentPage = _currentPage;
 
         a = myBook.BookData.NumberOfPages;
@@ -45,7 +45,7 @@ public class ProgressScrollwheelSelector : MonoBehaviour
 
     public void ConfirmCurrentPage()
     {
-        OwnedBook myBook = UserManager.Instance.CurrentUser.OwnedBooks.FirstOrDefault(b => b.BookData.OLID == _DBUI._bookOLID);
+        OwnedBook myBook = UserManager.Instance.CurrentUser.OwnedBooks.FirstOrDefault(b => b.BookData == _DBUI._bookData);
         //myBook.CurrentPage = _currentPage;
 
         myBook.SetProgress(_currentPage);

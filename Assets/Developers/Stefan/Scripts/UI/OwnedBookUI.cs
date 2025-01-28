@@ -20,10 +20,10 @@ public class OwnedBookUI : MonoBehaviour
             float fill = (float)_ownedBook.CurrentPage / _ownedBook.BookData.NumberOfPages;
         _fill.fillAmount = fill;
     }
-
-
-    void Start()
+    
+    void OnEnable()
     {
-        UpdateUI();    
+        UpdateUI();
     }
+
 }

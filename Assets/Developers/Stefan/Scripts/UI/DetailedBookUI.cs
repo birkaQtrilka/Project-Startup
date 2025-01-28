@@ -13,12 +13,12 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Image[] _ratingImages;
     [SerializeField] Image[] _friendImages;
     [SerializeField] Image _coverImg;
+    [SerializeField] Button _trackProgressButton;
 
     [SerializeField] Sprite _filledStar;
     [SerializeField] Sprite _emptyStar;
 
     [SerializeField] BookLocalContainer _bookDataContainer;
-    public string _bookOLID;
     [Header("For Info")]
     [SerializeField] TextMeshProUGUI _ageRating;
     [SerializeField] TextMeshProUGUI _longDescription;
@@ -34,18 +34,25 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Transform _reviewContainer;
     [Header("If false, will link to open library page")]
     [SerializeField] bool _linkToAmazon;
-    [SerializeField] BookDataSO _bookData;
-
+    [SerializeField] public BookDataSO _bookData;
 
 
     void Start()
     {
-        UpdateUI(_bookData);    
+        UpdateUI(_bookData);
+        
     }
 
     public void UpdateUI(BookDataSO book)
     {
         _bookData = book;
+        
+        if (_trackProgressButton != null)
+        {
+            bool isOwnerOfBook = UserManager.Instance.CurrentUser.OwnedBooks.Any(b => b.BookData == _bookData);
+
+            _trackProgressButton.gameObject.SetActive(isOwnerOfBook);
+        }
 
         if (_title != null)
             _title.text = book.Title;
