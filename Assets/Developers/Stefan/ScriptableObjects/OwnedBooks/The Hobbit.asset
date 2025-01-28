@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c0c5b6155d74644b81848ecef5ad15, type: 3}
+  m_Name: The Hobbit
+  m_EditorClassIdentifier: 
+  OnProgressUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 76c9a864c2ceaa6459341e70146f5f74, type: 2}
+        m_TargetAssemblyTypeName: AchievementManager, Assembly-CSharp
+        m_MethodName: CheckForAchievement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  <BookData>k__BackingField:
+    <Title>k__BackingField: The Hobbit
+    <Authors>k__BackingField:
+    - J.R.R. Tolkien
+    <PublishDate>k__BackingField: 2001?
+    <Rating>k__BackingField: {x: 4.281818, y: 5}
+    <RatingCount>k__BackingField: 440
+    <Cover>k__BackingField: {fileID: 21300000, guid: b8c07c1634a31ef44865a8fed798e0ad,
+      type: 3}
+    <Isbn>k__BackingField: 0007497911
+    <NumberOfPages>k__BackingField: 306
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24946057M
+    <OLID>k__BackingField: OL24946057M
+    <Languages>k__BackingField:
+    - nob
+    - cor
+    - jpn
+    - vie
+    - cze
+    - swe
+    - lat
+    - fre
+    - dan
+    - rus
+    - haw
+    - rum
+    - yid
+    - fin
+    - bre
+    - dut
+    - ger
+    - ita
+    - tur
+    - cat
+    - pol
+    - bul
+    - gle
+    - epo
+    - chi
+    - heb
+    - spa
+    - por
+    - eng
+    <Description>k__BackingField: 
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  CurrentPage: 0

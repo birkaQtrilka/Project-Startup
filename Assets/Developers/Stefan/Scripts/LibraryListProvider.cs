@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.Events;
+
+[Serializable]
+public class LibraryList
+{
+    public string Name;
+    public List<OwnedBook> OwnedBooks;
+}
+
+public class LibraryListProvider : MonoBehaviour
+{
+    [field: SerializeField] public UnityEvent<LibraryList> OnListAdded { get; private set; }
+
+    [SerializeField] List<LibraryList> _lists;
+
+
+
+    public List<LibraryList> GetList()
+    {
+        return _lists;
+    }
+
+    public void AddList(string name)
+    {
+        var newList = new LibraryList() { Name = name, OwnedBooks = new() };
+        _lists.Add(newList);
+        OnListAdded?.Invoke(newList);
+    }
+
+    public void AddToList(string name, OwnedBook book)
+    {
+        var list = _lists.FirstOrDefault(l => l.Name == name);
+        list.OwnedBooks.Add(book);
+    }
+
+    public void AddToLastList(OwnedBook book)
+    {
+        _lists[^1].OwnedBooks.Add(book);
+    }
+
+    public void RemoveFromLastList(OwnedBook book)
+    {
+        _lists[^1].OwnedBooks.Remove(book);
+
+    }
+
+    public bool IsInLastList(OwnedBook book)
+    {
+        return _lists[^1].OwnedBooks.Contains(book);
+    }
+}
