@@ -21,7 +21,7 @@ public class BookLocalContainer : ScriptableObject
 
     [Header("For conveniency")]
     [SerializeField] UserData _user;
-    [SerializeField] string _olidToOwn;
+    [SerializeField] BookDataSO _bookToOwn;
     [SerializeField] bool _ownBook;
     [SerializeField] bool _includeAllNotes;
     [SerializeField] string _path;
@@ -52,7 +52,7 @@ public class BookLocalContainer : ScriptableObject
         if(_ownBook)
         {
             _ownBook = false;
-            _user.OwnABook(GetBookData(_olidToOwn));
+            _user.OwnABook(_bookToOwn);
         }
 
         if(_includeAllNotes)

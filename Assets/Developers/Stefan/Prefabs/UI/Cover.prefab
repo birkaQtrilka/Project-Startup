@@ -146,6 +146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _image: {fileID: 4606468725574654169}
-  _container: {fileID: 11400000, guid: e808bd4682dbe294784bbe3c4f3b37e1, type: 2}
-  _bookOLID: OL24151972M
   _updateOnEnable: 1
+  <BookData>k__BackingField: {fileID: 11400000, guid: 0b685c28931958040aa9d5ae0f606057,
+    type: 2}

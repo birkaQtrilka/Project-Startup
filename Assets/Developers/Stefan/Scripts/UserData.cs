@@ -20,7 +20,7 @@ public class UserData : ScriptableObject
 
     public List<UserData> Friends;
     public List<OwnedBook> OwnedBooks;//library
-    public List<BookData> WishList;
+    public List<BookDataSO> WishList;
     public List<PostData> Posts;
 
 
@@ -60,7 +60,7 @@ public class UserData : ScriptableObject
         }
     }
 
-    public void OwnABook(BookData bookData)
+    public void OwnABook(BookDataSO bookData)
     {
         if (bookData == null)
         {
@@ -74,23 +74,26 @@ public class UserData : ScriptableObject
         if (OwnedBooks.Any(b => b.BookData.OLID == bookData.OLID)) return;
         Debug.Log("Owning book: " + bookData.Title);
         OwnedBook ownedBook = ScriptableObject.CreateInstance<OwnedBook>();
-        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks";
+        string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks/Resources";
         if (!Directory.Exists(path))
         {
             Directory.CreateDirectory(path);
             Debug.Log("Directory created at: " + path);
         }
         string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
+#if UNITY_EDITOR
         AssetDatabase.CreateAsset(ownedBook, $"{path}/{sanitizedTitle}.asset");
         ownedBook.Init(bookData);
-        AssetDatabase.SaveAssets();
 
+        
+        AssetDatabase.SaveAssets();
+#endif
         OwnedBooks.Add(ownedBook);
 
         OnBookOwn?.Invoke(ownedBook);
     }
 
-    public void DisownBook(BookData book)
+    public void DisownBook(BookDataSO book)
     {
         int index = -1;
         for (int i = 0; i < OwnedBooks.Count; i++)

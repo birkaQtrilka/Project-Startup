@@ -14,15 +14,16 @@ public class OwnedBookUI : MonoBehaviour
             _cover.UpdateUI();
 
         if (_ownedBook == null)
-            _ownedBook = _cover.Container.GetOwnedBook(UserManager.Instance.CurrentUser, _cover.BookData.OLID);
+            _ownedBook = Resources.Load<OwnedBook>(_cover.BookData.Title);
+        if (_ownedBook == null) return;
 
-        float fill = (float)_ownedBook.CurrentPage / _ownedBook.BookData.NumberOfPages;
+            float fill = (float)_ownedBook.CurrentPage / _ownedBook.BookData.NumberOfPages;
         _fill.fillAmount = fill;
     }
-
-
-    void Start()
+    
+    void OnEnable()
     {
-        UpdateUI();    
+        UpdateUI();
     }
+
 }

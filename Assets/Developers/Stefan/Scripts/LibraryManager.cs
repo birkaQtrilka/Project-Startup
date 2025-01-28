@@ -74,7 +74,7 @@ public class LibraryManager : MonoBehaviour
                 var inst = Instantiate(_itemPrefab, currentRow);
                 if (inst.TryGetComponent(out BookCover cover))
                 {
-                    cover.SetOlid(ownedBook.BookData.OLID);
+                    cover.BookData = ownedBook.BookData;
                     cover.UpdateUI();
                 }
 

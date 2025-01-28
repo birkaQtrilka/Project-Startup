@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c0c5b6155d74644b81848ecef5ad15, type: 3}
+  m_Name: The Deep End
+  m_EditorClassIdentifier: 
+  OnProgressUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  <BookData>k__BackingField:
+    <Title>k__BackingField: 
+    <Authors>k__BackingField: []
+    <PublishDate>k__BackingField: 
+    <Rating>k__BackingField: {x: 0, y: 0}
+    <RatingCount>k__BackingField: 0
+    <Cover>k__BackingField: {fileID: 0}
+    <Isbn>k__BackingField: 
+    <NumberOfPages>k__BackingField: 0
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField: []
+    <OpenLibraryLink>k__BackingField: 
+    <OLID>k__BackingField: 
+    <Languages>k__BackingField: []
+    <Description>k__BackingField: 
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  CurrentPage: 0
