@@ -10,7 +10,8 @@ public class AddLibraryListButton : MonoBehaviour
     [SerializeField] PageManager _libraryTabsManager;
     [SerializeField] Page _addBooksToListPage;
     [SerializeField] GameObject _overlayContainer;
-
+    [SerializeField] TMP_InputField inputField;
+    
     Button _btn;
     TMP_InputField _inputField;
 
@@ -37,5 +38,6 @@ public class AddLibraryListButton : MonoBehaviour
 
         _libraryListProvider.AddList(_inputField.text);
         _libraryTabsManager.SwitchToPage(_addBooksToListPage);
+        LibraryManager.CurrentList = _inputField.text;
     }
 }
