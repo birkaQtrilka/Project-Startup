@@ -73,8 +73,8 @@ public static class StefUtils
         if (images != null && images.Length != 0)
             for (int i = 0; i < max; i++)
             {
-                images[i].sprite = emptyStar;
-                Image fillImage = images[i].transform.GetChild(0).GetComponent<Image>();
+                images[i].transform.parent.GetComponent<Image>().sprite = emptyStar;
+                Image fillImage = images[i];
                 if (i >= stars)
                 {
                     fillImage.sprite = filledStar;
