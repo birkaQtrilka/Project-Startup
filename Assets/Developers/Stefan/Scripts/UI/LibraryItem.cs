@@ -4,7 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(BookCover))]
 public class LibraryItem : MonoBehaviour
 {
-    public bool Interactable = true;
 
     [SerializeField] GameObject _activeState;
     [SerializeField] GameObject _inactiveState;
@@ -30,7 +29,6 @@ public class LibraryItem : MonoBehaviour
         _activeState.SetActive(false);
         _inactiveState.SetActive(false);
 
-        if (!Interactable) return;
 
         if (_selected)
             SetSelected();
@@ -52,7 +50,6 @@ public class LibraryItem : MonoBehaviour
 
     public void Toggle()
     {
-        if (!Interactable) return;
 
         _selected = !_selected;
         if (_selected)

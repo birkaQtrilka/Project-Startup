@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class LibraryManager : MonoBehaviour
 {
+    public static string CurrentList;
+
     [SerializeField] int _itemsPerRow; 
     [SerializeField] GameObject _itemPrefab;
     [SerializeField] Transform _rowContainerPrefab;
@@ -22,17 +24,22 @@ public class LibraryManager : MonoBehaviour
 
     public void AddList(OwnedBook book)
     {
-        _libraryListProvider.AddToLastList(book);
+        _libraryListProvider.AddToList(CurrentList, book);
     }
 
     public void RemoveList(OwnedBook book)
     {
-        _libraryListProvider.RemoveFromLastList(book);
+        _libraryListProvider.RemoveFromList(CurrentList, book);
     }
 
     public bool IsInList(OwnedBook book)
     {
-        return _libraryListProvider.IsInLastList(book);
+        return _libraryListProvider.IsInList(CurrentList, book);
+    }
+
+    public void SetCurrentList(string name)
+    {
+        CurrentList = name;
     }
 
     void OnEnable()
@@ -50,16 +57,6 @@ public class LibraryManager : MonoBehaviour
         }
     }
 
-    public void SetInteractable(bool state)
-    {
-        LibraryItem[] libraryItems = GetComponentsInChildren<LibraryItem>();
-
-        foreach (LibraryItem item in libraryItems)
-        {
-            item.Interactable = state;
-        }
-    }
-
 
     public void UpdateUI()
     {
@@ -69,7 +66,7 @@ public class LibraryManager : MonoBehaviour
         Transform wrapper = null;
         var lists = _libraryListProvider.GetList();
 
-        int count = Mathf.Min(lists.Count, _showListAmount);
+        int count = Mathf.Min(lists.Count, _showListAmount + _indexOffset);
 
         for (int j = _indexOffset; j < count; j++)
         {
@@ -82,18 +79,25 @@ public class LibraryManager : MonoBehaviour
                     wrapper = Instantiate(_rowContainerPrefab, _libraryContainer);
                     currentRow = wrapper.FindDeepChild("row");
                     currentRow = currentRow == null ? wrapper : currentRow;
-                }
-                TextMeshProUGUI header = wrapper.GetComponentInChildren<TextMeshProUGUI>();
-                if (header != null)
-                {
-                    header.text = list.Name;
-                    Button editButton = Instantiate(_editButtonPrefab, header.transform);
-                    editButton.onClick.AddListener(() =>
+
+                    TextMeshProUGUI header = wrapper.GetComponentInChildren<TextMeshProUGUI>();
+                    if (header != null)
                     {
+                        header.text = list.Name;
+                        Button editButton = Instantiate(_editButtonPrefab, header.transform);
                         int copy = j;
-                        _libraryPageManager.SwitchToPage(_editListPage);
-                    });
+                        RectTransform buttonRectTransf = editButton.GetComponent<RectTransform>();
+                        buttonRectTransf.anchoredPosition = Vector2.right * (buttonRectTransf.rect.width + buttonRectTransf.anchoredPosition.x);
+                        
+                        editButton.onClick.AddListener(() =>
+                        {
+                            _editListPage.GetComponent<LibraryManager>()._indexOffset = copy;
+                            LibraryManager.CurrentList = list.Name;
+                            _libraryPageManager.SwitchToPage(_editListPage);
+                        });
+                    }
                 }
+                
 
                 var inst = Instantiate(_itemPrefab, currentRow);
                 if (inst.TryGetComponent(out BookCover cover))
