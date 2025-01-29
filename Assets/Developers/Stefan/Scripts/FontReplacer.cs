@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -9,7 +10,7 @@ public class FontReplacer : MonoBehaviour
 
     [SerializeField] TMP_FontAsset _fontAsset;
     [SerializeField] bool _execute;
-
+    [SerializeField] List<GameObject> _prefabs;
     void Update()
     {
         if(_execute)
@@ -22,6 +23,21 @@ public class FontReplacer : MonoBehaviour
             {
                 textObject.font = _fontAsset;
             }
+
+            foreach (var prefab in _prefabs)
+            {
+                if(prefab == null) continue;
+                var prefabTexts = prefab.GetComponentsInChildren<TextMeshProUGUI>(true);
+                foreach (var text in prefabTexts)
+                {
+                    text.font = _fontAsset;
+                }
+                EditorUtility.SetDirty(prefab);
+            }
+
+#if UNITY_EDITOR
+            AssetDatabase.SaveAssets();
+#endif
         }
     }
 }
