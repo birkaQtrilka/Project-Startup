@@ -101,17 +101,18 @@ public class DetailedBookUI : MonoBehaviour
 
     void SetFriends(BookDataSO book)
     {
+        for (int i = 0; i < _friendImages.Length; i++)
+        {
+            _friendImages[i].gameObject.SetActive(false);
+        }
+
         if (UserManager.Instance.CurrentUser.Friends.Count == 0)
         {
-            for (int i = 0; i < _friendImages.Length; i++)
-            {
-                _friendImages[i].gameObject.SetActive(false);
-            }
             return;
         }
 
         UserData[] readerFriends = UserManager.Instance.CurrentUser.Friends.
-            Where(f => f.OwnedBooks.Any(b => b.BookData.OLID == book.OLID))
+            Where(f => f.OwnedBooks.Any(b => b.BookData == book))
             .Take(_friendImages.Length).ToArray();
 
         int count = Mathf.Min(_friendImages.Length, readerFriends.Length);
