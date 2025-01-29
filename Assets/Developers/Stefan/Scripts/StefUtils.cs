@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-
-
+using UnityEngine.UI;
 using Random = System.Random;
 public static class StefUtils
 {
@@ -65,5 +65,22 @@ public static class StefUtils
                 return result;
         }
         return null;
+    }
+
+    public static void SetRating(float average, int max, Image[] images, Sprite filledStar, Sprite emptyStar)
+    {
+        int stars = Mathf.FloorToInt(average);
+        if (images != null && images.Length != 0)
+            for (int i = 0; i < max; i++)
+            {
+                images[i].sprite = filledStar;
+                if (i >= stars)
+                {
+                    images[i].type = Image.Type.Filled;
+                    images[i].fillMethod = Image.FillMethod.Horizontal;
+                    images[i].fillAmount = Mathf.Max(0, average - i);
+
+                }
+            }
     }
 }

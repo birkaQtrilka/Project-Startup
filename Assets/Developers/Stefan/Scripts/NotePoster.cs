@@ -54,7 +54,7 @@ public class NotePoster : MonoBehaviour
         currentUser.Posts.Add(new PostData() { 
             Content = _noteContent.text,
             IsEdited = false,
-            OLID = _currentChosenBook.BookData.OLID,
+            Book = _currentChosenBook.BookData,
             Page = int.Parse(_pageSelectInput.text),
             PublishTime = " 1 minute ago",
             UserData = currentUser,

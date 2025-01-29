@@ -17,20 +17,24 @@ MonoBehaviour:
       m_Calls: []
   NickName: BOBer
   ProfilePicture: {fileID: 21300000, guid: d29c9c972faee7b478d730941fdcdad1, type: 3}
+  BirthDate: 
+  Title: 
+  FavBook: {fileID: 0}
+  Bio: 
   Friends: []
   OwnedBooks:
   - {fileID: 11400000, guid: 6805f5f942430a5469381557b3d1693f, type: 2}
   - {fileID: 11400000, guid: 2920d6ee90837294d87abeadfa0ab15a, type: 2}
   WishList: []
   Posts:
-  - OLID: OL50541203M
+  - Book: {fileID: 11400000, guid: 46daeca7ef469f74d8ace263c318ccc2, type: 2}
     PublishTime: 1 minute ago
     IsEdited: 0
     Content: Omg so hot
     Page: 43
     UserData: {fileID: 11400000}
     ID: 5446346
-  - OLID: OL51711484M
+  - Book: {fileID: 11400000, guid: e652078fae9a2c240a5675dfee02ac87, type: 2}
     PublishTime: 2 days ago
     IsEdited: 0
     Content: cheecky lil guy

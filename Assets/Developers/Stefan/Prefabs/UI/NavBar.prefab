@@ -703,9 +703,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6085600476400592050}
   - {fileID: 7303793283562961719}
   - {fileID: 2553309767785279304}
+  - {fileID: 6085600476400592050}
   - {fileID: 7101368035889263227}
   - {fileID: 5172826693599515553}
   m_Father: {fileID: 3167053918848559936}
@@ -762,13 +762,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _buttons:
-  - {fileID: 2265334628382034239}
-  - {fileID: 7458510481302962880}
-  - {fileID: 7486510495077385274}
-  - {fileID: 1355002320736217766}
-  - {fileID: 6615192190256580540}
-  _activeColor: {r: 1, g: 1, b: 1, a: 1}
-  _inactiveColor: {r: 0.6792453, g: 0.66429335, b: 0.66429335, a: 1}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &8150690386594344626
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,7 +34,7 @@ public class DetailedBookUI : MonoBehaviour
     [SerializeField] Transform _reviewContainer;
     [Header("If false, will link to open library page")]
     [SerializeField] bool _linkToAmazon;
-    [SerializeField] public BookDataSO _bookData;
+    public BookDataSO _bookData;
 
 
     void Start()
@@ -64,7 +64,7 @@ public class DetailedBookUI : MonoBehaviour
             _authorName.text = book.Authors[0];
         //_authorImg.sprite
 
-        SetRating(book.Rating.x, StefUtils.MAX_RATING, _ratingImages);
+        StefUtils.SetRating(book.Rating.x, StefUtils.MAX_RATING, _ratingImages,_filledStar, _emptyStar);
 
         if(_coverImg != null) 
             _coverImg.sprite = book.Cover;
@@ -97,16 +97,6 @@ public class DetailedBookUI : MonoBehaviour
         SetFriends(_bookData);
        
 
-    }
-
-    void SetRating(float average, int max, Image[] images)
-    {
-        int stars = Mathf.RoundToInt(average);
-        if (images != null && images.Length != 0)
-            for (int i = 0; i < max; i++)
-            {
-                images[i].sprite = i <= stars ? _filledStar : _emptyStar;
-            }
     }
 
     void SetFriends(BookDataSO book)
@@ -157,7 +147,7 @@ public class DetailedBookUI : MonoBehaviour
         //local average
         float average = book.LocalReviews.Count == 0 ? 0 :(float)book.LocalReviews.Average((r) => r.Rating);
 
-        SetRating(average, StefUtils.MAX_RATING, _localRatingImages);
+        StefUtils.SetRating(average, StefUtils.MAX_RATING, _localRatingImages, _filledStar, _emptyStar);
 
 
         if (_reviewsCount != null)
@@ -171,7 +161,8 @@ public class DetailedBookUI : MonoBehaviour
         {
             GameObject.Destroy(_reviewContainer.GetChild(i).gameObject);
         }
-        for (int i = 0; i < book.Notes.Count; i++)
+
+        for (int i = 0; i < book.LocalReviews.Count; i++)
         {
             ReviewData reviewData = book.LocalReviews[i];
 
