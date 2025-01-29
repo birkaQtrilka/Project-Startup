@@ -21,13 +21,15 @@ public class NoteUI : MonoBehaviour
 
         OwnedBook ownedBook = post.UserData.OwnedBooks.FirstOrDefault(x => x.BookData == post.Book);
 
+        if (_bookCover != null)
+            _bookCover.sprite = post.Book.Cover;
+
         if (ownedBook == null) return;
 
         float fill = (float)ownedBook.CurrentPage / ownedBook.BookData.NumberOfPages;
         if(_progressBarFill != null)
             _progressBarFill.fillAmount = fill;
 
-        if (_bookCover != null)
-            _bookCover.sprite = ownedBook.BookData.Cover;
+        
     }
 }
