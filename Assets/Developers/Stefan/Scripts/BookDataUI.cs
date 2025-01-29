@@ -16,7 +16,7 @@ public class BookDataUI : MonoBehaviour
     [SerializeField] UserData _user;
 
     int _pos;
-    BookData[] _books;
+    BookDataSO[] _books;
 
     void OnEnable()
     {
@@ -49,7 +49,7 @@ public class BookDataUI : MonoBehaviour
         _user.DisownBook(_books[_pos]);
     }
 
-    public void SetBooks(BookData[] books)
+    public void SetBooks(BookDataSO[] books)
     {
         _books = books;
         UpdateUI();

@@ -14,42 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnBookOwn:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 76c9a864c2ceaa6459341e70146f5f74, type: 2}
-        m_TargetAssemblyTypeName: AchievementManager, Assembly-CSharp
-        m_MethodName: CheckForAchievement
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NickName: PapLoe
-  ProfilePicture: {fileID: 21300000, guid: 8a5605d0712ad194c82162504565a9c5, type: 3}
+      m_Calls: []
+  NickName: Stefan112
+  ProfilePicture: {fileID: 21300000, guid: 3c989a82c9fbc204aa4010322ba5615d, type: 3}
+  BirthDate: Apr 28th
+  Title: '"Volume Vaporizer"'
+  FavBook: {fileID: 11400000, guid: 047cd260f8f809d4486348ad6ef883c2, type: 2}
+  Bio: '"Zoo-wee-mama"
+
+    <size=11>~Rowley Jefferson<size>'
   Friends:
   - {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
   OwnedBooks:
-  - {fileID: 11400000, guid: 83279e7cb74616d4d9816fea3d885005, type: 2}
-  - {fileID: 11400000, guid: 815abd951dff62a4eb61e7770d2fb23d, type: 2}
+  - {fileID: 11400000, guid: 047cd260f8f809d4486348ad6ef883c2, type: 2}
+  - {fileID: 11400000, guid: 2920d6ee90837294d87abeadfa0ab15a, type: 2}
   WishList: []
-  Posts:
-  - OLID: OL8308587M
-    PublishTime: 2 days ago
-    IsEdited: 0
-    Content: I didn't expect that, they should date
-    Page: 12
-    UserData: {fileID: 11400000}
-    ID: 53463464
-  - OLID: OL37768153M
-    PublishTime: ' 1 minute ago'
-    IsEdited: 0
-    Content: asdasdasd
-    Page: 11231231
-    UserData: {fileID: 11400000}
-    ID: 3392
+  Posts: []
   _searchVolume: 3
   SearchedStuff:
   - Lord of the rings

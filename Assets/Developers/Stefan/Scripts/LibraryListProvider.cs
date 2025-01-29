@@ -17,7 +17,18 @@ public class LibraryListProvider : MonoBehaviour
 
     [SerializeField] List<LibraryList> _lists;
 
+    [SerializeField] UserData _currentUser;
+    [SerializeField] bool _showBooksOfCurrentUser;
+    [SerializeField] List<OwnedBook> _ownedBooksOfUser;
 
+    void OnValidate()
+    {
+        if(_showBooksOfCurrentUser)
+        {
+            _showBooksOfCurrentUser = false;
+            _ownedBooksOfUser = new(_currentUser.OwnedBooks);
+        }
+    }
 
     public List<LibraryList> GetList()
     {

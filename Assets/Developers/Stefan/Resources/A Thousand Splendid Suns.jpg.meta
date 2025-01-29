@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Developers/Stefan/Resources/Diary of a Wimpy Kid.jpg.meta
+guid: b649efbd81f3aa546af2cfdf41605576
+========
 guid: e6d32112264a55f4b9871aa4ef6cff35
+>>>>>>>> origin/Stefan:Assets/Developers/Stefan/Resources/A Thousand Splendid Suns.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

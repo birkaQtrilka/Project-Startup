@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Cabin Fever
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Cabin Fever
+  <Authors>k__BackingField:
+  - Jeff Kinney
+  <PublishDate>k__BackingField: 2011
+  <Rating>k__BackingField: {x: 4.52459, y: 5}
+  <RatingCount>k__BackingField: 122
+  <Cover>k__BackingField: {fileID: 21300000, guid: b76183c1e7cefc54b876d6f672440339,
+    type: 3}
+  <Isbn>k__BackingField: 014133763X
+  <NumberOfPages>k__BackingField: 218
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - New York Times bestseller
+  - nyt:series_books=2009-01-10
+  - Diary Of A Wimpy Kid Book 06 Cabin Fever
+  - Families
+  - Middle schools
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL25109421M
+  <OLID>k__BackingField: OL25109421M
+  <Languages>k__BackingField:
+  - eng
+  - heb
+  - cat
+  - por
+  - wel
+  - baq
+  - chi
+  - ger
+  - spa
+  - ita
+  - jpn
+  - pol
+  <Description>k__BackingField: "Greg Heffley is in big trouble. School property
+    has been damaged, and Greg is the prime suspect. But the crazy thing is, he\u2019s
+    innocent. Or at least sort of.\r\n\r\nThe authorities are closing in, but when
+    a surprise blizzard hits, the Heffley family is trapped indoors. Greg knows that
+    when the snow melts he\u2019s going to have to face the music, but could any
+    punishment be worse than being stuck inside with your family for the holidays?"
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

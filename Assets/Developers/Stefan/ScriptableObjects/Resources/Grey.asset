@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b09c74c9d3754b43b6622bf05e4dd9c, type: 3}
+  m_Name: Grey
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Grey
+  <Authors>k__BackingField:
+  - E. L. James
+  <PublishDate>k__BackingField: 2015
+  <Rating>k__BackingField: {x: 4.2, y: 5}
+  <RatingCount>k__BackingField: 5
+  <Cover>k__BackingField: {fileID: 21300000, guid: bbd8762649dd9fe47a40616889c62e87,
+    type: 3}
+  <Isbn>k__BackingField: 8804661607
+  <NumberOfPages>k__BackingField: 740
+  <NumberOfChapters>k__BackingField: 0
+  <Genres>k__BackingField:
+  - 50 Shades of Grey
+  - Fiction
+  - Erotic stories
+  - Man-woman relationships,  mfiction
+  - Businessmen, fiction
+  <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL27187676M
+  <OLID>k__BackingField: OL27187676M
+  <Languages>k__BackingField:
+  - fre
+  - jpn
+  - ger
+  - spa
+  - pol
+  - rus
+  - dut
+  - ita
+  - eng
+  <Description>k__BackingField: Christian Grey exercises control in all things; his
+    world is neat, disciplined, and utterly empty ... until the day that Anastasia
+    Steele falls into his office, in a tangle of shapely limbs and tumbling brown
+    hair. He tries to forget her, but instead is swept up in a storm of emotion he
+    cannot comprehend and cannot resist. Unlike any woman he has known before, shy,
+    unworldly Ana seems to see right through him ... past the business prodigy and
+    the penthouse lifestyle to Christian's cold, wounded heart.
+  <LocalReviews>k__BackingField: []
+  <Notes>k__BackingField: []

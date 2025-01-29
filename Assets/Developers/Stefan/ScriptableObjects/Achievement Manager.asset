@@ -22,6 +22,13 @@ MonoBehaviour:
     _conditions:
       Conditons:
       - rid: 5267846437391040518
+  - Name: Drama queen
+    Icon: {fileID: 0}
+    Script: 
+    _conditions:
+      Conditons:
+      - rid: 5267846599456325633
+      - rid: 5267846599456325634
   _completedAchievement: []
   references:
     version: 2
@@ -29,4 +36,12 @@ MonoBehaviour:
     - rid: 5267846437391040518
       type: {class: PagesCondition, ns: , asm: Assembly-CSharp}
       data:
-        _requiredNum: 4
+        _requiredNum: 10
+    - rid: 5267846599456325633
+      type: {class: GenreCondition, ns: , asm: Assembly-CSharp}
+      data:
+        _genre: Man-woman relationships, fiction
+    - rid: 5267846599456325634
+      type: {class: PagesCondition, ns: , asm: Assembly-CSharp}
+      data:
+        _requiredNum: 50

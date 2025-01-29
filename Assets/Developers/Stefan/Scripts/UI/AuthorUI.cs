@@ -7,6 +7,7 @@ public class AuthorUI : MonoBehaviour
     [SerializeField] Image _portrait;
     [SerializeField] TextMeshProUGUI _name;
     [SerializeField] TextMeshProUGUI _description;
+    //[SerializeField] Button _checkOutBtn;
 
     [SerializeField] AuthorData _authorData;
 
