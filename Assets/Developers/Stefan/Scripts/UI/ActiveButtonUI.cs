@@ -3,9 +3,7 @@ using UnityEngine.UI;
 
 public class ActiveButtonUI : MonoBehaviour
 {
-    [SerializeField] Image[] _buttons;
-    [SerializeField] Color _activeColor;
-    [SerializeField] Color _inactiveColor;
+    [SerializeField] ActiveButton[] _buttons;
 
     void Start()
     {
@@ -18,11 +16,18 @@ public class ActiveButtonUI : MonoBehaviour
 
     public void SelectButton(GameObject buttonObj)
     {
-        Image buttonImg = buttonObj.GetComponent<Image>();
+        ActiveButton buttonImg = buttonObj.GetComponent<ActiveButton>();
 
         foreach (var btn in _buttons)
         {
-            btn.color = btn == buttonImg ? _activeColor : _inactiveColor;
+            if(btn == buttonImg)
+            {
+                btn.SetActive();
+            }
+            else
+            {
+                btn.SetInactive();
+            }
         }
     }
 
