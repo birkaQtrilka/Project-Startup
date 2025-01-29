@@ -91,6 +91,7 @@ public class LibraryManager : MonoBehaviour
                     editButton.onClick.AddListener(() =>
                     {
                         int copy = j;
+                        _editListPage.GetComponent<LibraryManager>()._indexOffset = copy;
                         _libraryPageManager.SwitchToPage(_editListPage);
                     });
                 }
