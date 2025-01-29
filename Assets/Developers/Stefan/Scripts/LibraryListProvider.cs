@@ -44,8 +44,24 @@ public class LibraryListProvider : MonoBehaviour
 
     public void AddToList(string name, OwnedBook book)
     {
-        var list = _lists.FirstOrDefault(l => l.Name == name);
+        var list = GetList(name);
         list.OwnedBooks.Add(book);
+    }
+
+    public void RemoveFromList(string name, OwnedBook book)
+    {
+        var list = GetList(name);
+        list.OwnedBooks.Remove(book);
+    }
+
+    public bool IsInList(string name, OwnedBook book)
+    { 
+        return GetList(name).OwnedBooks.Contains(book);
+    }
+
+    public LibraryList GetList(string list)
+    {
+        return _lists.FirstOrDefault(l => l.Name == list);
     }
 
     public void AddToLastList(OwnedBook book)
