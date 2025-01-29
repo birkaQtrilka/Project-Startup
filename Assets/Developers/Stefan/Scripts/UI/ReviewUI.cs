@@ -21,17 +21,8 @@ public class ReviewUI : MonoBehaviour
         _userName.text = data.UserData.NickName;
         _userReviewsCount.text = data.UserData.Posts.Count.ToString();
         _userPFP.sprite = data.UserData.ProfilePicture;
-
-        SetRating(data);
+        StefUtils.SetRating(data.Rating, StefUtils.MAX_RATING, _localRatingImages, _filledStar, _emptyStar);
     }
 
-    void SetRating(ReviewData data)
-    {
-        int stars = Mathf.RoundToInt(data.Rating);
-        if (_localRatingImages != null && _localRatingImages.Length != 0)
-            for (int i = 0; i < StefUtils.MAX_RATING; i++)
-            {
-                _localRatingImages[i].sprite = i <= stars ? _filledStar : _emptyStar;
-            }
-    }
+
 }

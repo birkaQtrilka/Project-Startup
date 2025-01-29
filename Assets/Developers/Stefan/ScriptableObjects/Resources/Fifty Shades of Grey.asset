@@ -16,7 +16,7 @@ MonoBehaviour:
   <Authors>k__BackingField:
   - E. L. James
   <PublishDate>k__BackingField: 2012
-  <Rating>k__BackingField: {x: 3.9686275, y: 5}
+  <Rating>k__BackingField: {x: 3.968627, y: 5}
   <RatingCount>k__BackingField: 255
   <Cover>k__BackingField: {fileID: 21300000, guid: 91ba5aebc17a6dc4ca541134ee774120,
     type: 3}
@@ -62,4 +62,11 @@ MonoBehaviour:
     you, possess you, and stay with you forever.\r\n\r\nThis book is intended for
     mature audiences."
   <LocalReviews>k__BackingField: []
-  <Notes>k__BackingField: []
+  <Notes>k__BackingField:
+  - Book: {fileID: 11400000}
+    PublishTime: 1 minute ago
+    IsEdited: 0
+    Content: Omg so hot
+    Page: 43
+    UserData: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
+    ID: 5446346

@@ -77,7 +77,7 @@ public class BookLocalContainer : ScriptableObject
         {
             foreach (var post in user.Posts)
             {
-                BookData book = GetBookData(post.OLID);
+                BookDataSO book = post.Book;
                 if(!book.Notes.Any(n => n.ID == post.ID))
                     book.Notes.Add(post);
             }
@@ -85,8 +85,8 @@ public class BookLocalContainer : ScriptableObject
 
         }
 #if UNITY_EDITOR
+        EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
 #endif
     }
 
