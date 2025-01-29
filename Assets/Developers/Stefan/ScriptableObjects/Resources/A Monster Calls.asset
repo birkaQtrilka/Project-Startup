@@ -20,7 +20,7 @@ MonoBehaviour:
   <PublishDate>k__BackingField: 2011
   <Rating>k__BackingField: {x: 4.76, y: 5}
   <RatingCount>k__BackingField: 25
-  <Cover>k__BackingField: {fileID: 21300000, guid: b6ae278277d5d6f4eb44af5d7c2d4a9c,
+  <Cover>k__BackingField: {fileID: 21300000, guid: 9207b8430d2934243bab1776f6f737ff,
     type: 3}
   <Isbn>k__BackingField: 1406311529
   <NumberOfPages>k__BackingField: 204

@@ -19,7 +19,7 @@ public class NoteUI : MonoBehaviour
         _pageNum.text = "Page: " + post.Page.ToString();
         _pfp.sprite = post.UserData.ProfilePicture;
 
-        OwnedBook ownedBook = post.UserData.OwnedBooks.FirstOrDefault(x => x.BookData.OLID == post.OLID);
+        OwnedBook ownedBook = post.UserData.OwnedBooks.FirstOrDefault(x => x.BookData == post.Book);
 
         if (ownedBook == null) return;
 
