@@ -15,7 +15,9 @@ public class FontReplacer : MonoBehaviour
         if(_execute)
         {
             _execute = false;
-            var textObjects = GetComponentsInChildren<TextMeshPro>();
+            if (_fontAsset == null) return;
+
+            var textObjects = GetComponentsInChildren<TextMeshProUGUI>(true);
             foreach (var textObject in textObjects)
             {
                 textObject.font = _fontAsset;
