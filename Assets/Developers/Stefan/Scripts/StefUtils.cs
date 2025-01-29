@@ -73,13 +73,14 @@ public static class StefUtils
         if (images != null && images.Length != 0)
             for (int i = 0; i < max; i++)
             {
-                images[i].sprite = filledStar;
+                images[i].sprite = emptyStar;
+                Image fillImage = images[i].transform.GetChild(0).GetComponent<Image>();
                 if (i >= stars)
                 {
-                    images[i].type = Image.Type.Filled;
-                    images[i].fillMethod = Image.FillMethod.Horizontal;
-                    images[i].fillAmount = Mathf.Max(0, average - i);
-
+                    fillImage.sprite = filledStar;
+                    fillImage.type = Image.Type.Filled;
+                    fillImage.fillMethod = Image.FillMethod.Horizontal;
+                    fillImage.fillAmount = Mathf.Max(0, average - i);
                 }
             }
     }
