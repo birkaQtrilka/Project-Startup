@@ -18,7 +18,7 @@ public class LibraryManager : MonoBehaviour
     [SerializeField] int _indexOffset;
     [SerializeField] Button _editButtonPrefab;
     [SerializeField] PageManager _libraryPageManager;
-    [SerializeField] 
+    [SerializeField] Page _editListPage;
 
     public void AddList(OwnedBook book)
     {
@@ -91,7 +91,7 @@ public class LibraryManager : MonoBehaviour
                     editButton.onClick.AddListener(() =>
                     {
                         int copy = j;
-                        _libraryPageManager.SwitchToPage();
+                        _libraryPageManager.SwitchToPage(_editListPage);
                     });
                 }
 
