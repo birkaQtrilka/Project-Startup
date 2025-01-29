@@ -22,7 +22,7 @@ MonoBehaviour:
   <PublishDate>k__BackingField: 1899
   <Rating>k__BackingField: {x: 3.851852, y: 5}
   <RatingCount>k__BackingField: 27
-  <Cover>k__BackingField: {fileID: 21300000, guid: 21c113da7fe2eaa46869e4b8c17262a9,
+  <Cover>k__BackingField: {fileID: 21300000, guid: 74a7c9254aedf8742b55dc4d5748a716,
     type: 3}
   <Isbn>k__BackingField: 1480484059
   <NumberOfPages>k__BackingField: 401
@@ -56,4 +56,11 @@ MonoBehaviour:
     and eventful life. Stylistically his best work, it has become a classic in world
     literature, one to inspire and delight readers everywhere.'
   <LocalReviews>k__BackingField: []
-  <Notes>k__BackingField: []
+  <Notes>k__BackingField:
+  - Book: {fileID: 11400000}
+    PublishTime: ' 1 minute ago'
+    IsEdited: 0
+    Content: hmmm
+    Page: 12
+    UserData: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+    ID: 1648
