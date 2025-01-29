@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -14,6 +15,10 @@ public class LibraryManager : MonoBehaviour
     [SerializeField] bool _updateOnEnable;
     [SerializeField] LibraryListProvider _libraryListProvider;
     [SerializeField] int _showListAmount = 3;
+    [SerializeField] int _indexOffset;
+    [SerializeField] Button _editButtonPrefab;
+    [SerializeField] PageManager _libraryPageManager;
+    [SerializeField] 
 
     public void AddList(OwnedBook book)
     {
@@ -45,6 +50,17 @@ public class LibraryManager : MonoBehaviour
         }
     }
 
+    public void SetInteractable(bool state)
+    {
+        LibraryItem[] libraryItems = GetComponentsInChildren<LibraryItem>();
+
+        foreach (LibraryItem item in libraryItems)
+        {
+            item.Interactable = state;
+        }
+    }
+
+
     public void UpdateUI()
     {
         _libraryContainer.DestroyAllChildren();
@@ -55,7 +71,7 @@ public class LibraryManager : MonoBehaviour
 
         int count = Mathf.Min(lists.Count, _showListAmount);
 
-        for (int j = 0; j < count; j++)
+        for (int j = _indexOffset; j < count; j++)
         {
             var list = lists[j];
             int i = 0;
@@ -69,7 +85,15 @@ public class LibraryManager : MonoBehaviour
                 }
                 TextMeshProUGUI header = wrapper.GetComponentInChildren<TextMeshProUGUI>();
                 if (header != null)
+                {
                     header.text = list.Name;
+                    Button editButton = Instantiate(_editButtonPrefab, header.transform);
+                    editButton.onClick.AddListener(() =>
+                    {
+                        int copy = j;
+                        _libraryPageManager.SwitchToPage();
+                    });
+                }
 
                 var inst = Instantiate(_itemPrefab, currentRow);
                 if (inst.TryGetComponent(out BookCover cover))
