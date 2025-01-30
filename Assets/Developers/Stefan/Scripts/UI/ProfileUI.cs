@@ -38,7 +38,7 @@ public class ProfileUI : MonoBehaviour
 
         if (_cover != null)
             _cover.BookData = Profile.OwnedBooks[0].BookData;
-        if(_oneNote != null)
+        if(_oneNote != null && Profile.Posts.Count > 0)
             _oneNote.Init(Profile.Posts[0]);
 
     }
