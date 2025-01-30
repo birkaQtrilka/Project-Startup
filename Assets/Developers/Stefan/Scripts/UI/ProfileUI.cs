@@ -21,10 +21,13 @@ public class ProfileUI : MonoBehaviour
 
     public void UpdateUI()
     {
+        if (Profile == null) return;
+
         _nickName.text = Profile.NickName;
         _birthDate.text = Profile.BirthDate;
         _title.text = Profile.Title;
-        _favBookName.text = Profile.FavBook.name;
+        if(_favBookName!= null && Profile.FavBook !=null)
+            _favBookName.text = Profile.FavBook.BookData.Title;
         _bio.text = Profile.Bio;
         _pfp.sprite = Profile.ProfilePicture;
 
