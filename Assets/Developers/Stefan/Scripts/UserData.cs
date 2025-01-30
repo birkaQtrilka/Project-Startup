@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
-using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -82,9 +81,9 @@ public class UserData : ScriptableObject
             Debug.Log("Directory created at: " + path);
         }
         string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
+        OwnedBook ownedBook;
 #if UNITY_EDITOR
         string fullPath  = Path.Combine(path, sanitizedTitle + ".asset");
-        OwnedBook ownedBook;
 
         if (!File.Exists(fullPath))
         {
@@ -94,8 +93,9 @@ public class UserData : ScriptableObject
             EditorUtility.SetDirty(ownedBook);
         }
         else
-            ownedBook = Resources.Load<OwnedBook>(sanitizedTitle);
 #endif
+            ownedBook = Resources.Load<OwnedBook>(sanitizedTitle);
+
         OwnedBooks.Add(ownedBook);
 
         OnBookOwn?.Invoke(ownedBook);

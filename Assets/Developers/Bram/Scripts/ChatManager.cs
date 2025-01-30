@@ -6,20 +6,20 @@ using UnityEngine;
 public class ChatManager : MonoBehaviour
 {
     
-    public static ChatManager Instance { get; private set; }
+    //public static ChatManager Instance { get; private set; }
 
     [SerializeField] ChatMessage _chatMessagePrefab;
     [SerializeField] CanvasGroup _chatContent;
     [SerializeField] TMP_InputField _chatInput;
 
-    private void Awake()
+    /*private void Awake()
     {
         if (Instance == null) { Instance = this; }
         else
         {
             Destroy(gameObject);
         }
-    }
+    }*/
 
     
     void Update()
