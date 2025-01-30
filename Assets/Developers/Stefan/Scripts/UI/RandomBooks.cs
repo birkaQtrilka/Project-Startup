@@ -14,7 +14,8 @@ public class RandomBooks : MonoBehaviour
 
             var covers = GetComponentsInChildren<BookCover>();
             BookDataSO[] books = Resources.LoadAll<BookDataSO>("");
-
+            var rng = new System.Random(UnityEngine.Random.Range(1, 100));
+            rng.Shuffle(books);
             int count = Mathf.Min(covers.Length, books.Length);
 
             for (int i = 0; i < count; i++)
