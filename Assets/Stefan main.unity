@@ -48558,7 +48558,7 @@ PrefabInstance:
     - target: {fileID: 4135450149070189720, guid: f302e8965ea07b146b65108a41524d31,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 84.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4135450149070189720, guid: f302e8965ea07b146b65108a41524d31,
         type: 3}
@@ -66403,6 +66403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fontAsset: {fileID: 11400000, guid: 17c759dcc1ca07a46a84a9912b2dd748, type: 2}
   _execute: 0
+  _prefabs: []
 --- !u!1001 &1711137453
 PrefabInstance:
   m_ObjectHideFlags: 0
