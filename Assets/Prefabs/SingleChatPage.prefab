@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 8524267319921057128}
   - component: {fileID: 1414154197774851993}
   - component: {fileID: 6601894230383094709}
+  - component: {fileID: 8819720142081651451}
   m_Layer: 0
   m_Name: InfoTab
   m_TagString: Untagged
@@ -207,6 +208,19 @@ MonoBehaviour:
   _pfp: {fileID: 264620427955055437}
   _cover: {fileID: 6689424138419826804}
   _oneNote: {fileID: 5363446453972024598}
+--- !u!114 &8819720142081651451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192212618571084718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25a31af0be4b074cbca4737f8d9e953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _profileUI: {fileID: 6601894230383094709}
 --- !u!1 &259196015666836129
 GameObject:
   m_ObjectHideFlags: 0
