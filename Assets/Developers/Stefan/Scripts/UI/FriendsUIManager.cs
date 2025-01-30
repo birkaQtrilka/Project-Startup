@@ -18,7 +18,7 @@ public class FriendsUIManager : MonoBehaviour
         _container.InstantiateMultiple(_friendUIPrefab, Friends.Length,
             (inst, i) =>
             {
-                //inst.Init(Friends[i]);
+                inst.Init(Friends[i]);
                 UserData copy = Friends[i];
                 inst.Button.onClick.AddListener(() => CurrentCheckedOutUser = copy);
                 inst.Button.onClick.AddListener(() => _singleChatPage.SwitchToPage(_infoPage));
