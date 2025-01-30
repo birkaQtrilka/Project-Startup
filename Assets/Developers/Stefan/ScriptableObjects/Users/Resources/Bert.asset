@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d14f479a97cb545a2749cc87d6dbe9, type: 3}
+  m_Name: Bert
+  m_EditorClassIdentifier: 
+  OnBookOwn:
+    m_PersistentCalls:
+      m_Calls: []
+  NickName: Bert
+  ProfilePicture: {fileID: 21300000, guid: 1ec093d300c60414c8430cb4d30c9811, type: 3}
+  BirthDate: 'Mar 12th '
+  Title: Just a chill guy
+  FavBook: {fileID: 0}
+  Bio: 'Was was there a
+
+    banana in his ear'
+  Friends: []
+  OwnedBooks:
+  - {fileID: 11400000, guid: 6162c13b287002646931e25efdd6b70f, type: 2}
+  - {fileID: 11400000, guid: c84b62e99df02a04bbbe2a527b4a672d, type: 2}
+  WishList: []
+  Posts:
+  - Book: {fileID: 11400000, guid: ae785448e7f40154db4c53db1626a922, type: 2}
+    PublishTime: 2 years ago
+    IsEdited: 1
+    Content: Heartwarming and emotional. A story that stays with you long after you've
+      finished reading.
+    Page: 214
+    UserData: {fileID: 11400000}
+    ID: 2147483647
+  _searchVolume: 0
+  SearchedStuff: []
+  ClickedBookIds: []
+  _ownBook: 0
+  _bookToOwn: {fileID: 11400000, guid: ae785448e7f40154db4c53db1626a922, type: 2}
