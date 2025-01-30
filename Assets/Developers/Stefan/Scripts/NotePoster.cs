@@ -109,7 +109,8 @@ public class NotePoster : MonoBehaviour
 
     void OnBookInputValueChanged(string value)
     {
-        var searchResult = UserManager.Instance.CurrentUser.OwnedBooks.Where(b => b.BookData.Title.StartsWith(value)).ToList();
+        string sanitizedValue = value.Trim(' ');
+        var searchResult = UserManager.Instance.CurrentUser.OwnedBooks.Where(b => b.BookData.Title.ToLower().StartsWith(sanitizedValue)).ToList();
 
         _searchResultsContainer.DestroyAllChildren();
 
