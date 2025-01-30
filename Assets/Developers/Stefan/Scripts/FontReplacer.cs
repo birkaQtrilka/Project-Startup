@@ -32,7 +32,10 @@ public class FontReplacer : MonoBehaviour
                 {
                     text.font = _fontAsset;
                 }
+#if UNITY_EDITOR
+
                 EditorUtility.SetDirty(prefab);
+#endif
             }
 
 #if UNITY_EDITOR

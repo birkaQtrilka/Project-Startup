@@ -125,8 +125,14 @@ public class BookLocalContainer : ScriptableObject
             so.Init(book);
 
             string sanitizedTitle = string.Concat(book.Title.Split(Path.GetInvalidFileNameChars()));
+
+
+#if UNITY_EDITOR
             AssetDatabase.CreateAsset(so, _path + sanitizedTitle + ".asset");
+#endif
         }
+#if UNITY_EDITOR
         AssetDatabase.SaveAssets();
+#endif
     }
 }
