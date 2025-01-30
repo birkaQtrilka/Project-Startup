@@ -2056,8 +2056,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.67, y: 0}
-  m_SizeDelta: {x: 38.667664, y: 612.0338}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 30.997663, y: 612.0338}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &495725273884928403
 MonoBehaviour:
@@ -2121,7 +2121,7 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 26
-    m_Bottom: 60
+    m_Bottom: 200
   m_ChildAlignment: 1
   m_Spacing: 18
   m_ChildForceExpandWidth: 1
@@ -6509,6 +6509,8 @@ MonoBehaviour:
   _favBookName: {fileID: 3318322522661694030}
   _bio: {fileID: 4057166675406081538}
   _pfp: {fileID: 7006373334095922887}
+  _cover: {fileID: 0}
+  _oneNote: {fileID: 0}
 --- !u!1 &8665012094033308312
 GameObject:
   m_ObjectHideFlags: 0
