@@ -11,6 +11,8 @@ public class ProfileUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI _favBookName;
     [SerializeField] TextMeshProUGUI _bio;
     [SerializeField] Image _pfp;
+    [SerializeField] BookCover _cover;
+    [SerializeField] NoteUI _oneNote;
 
     void OnEnable()
     {
@@ -24,6 +26,12 @@ public class ProfileUI : MonoBehaviour
         _title.text = Profile.Title;
         _favBookName.text = Profile.FavBook.name;
         _bio.text = Profile.Bio;
-        _pfp.sprite = Profile.FavBook.BookData.Cover;
+        _pfp.sprite = Profile.ProfilePicture;
+
+        if(_cover != null)
+            _cover.BookData = Profile.OwnedBooks[0].BookData;
+        if(_oneNote != null)
+            _oneNote.Init(Profile.Posts[0]);
+
     }
 }
