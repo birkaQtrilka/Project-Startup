@@ -1292,6 +1292,7 @@ GameObject:
   - component: {fileID: 1233265649417974584}
   - component: {fileID: 5728382877215942350}
   - component: {fileID: 2234228518691735019}
+  - component: {fileID: 7124724307182990465}
   m_Layer: 0
   m_Name: Friends tab (Scroll View)
   m_TagString: Untagged
@@ -1400,6 +1401,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _identifier: Friends
+--- !u!114 &7124724307182990465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7553406100032270034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6b429935357964d9c3d72401e6ff79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _friendUIPrefab: {fileID: 9143299216070688910, guid: ea994494e8e3a3242bd6bc95e6cf08eb,
+    type: 3}
+  _container: {fileID: 3374243434840733541}
+  Friends:
+  - {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+  - {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
 --- !u!1 &8203406294968214846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,11 +2406,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7376018665034503430, guid: c08c6077b540fc44686357acec487d2a,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7376018665034503430, guid: c08c6077b540fc44686357acec487d2a,
         type: 3}
