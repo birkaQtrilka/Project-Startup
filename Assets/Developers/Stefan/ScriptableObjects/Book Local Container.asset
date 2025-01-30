@@ -1265,8 +1265,8 @@ MonoBehaviour:
   _getBooks: 0
   _removeAllBooks: 0
   _concatAfterGettingBooks: 1
-  _user: {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
-  _bookToOwn: {fileID: 0}
+  _user: {fileID: 11400000, guid: 0dcef3902ac113d4cb35ff226cbaaae0, type: 2}
+  _bookToOwn: {fileID: 11400000, guid: ec895b863ff6cd947bff30f5223b0d4b, type: 2}
   _ownBook: 0
   _includeAllNotes: 0
   _path: Assets/Developers/Stefan/ScriptableObjects/Resources/

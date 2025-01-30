@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d14f479a97cb545a2749cc87d6dbe9, type: 3}
+  m_Name: Robert Kosse
+  m_EditorClassIdentifier: 
+  OnBookOwn:
+    m_PersistentCalls:
+      m_Calls: []
+  NickName: RobertKosse
+  ProfilePicture: {fileID: 21300000, guid: 929d3819899a6144eaf151fb50ab317a, type: 3}
+  BirthDate: 27
+  Title: Serious fella
+  FavBook: {fileID: 0}
+  Bio: The dad of slender man
+  Friends:
+  - {fileID: 11400000, guid: 4d8f503772ad108449a2bb1c28ebd83b, type: 2}
+  - {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
+  OwnedBooks:
+  - {fileID: 11400000, guid: 56c586f220d05824b8b5fd8caffa2b5b, type: 2}
+  WishList: []
+  Posts:
+  - Book: {fileID: 11400000, guid: ca165174d980dc344bee24213aa4e150, type: 2}
+    PublishTime: 1 day ago
+    IsEdited: 0
+    Content: The pacing felt off, and the characters were underdeveloped. Hard to
+      stay invested in the story.
+    Page: 124
+    UserData: {fileID: 11400000}
+    ID: 320632552
+  _searchVolume: 0
+  SearchedStuff: []
+  ClickedBookIds: []
+  _ownBook: 0
+  _bookToOwn: {fileID: 11400000, guid: ca165174d980dc344bee24213aa4e150, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c0c5b6155d74644b81848ecef5ad15, type: 3}
+  m_Name: Think and Grow Rich
+  m_EditorClassIdentifier: 
+  OnProgressUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  <BookData>k__BackingField: {fileID: 11400000, guid: ec895b863ff6cd947bff30f5223b0d4b,
+    type: 2}
+  CurrentPage: 0

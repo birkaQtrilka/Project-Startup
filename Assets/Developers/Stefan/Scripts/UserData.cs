@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -30,19 +31,19 @@ public class UserData : ScriptableObject
     public List<string> SearchedStuff;
     public List<string> ClickedBookIds;
 
-    //[SerializeField]bool add;
-    //int test;
+    [SerializeField]bool _ownBook;
+    [SerializeField] BookDataSO _bookToOwn;
+#if UNITY_EDITOR
 
-    //private void OnValidate()
-    //{
-    //    if(add)
-    //    {
-    //        add = false;
-    //        AddSeacherQuerry(test.ToString());
-    //        test++;
-    //    }
-    //}
-
+    private void OnValidate()
+    {
+        if (_ownBook)
+        {
+            _ownBook = false;
+            OwnABook(_bookToOwn);
+        }
+    }
+#endif
     public void AddSeacherQuerry(string querry)
     {
         if (SearchedStuff.Contains(querry)) return;
@@ -72,8 +73,8 @@ public class UserData : ScriptableObject
             if (OwnedBooks[i] == null) OwnedBooks.RemoveAt(i);
 
         if (OwnedBooks.Any(b => b.BookData.OLID == bookData.OLID)) return;
+
         Debug.Log("Owning book: " + bookData.Title);
-        OwnedBook ownedBook = ScriptableObject.CreateInstance<OwnedBook>();
         string path = "Assets/Developers/Stefan/ScriptableObjects/OwnedBooks/Resources";
         if (!Directory.Exists(path))
         {
@@ -82,11 +83,18 @@ public class UserData : ScriptableObject
         }
         string sanitizedTitle = string.Concat(bookData.Title.Split(Path.GetInvalidFileNameChars()));
 #if UNITY_EDITOR
-        AssetDatabase.CreateAsset(ownedBook, $"{path}/{sanitizedTitle}.asset");
-        ownedBook.Init(bookData);
+        string fullPath  = Path.Combine(path, sanitizedTitle + ".asset");
+        OwnedBook ownedBook;
 
-        
-        AssetDatabase.SaveAssets();
+        if (!File.Exists(fullPath))
+        {
+            ownedBook = ScriptableObject.CreateInstance<OwnedBook>();
+            AssetDatabase.CreateAsset(ownedBook, fullPath);
+            ownedBook.Init(bookData);
+            EditorUtility.SetDirty(ownedBook);
+        }
+        else
+            ownedBook = Resources.Load<OwnedBook>(sanitizedTitle);
 #endif
         OwnedBooks.Add(ownedBook);
 
