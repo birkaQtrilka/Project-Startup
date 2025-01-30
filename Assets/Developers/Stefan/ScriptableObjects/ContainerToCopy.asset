@@ -14,247 +14,197 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Authors>k__BackingField: []
   <Books>k__BackingField:
-  - <Title>k__BackingField: Factfulness
+  - <Title>k__BackingField: The Silence of the Lambs
     <Authors>k__BackingField:
-    - Hans Rosling
-    - Ola Rosling
-    - "Anna Rosling R\xF6nnlund"
-    <PublishDate>k__BackingField: 2019
-    <Rating>k__BackingField: {x: 4.361111, y: 5}
-    <RatingCount>k__BackingField: 72
-    <Cover>k__BackingField: {fileID: 21300000, guid: 0b4adce41dc372744b19ceb6e207b852,
+    - Thomas Harris
+    <PublishDate>k__BackingField: 1991
+    <Rating>k__BackingField: {x: 4.1714287, y: 5}
+    <RatingCount>k__BackingField: 35
+    <Cover>k__BackingField: {fileID: 21300000, guid: 44bf4c335897b7b48ad15b629fae3ca5,
       type: 3}
-    <Isbn>k__BackingField: 1250624959
-    <NumberOfPages>k__BackingField: 352
+    <Isbn>k__BackingField: 2266120158
+    <NumberOfPages>k__BackingField: 295
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Critical thinking
-    - Information literacy
-    - Prejudices
-    - Social perception
-    - Social indicators
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL33318401M
-    <OLID>k__BackingField: OL33318401M
+    - lambs
+    - black witch moth
+    - autopsy
+    - pupa
+    - offender profiling
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL33891575M
+    <OLID>k__BackingField: OL33891575M
     <Languages>k__BackingField:
-    - por
-    - per
-    - ger
-    - eng
-    <Description>k__BackingField: "Factfulness: The stress-reducing habit of only
-      carrying opinions for which you have strong supporting facts.\r\n\r\nWhen asked
-      simple questions about global trends\u2015what percentage of the world\u2019s
-      population live in poverty; why the world\u2019s population is increasing;
-      how many girls finish school\u2015we systematically get the answers wrong.
-      So wrong that a chimpanzee choosing answers at random will consistently outguess
-      teachers, journalists, Nobel laureates, and investment bankers.\r\n\r\nIn Factfulness,
-      Professor of International Health and global TED phenomenon Hans Rosling, together
-      with his two long-time collaborators, Anna and Ola, offers a radical new explanation
-      of why this happens. They reveal the ten instincts that distort our perspective\u2015from
-      our tendency to divide the world into two camps (usually some version of us
-      and them) to the way we consume media (where fear rules) to how we perceive
-      progress (believing that most things are getting worse).\r\n\r\nOur problem
-      is that we don\u2019t know what we don\u2019t know, and even our guesses are
-      informed by unconscious and predictable biases.\r\n\r\nIt turns out that the
-      world, for all its imperfections, is in a much better state than we might think.
-      That doesn\u2019t mean there aren\u2019t real concerns. But when we worry about
-      everything all the time instead of embracing a worldview based on facts, we
-      can lose our ability to focus on the things that threaten us most.\r\n\r\nInspiring
-      and revelatory, filled with lively anecdotes and moving stories, Factfulness
-      is an urgent and essential book that will change the way you see the world
-      and empower you to respond to the crises and opportunities of the future."
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Hyperbole and a Half
-    <Authors>k__BackingField:
-    - Allie Brosh
-    <PublishDate>k__BackingField: 2013
-    <Rating>k__BackingField: {x: 4.3333335, y: 5}
-    <RatingCount>k__BackingField: 42
-    <Cover>k__BackingField: {fileID: 21300000, guid: b1a1c29451d99c046ae99921afaa2758,
-      type: 3}
-    <Isbn>k__BackingField: 6056513408
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - hyperboleandahalf
-    - non-fiction
-    - helper dog
-    - allie brosh
-    - Duncan
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL37399535M
-    <OLID>k__BackingField: OL37399535M
-    <Languages>k__BackingField:
-    - eng
-    <Description>k__BackingField: "Every time Allie Brosh posts something new on
-      her hugely popular blog Hyperbole and a Half the internet rejoices.\r\n\r\nTouching,
-      absurd, and darkly comic, Allie Brosh\u2019s highly anticipated book Hyperbole
-      and a Half showcases her unique voice, leaping wit, and her ability to capture
-      complex emotions with deceptively simple illustrations.\r\n\r\nThis full-color,
-      beautifully illustrated edition features more than fifty percent new content,
-      with ten never-before-seen essays and one wholly revised and expanded piece
-      as well as classics from the website like, \u201CThe God of Cake,\u201D \u201CDogs
-      Don\u2019t Understand Basic Concepts Like Moving,\u201D and her astonishing,
-      \u201CAdventures in Depression,\u201D and \u201CDepression Part Two,\u201D
-      which have been hailed as some of the most insightful meditations on the disease
-      ever written.\r\n\r\nBrosh\u2019s debut marks the launch of a major new American
-      humorist who will surely make even the biggest scrooge or snob laugh. We dare
-      you not to.\r\n\r\nFROM THE AUTHOR:\r\nThis is a book I wrote. Because I wrote
-      it, I had to figure out what to put on the back cover to explain what it is.
-      I tried to write a long, third-person summary that would imply how great the
-      book is and also sound vaguely authoritative\u2014like maybe someone who isn\u2019t
-      me wrote it\u2014but I soon discovered that I\u2019m not sneaky enough to pull
-      it off convincingly. So I decided to just make a list of things that are in
-      the book:\r\n\r\nPictures\r\nWords\r\nStories about things that happened to
-      me\r\nStories about things that happened to other people because of me\r\nEight
-      billion dollars*\r\nStories about dogs\r\nThe secret to eternal happiness*\r\n\r\n*These
-      are lies. Perhaps I have underestimated my sneakiness!"
-    <LocalReviews>k__BackingField: []
-    <Notes>k__BackingField: []
-  - <Title>k__BackingField: Where the Wild Things Are
-    <Authors>k__BackingField:
-    - Maurice Sendak
-    <PublishDate>k__BackingField: 1963
-    <Rating>k__BackingField: {x: 4.164835, y: 5}
-    <RatingCount>k__BackingField: 91
-    <Cover>k__BackingField: {fileID: 21300000, guid: e060df4d1560d8646b3d76fab6938833,
-      type: 3}
-    <Isbn>k__BackingField: 325701161X
-    <NumberOfPages>k__BackingField: 100
-    <NumberOfChapters>k__BackingField: 0
-    <Genres>k__BackingField:
-    - Caldecott Medal
-    - Dreams
-    - Fantasy
-    - Fantasy fiction
-    - Fiction
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL17197424M
-    <OLID>k__BackingField: OL17197424M
-    <Languages>k__BackingField:
-    - ita
-    - kor
     - chi
-    - jpn
-    - baq
-    - spa
-    - wel
     - ger
-    - rus
-    - heb
-    - afr
-    - dut
-    - fre
     - eng
-    - nor
-    <Description>k__BackingField: 'This is an inspired children''s book about a boy''s
-      passage through tempestuous aspects of life.
-
-      
-
-      Max, a naughty
-      little boy, sent to bed without his supper, sails to the land of the wild things,
-      where he becomes their king.'
+    - dut
+    - spa
+    - jpn
+    - vie
+    - rus
+    - por
+    - fre
+    - pol
+    - hun
+    <Description>k__BackingField: "The Silence of the Lambs is a psychological horror
+      novel by Thomas Harris. First published in 1988, it is the sequel to Harris's
+      1981 novel Red Dragon. Both novels feature the cannibalistic serial killer
+      Dr. Hannibal Lecter, this time pitted against FBI Special Agent Clarice Starling.
+      \r\n\r\nThe novel won the 1988 Bram Stoker Award for Best Novel.\r\nThe novel
+      also won the 1989 Anthony Award for Best Novel.\r\nIt was nominated for the
+      1989 World Fantasy Award.\r\n----------\r\nAlso contained in:\r\n\r\n - [Red
+      Dragon / The Silence of the Lambs](https://openlibrary.org/works/OL138391W)"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: The Things They Carried
+  - <Title>k__BackingField: Desire
     <Authors>k__BackingField:
-    - Tim O'Brien
-    <PublishDate>k__BackingField: 2018
-    <Rating>k__BackingField: {x: 4.2941175, y: 5}
-    <RatingCount>k__BackingField: 34
-    <Cover>k__BackingField: {fileID: 21300000, guid: a5748406ce236bb438332e830b7fc69a,
+    - Charlotte Lamb
+    <PublishDate>k__BackingField: 1981
+    <Rating>k__BackingField: {x: 4.3333335, y: 5}
+    <RatingCount>k__BackingField: 21
+    <Cover>k__BackingField: {fileID: 21300000, guid: 7cc6b625a3c237144b133181a2b5aba5,
       type: 3}
-    <Isbn>k__BackingField: 0833574868
-    <NumberOfPages>k__BackingField: 330
+    <Isbn>k__BackingField: 0263099342
+    <NumberOfPages>k__BackingField: 188
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Reading Level-Grade 9
-    - Reading Level-Grade 11
-    - Reading Level-Grade 10
-    - Reading Level-Grade 12
-    - Fiction, short stories (single author)
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL28858540M
-    <OLID>k__BackingField: OL28858540M
+    - Fiction, Romance, Contemporary
+    - Forbidden love, fiction
+    - Arranged marriage, fiction
+    - Love triangle, fiction
+    - Seduction, fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24238788M
+    <OLID>k__BackingField: OL24238788M
     <Languages>k__BackingField:
     - eng
-    - spa
-    - jpn
-    - fre
-    <Description>k__BackingField: '*The Things They Carried* (1990) is a collection
-      of linked short stories by American novelist Tim O''Brien, about a platoon
-      of American soldiers fighting on the ground in the Vietnam War. His third book
-      about the war, it is based upon his experiences as a soldier in the 23rd Infantry
-      Division.'
+    <Description>k__BackingField: "Natasha was crushed when her engagement to Mike
+      Porter was suddenly called off. And that was the only reason she allowed herself
+      to have so much champagne at the party.\r\n\r\nBut there was no excuse for
+      finding herself in Lee Farrell's bed the next morning. That was something totally
+      out of character for Natasha\u2014and it cost her dearly.\r\n\r\nRushed into
+      marriage, expecting Lee\u2019s baby, she thought the future seemed bleak indeed.
+      For how could she ever love a man she hardly even knew?"
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
-  - <Title>k__BackingField: Winnie-the-Pooh
+  - <Title>k__BackingField: I am Malala
     <Authors>k__BackingField:
-    - A. A. Milne
-    <PublishDate>k__BackingField: 2021
-    <Rating>k__BackingField: {x: 4.1509433, y: 5}
-    <RatingCount>k__BackingField: 53
-    <Cover>k__BackingField: {fileID: 21300000, guid: 3fe751c295bce2b4db812c04e6e11992,
+    - Malala Yousafzai
+    - Christina Lamb
+    - Malala Yousafzai
+    - Malala Yousafazi
+    <PublishDate>k__BackingField: 2012
+    <Rating>k__BackingField: {x: 4.214286, y: 5}
+    <RatingCount>k__BackingField: 28
+    <Cover>k__BackingField: {fileID: 21300000, guid: 2bc12de2e2412914a9e6169f8c6aefca,
       type: 3}
-    <Isbn>k__BackingField: 0140361219
+    <Isbn>k__BackingField: 3426788276
     <NumberOfPages>k__BackingField: 100
     <NumberOfChapters>k__BackingField: 0
     <Genres>k__BackingField:
-    - Juvenile audience
-    - Juvenile fiction
-    - Fiction
-    - Toy and movable books
-    - Teddy bears
-    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL35557035M
-    <OLID>k__BackingField: OL35557035M
+    - Young women
+    - Education
+    - Biography
+    - Crimes against
+    - Children's rights
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL25432591M
+    <OLID>k__BackingField: OL25432591M
     <Languages>k__BackingField:
-    - lat
-    - fre
     - ger
-    - rus
-    - epo
-    - hun
-    - pol
-    - heb
-    - bel
-    - yid
-    - spa
-    - por
     - jpn
+    - spa
+    - rus
     - eng
-    - dan
-    - vie
-    - hrv
-    <Description>k__BackingField: "A.A. Milne's Pooh stories need no introduction;
-      they have been loved by generations of children and their parents ever since
-      they were first published in 1926.\r\n\r\nIn his autobiography, Milne wrote:
-      'The animals in the stories came for the most part from the nursery. My collaborator
-      [his wife] had already given them individual voices, their owner by constant
-      affection had given them the twist in their features which denotes character,
-      and Shepard drew them, as one might say, from the living model.'\r\n\r\n\r\n----------\r\n\r\n\r\nContains:\r\n\r\n
-      - In Which We Are Introduced to [Winnie the Pooh and Some Bees][2] and the
-      Stories Begin\r\n - In Which [Pooh Goes Visiting and Gets into a Tight Place][3]
-      \r\n - In Which [Pooh and Piglet Go Hunting and Nearly Catch a Woozle][4]\r\n
-      - In Which [Eeyore Loses a Tail and Pooh Finds One][5]\r\n - In Which [Piglet
-      Meets a Heffalump][6]\r\n - In Which [Eeyore has a Birthday and Gets Two Presents][7]\r\n
-      - In Which [Kanga and Baby Roo Come to the Forest and Piglet has a Bath][8]\r\n
-      - In Which [Christopher Robin Leads an Expotition to the North Pole][1]\r\n
-      - In Which [Piglet is Entirely Surrounded by Water][9]\r\n - In Which [Christopher
-      Robin Gives Pooh a Party][10] and We Say Goodbye\r\n\r\n----------\r\nAlso
-      contained in:\r\n\r\n - [Winnie-the-Pooh / The House at Pooh Corner][11]\r\n\r\n\r\n 
-      [1]: https://openlibrary.org/works/OL476425W/Christopher_Robin_Leads_an_Expotition_to_the_North_Pole\r\n 
-      [2]: https://openlibrary.org/works/OL476696W\r\n  [3]: https://openlibrary.org/works/OL476823W/\r\n 
-      [4]: https://openlibrary.org/works/OL476746W/\r\n  [5]: https://openlibrary.org/works/OL476804W/\r\n 
-      [6]: https://openlibrary.org/works/OL476831W/\r\n  [7]: https://openlibrary.org/works/OL476821W/\r\n 
-      [8]: https://openlibrary.org/works/OL476826W/\r\n  [9]: https://openlibrary.org/works/OL15658624W\r\n 
-      [10]: https://openlibrary.org/works/OL476803W\r\n  [11]: https://openlibrary.org/works/OL15742938W/"
+    - fre
+    - chi
+    - por
+    <Description>k__BackingField: When the Taliban took control of the Swat Valley
+      in Pakistan, one girl spoke out. Malala Yousafzai refused to be silenced and
+      fought for her right to an education. On Tuesday, October 9, 2012, when she
+      was fifteen, she almost paid the ultimate price. She was shot in the head at
+      point-blank range while riding the bus home from school, and few expected her
+      to survive. Instead, Malala's miraculous recovery has taken her on an extraordinary
+      journey from a remote valley in northern Pakistan to the halls of the United
+      Nations in New York. At sixteen, she has become a global symbol of peaceful
+      protest and the youngest nominee ever for the Nobel Peace Prize. This is the
+      remarkable tale of a family uprooted by global terrorism, of the fight for
+      girls' education, of a father who, himself a school owner, championed and encouraged
+      his daughter to write and attend school, and of brave parents who have a fierce
+      love for their daughter in a society that prizes sons. This story will make
+      you believe in the power of one person's voice to inspire change in the world.
+      -- Publisher's description.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Lamb
+    <Authors>k__BackingField:
+    - Christopher Moore
+    <PublishDate>k__BackingField: 2006
+    <Rating>k__BackingField: {x: 4.368421, y: 5}
+    <RatingCount>k__BackingField: 19
+    <Cover>k__BackingField: {fileID: 21300000, guid: 6877c3d877d5d97438ddd1cca0b788e7,
+      type: 3}
+    <Isbn>k__BackingField: 0380978407
+    <NumberOfPages>k__BackingField: 100
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction
+    - Literature
+    - Fiction, humorous, general
+    - Fiction, christian, general
+    - Jesus christ, fiction
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL24276272M
+    <OLID>k__BackingField: OL24276272M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: The birth of Jesus has been well chronicled, as
+      have his glorious teachings, acts, and divine sacrifice after his thirtieth
+      birthday. But no one knows about the early life of the Son of God, the missing
+      years -- except Biff, the Messiah's best bud, who has been resurrected to tell
+      the story in the divinely hilarious yet heartfelt work "reminiscent of Vonnegut
+      and Douglas Adams" (Philadelphia Inquirer).Verily, the story Biff has to tell
+      is a miraculous one, filled with remarkable journeys, magic, healings, kung
+      fu, corpse reanimations, demons, and hot babes. Even the considerable wiles
+      and devotion of the Savior's pal may not be enough to divert Joshua  from his
+      tragic destiny. But there's no one who loves Josh more -- except maybe "Maggie,"
+      Mary of Magdala -- and Biff isn't about to let his extraordinary pal suffer
+      and ascend without a fight.
+    <LocalReviews>k__BackingField: []
+    <Notes>k__BackingField: []
+  - <Title>k__BackingField: Out of Control
+    <Authors>k__BackingField:
+    - Charlotte Lamb
+    <PublishDate>k__BackingField: August 1, 1988
+    <Rating>k__BackingField: {x: 4, y: 5}
+    <RatingCount>k__BackingField: 39
+    <Cover>k__BackingField: {fileID: 21300000, guid: 2067f4ffdb2deee4782b101b046b170c,
+      type: 3}
+    <Isbn>k__BackingField: 0373111061
+    <NumberOfPages>k__BackingField: 187
+    <NumberOfChapters>k__BackingField: 0
+    <Genres>k__BackingField:
+    - Fiction, Romance, Contemporary
+    <OpenLibraryLink>k__BackingField: https://openlibrary.org/books/OL10738580M
+    <OLID>k__BackingField: OL10738580M
+    <Languages>k__BackingField:
+    - eng
+    <Description>k__BackingField: "No man would get close to her again! \r\n\r\nThe
+      scars of an adolescent indiscretion were still so raw that Liza kept her heart
+      uninvolved in any relationships. A modeling career and business had given her
+      material success and peace of mind. \r\n\r\nThen she collided with G. K. Gifford
+      outside her Essex cottage and poof - there went her hard-won serenity. For
+      this wealthy man had crashed into her life to break up his nephew's friendship
+      with a \"gold digger\" and the chemistry between them had flared."
     <LocalReviews>k__BackingField: []
     <Notes>k__BackingField: []
   _booksToFetch: 5
-  _searchQuerry: thing
+  _searchQuerry: lamb
   _bookGetter: {fileID: 11400000, guid: 421bf9e1295383a449fe665fc11f8278, type: 2}
   _addContentsTo: {fileID: 0}
   _getBooks: 0
   _removeAllBooks: 0
+  _concatAfterGettingBooks: 0
   _user: {fileID: 0}
-  _olidToOwn: 
+  _bookToOwn: {fileID: 0}
   _ownBook: 0
   _includeAllNotes: 0
+  _path: 
+  _generateIntoScriptableObjects: 0

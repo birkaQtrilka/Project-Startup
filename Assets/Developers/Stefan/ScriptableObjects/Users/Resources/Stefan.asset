@@ -25,6 +25,11 @@ MonoBehaviour:
     <size=11>~Rowley Jefferson<size>'
   Friends:
   - {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
+  - {fileID: 11400000, guid: 2e413e7bf472ef24f9548484458e4f1f, type: 2}
+  - {fileID: 11400000, guid: f52df9adacc24764cb50954c2cb287f9, type: 2}
+  - {fileID: 11400000, guid: 4d8f503772ad108449a2bb1c28ebd83b, type: 2}
+  - {fileID: 11400000, guid: 0dcef3902ac113d4cb35ff226cbaaae0, type: 2}
+  - {fileID: 11400000, guid: 1f8b5e68e56901942bd97b32f1fbe521, type: 2}
   OwnedBooks:
   - {fileID: 11400000, guid: 047cd260f8f809d4486348ad6ef883c2, type: 2}
   - {fileID: 11400000, guid: 2920d6ee90837294d87abeadfa0ab15a, type: 2}
@@ -34,3 +39,5 @@ MonoBehaviour:
   SearchedStuff:
   - Lord of the rings
   ClickedBookIds: []
+  _ownBook: 0
+  _bookToOwn: {fileID: 0}
