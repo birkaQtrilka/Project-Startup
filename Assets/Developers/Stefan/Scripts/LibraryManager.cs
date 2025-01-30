@@ -86,8 +86,8 @@ public class LibraryManager : MonoBehaviour
                         header.text = list.Name;
                         Button editButton = Instantiate(_editButtonPrefab, header.transform);
                         int copy = j;
-                        RectTransform buttonRectTransf = editButton.GetComponent<RectTransform>();
-                        buttonRectTransf.anchoredPosition = Vector2.right * (buttonRectTransf.rect.width + buttonRectTransf.anchoredPosition.x);
+                        //RectTransform buttonRectTransf = editButton.GetComponent<RectTransform>();
+                        //buttonRectTransf.anchoredPosition = Vector2.right * (buttonRectTransf.rect.width + buttonRectTransf.anchoredPosition.x);
                         
                         editButton.onClick.AddListener(() =>
                         {
