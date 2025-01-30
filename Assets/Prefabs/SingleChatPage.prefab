@@ -7219,15 +7219,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2adfd36580f83ae4f91ab5f11e9369be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Profile: {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
+  Profile: {fileID: 11400000, guid: a24be572f245775458f6426eaae5c586, type: 2}
   _nickName: {fileID: 7153716127339594967}
   _birthDate: {fileID: 998959214401670395}
   _title: {fileID: 7119634210882426000}
   _favBookName: {fileID: 9062570254615578381}
   _bio: {fileID: 6636152609679391313}
   _pfp: {fileID: 264620427955055437}
-  _cover: {fileID: 0}
-  _oneNote: {fileID: 0}
+  _cover: {fileID: 6689424138419826804}
+  _oneNote: {fileID: 5363446453972024598}
 --- !u!1 &8017425657051038510
 GameObject:
   m_ObjectHideFlags: 0

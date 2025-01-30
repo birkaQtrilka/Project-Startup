@@ -26,10 +26,12 @@ public class ProfileUI : MonoBehaviour
         _title.text = Profile.Title;
         _favBookName.text = Profile.FavBook.name;
         _bio.text = Profile.Bio;
-        _pfp.sprite = Profile.FavBook.BookData.Cover;
+        _pfp.sprite = Profile.ProfilePicture;
 
-        _cover.BookData = Profile.OwnedBooks[0].BookData;
-        _oneNote.Init(Profile.Posts[0]);
+        if(_cover != null)
+            _cover.BookData = Profile.OwnedBooks[0].BookData;
+        if(_oneNote != null)
+            _oneNote.Init(Profile.Posts[0]);
 
     }
 }
