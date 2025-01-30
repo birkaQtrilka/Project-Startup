@@ -27,5 +27,8 @@ public class FriendsUIManager : MonoBehaviour
         );
     }
 
-
+    private void OnEnable()
+    {
+        UpdateUI    ();
+    }
 }

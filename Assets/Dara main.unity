@@ -1412,6 +1412,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5106073573681588156}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1971628633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6694755748530200414, guid: 312f73c37d47005468888ae726aece45,
+    type: 3}
+  m_PrefabInstance: {fileID: 4771426995767178}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800b16fcfa87ce242b20d14bed034e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014448749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7392572606918127310, guid: cfa8fbf6bc36e454c884ada4dbe6ecd9,
@@ -3103,6 +3115,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1947813290}
+    - target: {fileID: 7124724307182990465, guid: ee85e26f0ac773a4fa400ab0b9d3fbf7,
+        type: 3}
+      propertyPath: _infoPage
+      value: 
+      objectReference: {fileID: 1971628633}
+    - target: {fileID: 7124724307182990465, guid: ee85e26f0ac773a4fa400ab0b9d3fbf7,
+        type: 3}
+      propertyPath: _singleChatPage
+      value: 
+      objectReference: {fileID: 1709826358}
     - target: {fileID: 8498556229561965537, guid: ee85e26f0ac773a4fa400ab0b9d3fbf7,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -3129,7 +3151,8 @@ PrefabInstance:
       value: -24.91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4741419815104343422, guid: ee85e26f0ac773a4fa400ab0b9d3fbf7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee85e26f0ac773a4fa400ab0b9d3fbf7, type: 3}
