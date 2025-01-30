@@ -15,6 +15,18 @@ public static class StefUtils
         if (list.Count == 0) return default;
         return list[randomGen.Next(0, list.Count)];
     }
+    
+    public static void Shuffle<T>(this Random rng, T[] array)
+    {
+        int n = array.Length;
+        while (n > 1)
+        {
+            int k = rng.Next(n--);
+            T temp = array[n];
+            array[n] = array[k];
+            array[k] = temp;
+        }
+    }
 
     public static T GetRandomItem<T>(this T[] list, Random randomGen = null)
     {
