@@ -19,7 +19,7 @@ MonoBehaviour:
   ProfilePicture: {fileID: 21300000, guid: d29c9c972faee7b478d730941fdcdad1, type: 3}
   BirthDate: Jun 15th
   Title: Humanity is in despair
-  FavBook: {fileID: 0}
+  FavBook: {fileID: 11400000, guid: 3302d0de5acdee241bc53b1f01b4307a, type: 2}
   Bio: I'm just a girl
   Friends:
   - {fileID: 11400000, guid: 4085cdfc55e1d4e4c8ed311b37d00d59, type: 2}
@@ -47,3 +47,5 @@ MonoBehaviour:
   _searchVolume: 10
   SearchedStuff: []
   ClickedBookIds: []
+  _ownBook: 0
+  _bookToOwn: {fileID: 0}
