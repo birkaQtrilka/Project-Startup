@@ -21,16 +21,24 @@ public class ProfileUI : MonoBehaviour
 
     public void UpdateUI()
     {
+        if (Profile == null) return;
+
+        if(_nickName != null)
         _nickName.text = Profile.NickName;
+        if (_birthDate != null)
         _birthDate.text = Profile.BirthDate;
+        if (_title != null)
         _title.text = Profile.Title;
-        _favBookName.text = Profile.FavBook.name;
-        _bio.text = Profile.Bio;
+        if(_favBookName!= null && Profile.FavBook !=null)
+            _favBookName.text = Profile.FavBook.BookData.Title;
+        if(_bio != null)
+            _bio.text = Profile.Bio;
+        if(_pfp != null)
         _pfp.sprite = Profile.ProfilePicture;
 
-        if(_cover != null)
+        if (_cover != null)
             _cover.BookData = Profile.OwnedBooks[0].BookData;
-        if(_oneNote != null)
+        if(_oneNote != null && Profile.Posts.Count > 0)
             _oneNote.Init(Profile.Posts[0]);
 
     }
